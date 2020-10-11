@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce" parallel="false">
+  <test name="Run on firefox">
+    <classes>
+      <class name="facebook.web.users.Login"/>
+      <class name="facebook.web.users.Validate"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
