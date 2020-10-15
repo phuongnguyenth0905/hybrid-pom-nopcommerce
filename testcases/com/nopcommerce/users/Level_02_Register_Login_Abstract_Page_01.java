@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 import commons.AbstractPage;
 
-public class Level_02_Register_Login_Abstract_Page {
+public class Level_02_Register_Login_Abstract_Page_01 {
 	String projectFolder = System.getProperty("user.dir");
 	WebDriver driver;
 	Select select;
