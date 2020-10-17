@@ -133,7 +133,7 @@ public class AbstractPage {
 		select.selectByVisibleText(itemValue);
 	}
 
-	public String getSelectedItemInDropdown(WebDriver driver, String locator) {
+	public String getFirstSelectedItemInDropdown(WebDriver driver, String locator) {
 		element = getElement(driver, locator);
 		Select select = new Select(element);
 		return select.getFirstSelectedOption().getText();
