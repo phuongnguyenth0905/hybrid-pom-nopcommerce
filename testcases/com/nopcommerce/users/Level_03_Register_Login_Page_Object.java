@@ -4,8 +4,8 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -21,24 +21,29 @@ public class Level_03_Register_Login_Page_Object extends AbstractPage {
 	String projectFolder = System.getProperty("user.dir");
 	WebDriver driver;
 	// tạo bộ DL
-	String firtName, lastName, email, companyName, password;
+	String firtName, lastName, email, companyName, password,day,month,year;
 
 	@BeforeClass
 	public void beforeClass() {
 
 		System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
-		// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 		driver = new FirefoxDriver();
-		// driver=new ChromeDriver();
+//		System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
+//		driver=new ChromeDriver();
 
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://demo.nopcommerce.com");
 
 		firtName = "Hoang Anh";
 		lastName = "Nam";
 		email = "hoanganh" + getRandomNumber() + "@gmail.com";
+		System.out.println(email);
 		companyName = "Digital Tech";
 		password = "123456";
+		day="11";
+		month="September";
+		year="1989";
+		
 		
 	}
 
@@ -47,14 +52,15 @@ public class Level_03_Register_Login_Page_Object extends AbstractPage {
 		homePage = new HomePageObject(driver);
 		homePage.clickToRegisterLink();
 		registerPage = new RegisterPageObject(driver);
-
+		sleepInSecond(1);
 		registerPage.clickToGenderMaleRadioButton();
+		
 		registerPage.inputToFirstNameTextbox(firtName);
 		registerPage.inputToLastNameTextbox(lastName);
 
-		registerPage.selectDayDropdown("11");
-		registerPage.selectMonthDropdown("September");
-		registerPage.selectYearDropdown("1989");
+		registerPage.selectDayDropdown(day);
+		registerPage.selectMonthDropdown(month);
+		registerPage.selectYearDropdown(year);
 
 		registerPage.inputToEmailTexbox(email);
 		registerPage.inputToCompanyTexbox(companyName);
@@ -62,18 +68,23 @@ public class Level_03_Register_Login_Page_Object extends AbstractPage {
 		registerPage.inputToConfirmPasswordTexbox(password);
 
 		registerPage.clickToRegisterButton();
+		sleepInSecond(1);
+		registerPage.clickToRegisterButton();
 		//cach1
 		Assert.assertEquals(registerPage.getRegisterSuccessMessage(),"Your registration completed");
 		
 		//cach2
 		//Assert.assertTrue(registerPage.isRegisterSuccessMessageDisplayed());
+		
 		registerPage.clickToLogoutLink();
-
+	
+		sleepInSecond(1);
 		homePage = new HomePageObject(driver);
 	}
 
 	@Test
 	public void TC_02_Login() {
+		//homePage.clickToLoginLink();
 		homePage.clickToLoginLink();
 		loginPage = new LoginPageObject(driver);
 
@@ -89,15 +100,16 @@ public class Level_03_Register_Login_Page_Object extends AbstractPage {
 	@Test
 	public void TC_03_View_My_Account() {
 
+		//homePage.clickToMyAccountLink();
 		homePage.clickToMyAccountLink();
 		customerInforPage = new CustomerInforPageObject(driver);
 		Assert.assertTrue(customerInforPage.isGenderMaleRadioButtonSelected());
 		Assert.assertEquals(customerInforPage.getFirstNameTextboxValue(), firtName);
 		Assert.assertEquals(customerInforPage.getLastNameTextboxValue(), lastName);
 
-		Assert.assertEquals(customerInforPage.getSelectedTextInDayDropdown(), "11");
-		Assert.assertEquals(customerInforPage.getSelectedTextInMonthDropdown(), "September");
-		Assert.assertEquals(customerInforPage.getSelectedTextInYearDropdown(), "1989");
+		Assert.assertEquals(customerInforPage.getSelectedTextInDayDropdown(), day);
+		Assert.assertEquals(customerInforPage.getSelectedTextInMonthDropdown(),month);
+		Assert.assertEquals(customerInforPage.getSelectedTextInYearDropdown(), year	);
 
 		Assert.assertEquals(customerInforPage.getEmailTextboxValue(), email);
 		Assert.assertEquals(customerInforPage.getCompanyTextboxValue(), companyName);
