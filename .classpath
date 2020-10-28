@@ -9,5 +9,14 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libraries/selenium-server-standalone-3.141.59.jar" sourcepath="libraries/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="libraries/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="libraries/libWebDriverManager/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="libraries/libWebDriverManager/commons-lang3-3.11.jar"/>
+	<classpathentry kind="lib" path="libraries/libWebDriverManager/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="libraries/libWebDriverManager/httpclient5-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libraries/libWebDriverManager/jarchivelib-1.1.0.jar"/>
+	<classpathentry kind="lib" path="libraries/libWebDriverManager/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="libraries/libWebDriverManager/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="libraries/libWebDriverManager/webdrivermanager-4.2.2.jar"/>
+	<classpathentry kind="lib" path="libraries/libWebDriverManager/httpcore5-5.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

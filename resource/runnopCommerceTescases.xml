@@ -3,12 +3,12 @@
   <test name="Run on firefox">
   <parameter name="browser" value="firefox"/>
     <classes>
-      <!--class name="com.nopcommerce.users.Level_02_Register_Login_Abstract_Page_01"/-->
-       <!--class name="com.nopcommerce.users.Level_02_Register_Login_Abstract_Page_2extends"/-->
+      class name="com.nopcommerce.users.Level_02_Register_Login_Abstract_Page_01"/
+       class name="com.nopcommerce.users.Level_02_Register_Login_Abstract_Page_2extends"/
        <class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser"/>
-      <!--class name="facebook.web.users.Validate"/-->
+      class name="facebook.web.users.Validate"/
     </classes>
-  </test> <!-- Test -->
+  </test> Test
   
   <test name="Run on chrome">
   <parameter name="browser" value="chrome"/>

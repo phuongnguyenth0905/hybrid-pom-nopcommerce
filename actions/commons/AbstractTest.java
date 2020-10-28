@@ -9,6 +9,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.safari.SafariDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AbstractTest {
 
@@ -17,30 +21,44 @@ public class AbstractTest {
 	private String osName = System.getProperty("os.name");
 
 	protected WebDriver getBrowserDriver(String browserName) {
+		///setBrowserDriver();
 		if (browserName.equals("firefox")) {
-			//System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
+			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		} else if (browserName.equals("chrome")) {
-			//System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
+			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setExperimentalOption("useAutomationExtension", false);
 			chromeOptions.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 			driver = new ChromeDriver(chromeOptions);
 		} else if (browserName.equals("firefox_headless")) {
-			//System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
+			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
 			FirefoxOptions ffOptions = new FirefoxOptions();
 			ffOptions.setHeadless(true);
 			driver = new FirefoxDriver(ffOptions);
 		} else if (browserName.equals("chrome_headless")) {
-			//System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
+			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
 			options.addArguments("window-size=1920x1080");
 			driver = new ChromeDriver(options);
 		} else if (browserName.equals("edge_chromium")) {
-			//System.setProperty("webdriver.edge.driver", projectFolder + "\\browserDriver\\msedgedriver.exe");
+			WebDriverManager.edgedriver().setup();
+			// System.setProperty("webdriver.edge.driver", projectFolder + "\\browserDriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		} else {
+		} 
+		else if (browserName.equals("safari")) {
+			
+			driver=new SafariDriver();
+		}
+		else if (browserName.equals("ie")) {
+			WebDriverManager.iedriver().arch32().setup();
+			driver=new InternetExplorerDriver();
+		}else {
 			throw new RuntimeException("Please input valid browser name value ! ");
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -57,16 +75,16 @@ public class AbstractTest {
 	// Webdriver Manager
 	private void setBrowserDriver() {
 		if (isWindows()) {
-			System.setProperty("webdriver.chrome.driver", projectFolder + getDirectorySlash("chromedriver.exe"));
-			System.setProperty("webdriver.gecko.driver", projectFolder + getDirectorySlash("geckodriver.exe"));
-			System.setProperty("webdriver.edge.driver", projectFolder + getDirectorySlash("msedgedriver.exe"));
+			System.setProperty("webdriver.chrome.driver", projectFolder + getDirectorySlash("browserDriver") + "chromedriver.exe");
+			System.setProperty("webdriver.gecko.driver", projectFolder + getDirectorySlash("browserDriver") + "geckodriver.exe");
+			System.setProperty("webdriver.edge.driver", projectFolder + getDirectorySlash("browserDriver") + "msedgedriver.exe");
 		} else if (isMac()) {
-			System.setProperty("webdriver.chrome.driver", projectFolder + getDirectorySlash("chromedriver.exe"));
-			System.setProperty("webdriver.gecko.driver", projectFolder + getDirectorySlash("geckodriver.exe"));
-			System.setProperty("webdriver.edge.driver", projectFolder + getDirectorySlash("msedgedriver.exe"));
+			System.setProperty("webdriver.chrome.driver", projectFolder + getDirectorySlash("browserDriver") + "chromedriver_mac");
+			System.setProperty("webdriver.gecko.driver", projectFolder + getDirectorySlash("browserDriver") + "geckodriver_mac");
+			System.setProperty("webdriver.edge.driver", projectFolder + getDirectorySlash("browserDriver") + "msedgedriver_mac");
 		} else {
-			System.setProperty("webdriver.chrome.driver", projectFolder + getDirectorySlash("chromedriver.exe"));
-			System.setProperty("webdriver.gecko.driver", projectFolder + getDirectorySlash("geckodriver.exe"));
+			System.setProperty("webdriver.chrome.driver", projectFolder + getDirectorySlash("browserDriver") + "chromedriver_linux");
+			System.setProperty("webdriver.gecko.driver", projectFolder + getDirectorySlash("browserDriver") + "geckodriver_linux");
 		}
 	}
 

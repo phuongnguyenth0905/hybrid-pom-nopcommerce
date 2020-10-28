@@ -23,9 +23,9 @@ public class LoginPageObject extends AbstractPage {
 		senkeyToElement(driver, LoginPageUI.PASSWORD_TEXTBOX, password);
 	}
 
-	public void clickToLoginButton() {
+	public HomePageObject clickToLoginButton() {
 		waitToElementClickAble(driver, LoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
-
+		return PageGeneratorManager.getHomePage(driver);
 	}
 }

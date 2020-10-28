@@ -16,12 +16,16 @@ import com.beust.jcommander.Parameter;
 
 import commons.AbstractPage;
 import commons.AbstractTest;
+import pageObjects.AddressesPageObject;
 import pageObjects.CustomerInforPageObject;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
+import pageObjects.MyproductReviewsPageObject;
+import pageObjects.OrdersPageObject;
+import pageObjects.PageGeneratorManager;
 import pageObjects.RegisterPageObject;
 
-public class Level_04_Register_Login_Multiple_Browser extends AbstractTest {
+public class Level_07_Register_Login_Swith_Page_Type extends AbstractTest {
 
 	WebDriver driver;
 	// tạo bộ DL
@@ -53,7 +57,7 @@ public class Level_04_Register_Login_Multiple_Browser extends AbstractTest {
 	@Test
 	public void TC_01_Register() {
 
-		homePage = new HomePageObject(driver);
+		homePage = PageGeneratorManager.getHomePage(driver);
 		homePage.clickToRegisterLink();
 		registerPage = new RegisterPageObject(driver);
 		// sleepInSecond(1);
@@ -81,23 +85,21 @@ public class Level_04_Register_Login_Multiple_Browser extends AbstractTest {
 		// cach2
 		// Assert.assertTrue(registerPage.isRegisterSuccessMessageDisplayed());
 
-		registerPage.clickToLogoutLink();
-
-		// sleepInSecond(1);
-		homePage = new HomePageObject(driver);
+		homePage =registerPage.clickToLogoutLink();
 	}
 
 	@Test
 	public void TC_02_Login() {
+		//4
 		//homePage.clickToLoginLink();
-		homePage.clickToLoginLink();
-		loginPage = new LoginPageObject(driver);
+		loginPage=homePage.clickToLoginLink();
+		
 
 		loginPage.inputToEmailTextbox(email);
 		loginPage.inputToPasswordTextbox(password);
-		loginPage.clickToLoginButton();
+		//5.
+		homePage=loginPage.clickToLoginButton();
 
-		homePage = new HomePageObject(driver);
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 		Assert.assertTrue(homePage.isLogoutLinkDisplayed());
 	}
@@ -106,8 +108,8 @@ public class Level_04_Register_Login_Multiple_Browser extends AbstractTest {
 	public void TC_03_View_My_Account() {
 
 		//homePage.clickToMyAccountLink();
-		homePage.clickToMyAccountLink();
-		customerInforPage = new CustomerInforPageObject(driver);
+		customerInforPage=homePage.clickToMyAccountLink();
+		
 		Assert.assertTrue(customerInforPage.isGenderMaleRadioButtonSelected());
 		Assert.assertEquals(customerInforPage.getFirstNameTextboxValue(), firtName);
 		Assert.assertEquals(customerInforPage.getLastNameTextboxValue(), lastName);
@@ -120,7 +122,23 @@ public class Level_04_Register_Login_Multiple_Browser extends AbstractTest {
 		Assert.assertEquals(customerInforPage.getCompanyTextboxValue(), companyName);
 		Assert.assertTrue(customerInforPage.isNewsletterCheckboxSelected());
 	}
-
+	@Test
+	public void TC_04_Switch_Page() {
+		//Customer info->Addresses
+		adressesPage=customerInforPage.openAddressesPage(driver);
+		customerInforPage=adressesPage.openCustomerInforPage(driver);
+		myProductPage=customerInforPage.openMyProductReviewPage(driver);
+		customerInforPage=myProductPage.openCustomerInforPage(driver);
+		adressesPage=customerInforPage.openAddressesPage(driver);
+		//Addresses->My product reviews
+		myProductPage=adressesPage.openMyProductReviewPage(driver);
+		//My product reviews->Orders
+		oderPage=myProductPage.openOrderPage(driver);
+		//Orders ->Addresses
+		adressesPage=oderPage.openAddressesPage(driver);
+		//Addresses->Customer info
+		customerInforPage=adressesPage.openCustomerInforPage(driver);
+	}
 	public int getRandomNumber() {
 		Random rand = new Random();
 		return rand.nextInt(999);
@@ -135,5 +153,8 @@ public class Level_04_Register_Login_Multiple_Browser extends AbstractTest {
 	RegisterPageObject registerPage;
 	LoginPageObject loginPage;
 	CustomerInforPageObject customerInforPage;
+	AddressesPageObject adressesPage;
+	OrdersPageObject oderPage;
+	MyproductReviewsPageObject myProductPage;
 
 }

@@ -14,6 +14,17 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.AddressesPageObject;
+import pageObjects.CustomerInforPageObject;
+import pageObjects.MyproductReviewsPageObject;
+import pageObjects.OrdersPageObject;
+import pageObjects.PageGeneratorManager;
+import pageUI.AbstractPageUI;
+import pageUI.AddressesPageUI;
+import pageUI.CustomerInforPageUI;
+import pageUI.MyproductReviewsPageUI;
+import pageUI.OrdersPageUI;
+
 public class AbstractPage {
 	// WebDriver driver;
 	private WebDriverWait explicitWait;
@@ -117,6 +128,9 @@ public class AbstractPage {
 	}
 
 	public void clickToElement(WebDriver driver, String locator) {
+		if (driver.toString().toLowerCase().contains("edge")) {
+			sleepInMilisecond(500);
+		}
 		element = getElement(driver, locator);
 		element.click();
 	}
@@ -124,6 +138,9 @@ public class AbstractPage {
 	public void senkeyToElement(WebDriver driver, String locator, String value) {
 		element = getElement(driver, locator);
 		element.clear();
+		if (driver.toString().toLowerCase().contains("chrome") || driver.toString().toLowerCase().contains("edge")) {
+			sleepInMilisecond(500);
+		}
 		element.sendKeys(value);
 	}
 
@@ -174,6 +191,15 @@ public class AbstractPage {
 		try {
 			Thread.sleep(timeout * 1000);
 		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void sleepInMilisecond(long milisecond) {
+		try {
+			Thread.sleep(milisecond);
+		} catch (InterruptedException e) {
+
 			e.printStackTrace();
 		}
 	}
@@ -354,5 +380,27 @@ public class AbstractPage {
 		explicitWait = new WebDriverWait(driver, 30);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
 	}
+//4 hàm mở page
+	public AddressesPageObject openAddressesPage(WebDriver driver) {
+		waitToElementClickAble(driver, AbstractPageUI.ADDRESSES_LINK);
+		clickToElement(driver, AbstractPageUI.ADDRESSES_LINK);
+		return PageGeneratorManager.getAddressesPageObject(driver);
+	}
+	public MyproductReviewsPageObject openMyProductReviewPage(WebDriver driver) {
+		waitToElementClickAble(driver, AbstractPageUI.MY_PRODUCT_REVIEW_LINK);
+		clickToElement(driver, AbstractPageUI.MY_PRODUCT_REVIEW_LINK);
+		return PageGeneratorManager.getMyproductReviewsPageObject(driver);
+	}
 
+	public CustomerInforPageObject openCustomerInforPage(WebDriver driver) {
+		waitToElementClickAble(driver, AbstractPageUI.CUSTOMER_INFO_LINK);
+		clickToElement(driver, AbstractPageUI.CUSTOMER_INFO_LINK);
+		return PageGeneratorManager.getCustomerInforPage(driver);
+	}
+	public OrdersPageObject openOrderPage(WebDriver driver) {
+		waitToElementClickAble(driver, AbstractPageUI.ORDER_LINK);
+		clickToElement(driver, AbstractPageUI.ORDER_LINK);
+		return PageGeneratorManager.getOrdersPageObject(driver);
+	}
+	
 }

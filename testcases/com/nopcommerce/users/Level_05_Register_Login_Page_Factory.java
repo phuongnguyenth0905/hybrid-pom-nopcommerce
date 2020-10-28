@@ -1,27 +1,20 @@
 package com.nopcommerce.users;
 
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import com.beust.jcommander.Parameter;
-
-import commons.AbstractPage;
 import commons.AbstractTest;
-import pageObjects.CustomerInforPageObject;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.RegisterPageObject;
+import pageFactory.CustomerInforPageObject;
+import pageFactory.HomePageObject;
+import pageFactory.LoginPageObject;
+import pageFactory.RegisterPageObject;
 
-public class Level_04_Register_Login_Multiple_Browser extends AbstractTest {
+public class Level_05_Register_Login_Page_Factory extends AbstractTest {
 
 	WebDriver driver;
 	// tạo bộ DL

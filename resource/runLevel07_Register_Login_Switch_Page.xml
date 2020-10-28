@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce" parallel="false">
+
+	<test name="Run on firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.nopcommerce.users.Level_07_Register_Login_Swith_Page_Type" />
+		</classes>
+	</test>
+
+	<test name="Run on chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.nopcommerce.users.Level_07_Register_Login_Swith_Page_Type" />
+		</classes>
+	</test>
+
+
+</suite>
