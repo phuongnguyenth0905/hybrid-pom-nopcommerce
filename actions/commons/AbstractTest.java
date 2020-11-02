@@ -65,6 +65,51 @@ public class AbstractTest {
 		driver.get("https://demo.nopcommerce.com");
 		return driver;
 	}
+	protected WebDriver getBrowserDriver(String browserName ,String url) {
+		///setBrowserDriver();
+		if (browserName.equals("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
+			driver = new FirefoxDriver();
+		} else if (browserName.equals("chrome")) {
+			WebDriverManager.chromedriver().setup();
+			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
+			ChromeOptions chromeOptions = new ChromeOptions();
+			chromeOptions.setExperimentalOption("useAutomationExtension", false);
+			chromeOptions.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+			driver = new ChromeDriver(chromeOptions);
+		} else if (browserName.equals("firefox_headless")) {
+			WebDriverManager.firefoxdriver().setup();
+			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
+			FirefoxOptions ffOptions = new FirefoxOptions();
+			ffOptions.setHeadless(true);
+			driver = new FirefoxDriver(ffOptions);
+		} else if (browserName.equals("chrome_headless")) {
+			WebDriverManager.chromedriver().setup();
+			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("headless");
+			options.addArguments("window-size=1920x1080");
+			driver = new ChromeDriver(options);
+		} else if (browserName.equals("edge_chromium")) {
+			WebDriverManager.edgedriver().setup();
+			// System.setProperty("webdriver.edge.driver", projectFolder + "\\browserDriver\\msedgedriver.exe");
+			driver = new EdgeDriver();
+		} 
+		else if (browserName.equals("safari")) {
+			
+			driver=new SafariDriver();
+		}
+		else if (browserName.equals("ie")) {
+			WebDriverManager.iedriver().arch32().setup();
+			driver=new InternetExplorerDriver();
+		}else {
+			throw new RuntimeException("Please input valid browser name value ! ");
+		}
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get(url);
+		return driver;
+	}
 
 	protected int randomNumber() {
 		Random rand = new Random();

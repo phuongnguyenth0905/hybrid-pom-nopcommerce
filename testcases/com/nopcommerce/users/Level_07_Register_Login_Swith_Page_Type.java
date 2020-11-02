@@ -16,14 +16,14 @@ import com.beust.jcommander.Parameter;
 
 import commons.AbstractPage;
 import commons.AbstractTest;
-import pageObjects.AddressesPageObject;
-import pageObjects.CustomerInforPageObject;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.MyproductReviewsPageObject;
-import pageObjects.OrdersPageObject;
+import pageObjects.UserAddressesPO;
+import pageObjects.UserCustomerInforPO;
+import pageObjects.UserHomePO;
+import pageObjects.UserLoginPO;
+import pageObjects.UserMyproductReviewsPO;
+import pageObjects.UserOrdersPO;
 import pageObjects.PageGeneratorManager;
-import pageObjects.RegisterPageObject;
+import pageObjects.UserRegisterPO;
 
 public class Level_07_Register_Login_Swith_Page_Type extends AbstractTest {
 
@@ -57,9 +57,9 @@ public class Level_07_Register_Login_Swith_Page_Type extends AbstractTest {
 	@Test
 	public void TC_01_Register() {
 
-		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage = PageGeneratorManager.getUserHomePage(driver);
 		homePage.clickToRegisterLink();
-		registerPage = new RegisterPageObject(driver);
+		registerPage = new UserRegisterPO(driver);
 		// sleepInSecond(1);
 		registerPage.clickToGenderMaleRadioButton();
 		registerPage.clickToGenderMaleRadioButton();
@@ -122,6 +122,7 @@ public class Level_07_Register_Login_Swith_Page_Type extends AbstractTest {
 		Assert.assertEquals(customerInforPage.getCompanyTextboxValue(), companyName);
 		Assert.assertTrue(customerInforPage.isNewsletterCheckboxSelected());
 	}
+	//cách này dùng để viết cố định, muốn dùng page nào thì phải viết hàm để xử lý page đó (bất cập)
 	@Test
 	public void TC_04_Switch_Page() {
 		//Customer info->Addresses
@@ -149,12 +150,12 @@ public class Level_07_Register_Login_Swith_Page_Type extends AbstractTest {
 		driver.quit();
 	}
 
-	HomePageObject homePage;
-	RegisterPageObject registerPage;
-	LoginPageObject loginPage;
-	CustomerInforPageObject customerInforPage;
-	AddressesPageObject adressesPage;
-	OrdersPageObject oderPage;
-	MyproductReviewsPageObject myProductPage;
+	UserHomePO homePage;
+	UserRegisterPO registerPage;
+	UserLoginPO loginPage;
+	UserCustomerInforPO customerInforPage;
+	UserAddressesPO adressesPage;
+	UserOrdersPO oderPage;
+	UserMyproductReviewsPO myProductPage;
 
 }

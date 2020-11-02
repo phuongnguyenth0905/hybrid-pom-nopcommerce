@@ -12,10 +12,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import commons.AbstractPage;
-import pageObjects.CustomerInforPageObject;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.RegisterPageObject;
+import pageObjects.UserCustomerInforPO;
+import pageObjects.UserHomePO;
+import pageObjects.UserLoginPO;
+import pageObjects.UserRegisterPO;
 
 public class Level_03_Register_Login_Page_Object extends AbstractPage {
 	String projectFolder = System.getProperty("user.dir");
@@ -49,9 +49,9 @@ public class Level_03_Register_Login_Page_Object extends AbstractPage {
 
 	@Test
 	public void TC_01_Register() {
-		homePage = new HomePageObject(driver);
+		homePage = new UserHomePO(driver);
 		homePage.clickToRegisterLink();
-		registerPage = new RegisterPageObject(driver);
+		registerPage = new UserRegisterPO(driver);
 		sleepInSecond(1);
 		registerPage.clickToGenderMaleRadioButton();
 		
@@ -79,20 +79,20 @@ public class Level_03_Register_Login_Page_Object extends AbstractPage {
 		registerPage.clickToLogoutLink();
 	
 		sleepInSecond(1);
-		homePage = new HomePageObject(driver);
+		homePage = new UserHomePO(driver);
 	}
 
 	@Test
 	public void TC_02_Login() {
 		//homePage.clickToLoginLink();
 		homePage.clickToLoginLink();
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPO(driver);
 
 		loginPage.inputToEmailTextbox(email);
 		loginPage.inputToPasswordTextbox(password);
 		loginPage.clickToLoginButton();
 
-		homePage = new HomePageObject(driver);
+		homePage = new UserHomePO(driver);
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 		Assert.assertTrue(homePage.isLogoutLinkDisplayed());
 	}
@@ -102,7 +102,7 @@ public class Level_03_Register_Login_Page_Object extends AbstractPage {
 
 		//homePage.clickToMyAccountLink();
 		homePage.clickToMyAccountLink();
-		customerInforPage = new CustomerInforPageObject(driver);
+		customerInforPage = new UserCustomerInforPO(driver);
 		Assert.assertTrue(customerInforPage.isGenderMaleRadioButtonSelected());
 		Assert.assertEquals(customerInforPage.getFirstNameTextboxValue(), firtName);
 		Assert.assertEquals(customerInforPage.getLastNameTextboxValue(), lastName);
@@ -126,9 +126,9 @@ public class Level_03_Register_Login_Page_Object extends AbstractPage {
 		driver.quit();
 	}
 
-	HomePageObject homePage;
-	RegisterPageObject registerPage;
-	LoginPageObject loginPage;
-	CustomerInforPageObject customerInforPage;
+	UserHomePO homePage;
+	UserRegisterPO registerPage;
+	UserLoginPO loginPage;
+	UserCustomerInforPO customerInforPage;
 
 }

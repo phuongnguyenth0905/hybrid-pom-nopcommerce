@@ -6,4 +6,6 @@ public class AbstractPageUI {
 	public static final String CUSTOMER_INFO_LINK = "//a[contains(text(),'Customer info')]";
 	public static final String ORDER_LINK="//div[@class='listbox']//a[text()='Orders']";
 	
+	//dynamic link
+	public static final String DYNAMIC_LINK="//div[@class='listbox']//a[text()='%s']";
 }

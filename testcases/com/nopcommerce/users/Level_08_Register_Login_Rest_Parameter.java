@@ -16,13 +16,16 @@ import com.beust.jcommander.Parameter;
 
 import commons.AbstractPage;
 import commons.AbstractTest;
+import pageObjects.UserAddressesPO;
 import pageObjects.UserCustomerInforPO;
 import pageObjects.UserHomePO;
 import pageObjects.UserLoginPO;
+import pageObjects.UserMyproductReviewsPO;
+import pageObjects.UserOrdersPO;
 import pageObjects.PageGeneratorManager;
 import pageObjects.UserRegisterPO;
 
-public class Level_06_Register_Login_Page_Generator_Manager extends AbstractTest {
+public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
 
 	WebDriver driver;
 	// tạo bộ DL
@@ -119,7 +122,38 @@ public class Level_06_Register_Login_Page_Generator_Manager extends AbstractTest
 		Assert.assertEquals(customerInforPage.getCompanyTextboxValue(), companyName);
 		Assert.assertTrue(customerInforPage.isNewsletterCheckboxSelected());
 	}
-
+	//cách 1:dùng cho page nhỏ (ít page)
+	@Test
+	public void TC_04_Rest_Parameter_01() {
+		
+		adressesPage=(UserAddressesPO) customerInforPage.openLinkByPageName(driver, "Addresses");
+		
+		customerInforPage=(UserCustomerInforPO) adressesPage.openLinkByPageName(driver, "Customer info");
+		
+		myProductPage=(UserMyproductReviewsPO) customerInforPage.openLinkByPageName(driver, "My product reviews");
+		customerInforPage=(UserCustomerInforPO) myProductPage.openLinkByPageName(driver, "Customer info");
+		adressesPage=(UserAddressesPO) customerInforPage.openLinkByPageName(driver, "Addresses");
+		//Addresses->My product reviews
+		myProductPage=(UserMyproductReviewsPO) adressesPage.openLinkByPageName(driver, "My product reviews");
+		//My product reviews->Orders
+		oderPage=(UserOrdersPO) myProductPage.openLinkByPageName(driver, "Orders");
+		//Orders ->Addresses
+		adressesPage=(UserAddressesPO) oderPage.openLinkByPageName(driver, "Addresses");
+		//Addresses->Customer info
+		customerInforPage=(UserCustomerInforPO) adressesPage.openLinkByPageName(driver,"Customer info");
+	}
+	//cách 2:
+	@Test
+	public void TC_05_Rest_Parameter_02() {
+		customerInforPage.openLinkWithPageName(driver, "Addresses");
+		adressesPage=PageGeneratorManager.getUserAddressesPage(driver);
+		
+		adressesPage.openLinkWithPageName(driver, "Customer info");
+		customerInforPage=PageGeneratorManager.getUserCustomerInforPage(driver);
+		
+		customerInforPage.openLinkWithPageName(driver, "My product reviews");
+		myProductPage=PageGeneratorManager.getUserMyproductReviewsPage(driver);
+	}
 	public int getRandomNumber() {
 		Random rand = new Random();
 		return rand.nextInt(999);
@@ -134,5 +168,8 @@ public class Level_06_Register_Login_Page_Generator_Manager extends AbstractTest
 	UserRegisterPO registerPage;
 	UserLoginPO loginPage;
 	UserCustomerInforPO customerInforPage;
+	UserAddressesPO adressesPage;
+	UserOrdersPO oderPage;
+	UserMyproductReviewsPO myProductPage;
 
 }

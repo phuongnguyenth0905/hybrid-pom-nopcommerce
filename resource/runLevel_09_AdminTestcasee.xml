@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce Admin" parallel="false">
+
+	<test name="Run on firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="url" value="https://admin-demo.nopcommerce.com/" />
+		<classes>
+			<class name="com.nopcommerce.admin.Level_09_Web_Data_Table" />
+		</classes>
+	</test>
+
+	<!-- <test name="Run on chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.nopcommerce.users.Level_08_Register_Login_Rest_Parameter" />
+		</classes>
+	</test> -->
+<!--admin@yourstore.com-->
+<!--admin-->
+
+</suite>
