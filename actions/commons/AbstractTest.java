@@ -62,7 +62,9 @@ public class AbstractTest {
 			throw new RuntimeException("Please input valid browser name value ! ");
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		//driver.manage().window().maximize();
 		driver.get("https://demo.nopcommerce.com");
+		
 		return driver;
 	}
 	protected WebDriver getBrowserDriver(String browserName ,String url) {

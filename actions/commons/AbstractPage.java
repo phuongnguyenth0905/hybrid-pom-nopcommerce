@@ -247,6 +247,13 @@ public class AbstractPage {
 		}
 	}
 
+	public void checkToCheckbox(WebDriver driver, String locator,String... values) {
+		element = getElement(driver, getDynamicLocator(locator, values));
+		if (!element.isSelected()) {
+			element.click();
+		}
+	}
+
 	public void uncheckToCheckbox(WebDriver driver, String locator) {
 		element = getElement(driver, locator);
 		if (element.isSelected()) {
@@ -367,7 +374,7 @@ public class AbstractPage {
 		jsExecutor.executeScript("arguments[0].removeAttribute('" + attributeRemove + "');", element);
 	}
 
-	public boolean areJQueryAndJSLoadedSuccess(WebDriver driver) {
+	public boolean waitToJQueryAndJSLoadedSuccess(WebDriver driver) {
 		explicitWait = new WebDriverWait(driver, GlobalConstans.LONG_TIMEOUT);
 		jsExecutor = (JavascriptExecutor) driver;
 
