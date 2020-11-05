@@ -10,6 +10,7 @@ public class AdminLoginPO extends AbstractPage{
     
 	public AdminLoginPO(WebDriver driver) {
 		this.driver = driver;
+		
 	}
 
 	public void inputToEmailTextbox(String email) {

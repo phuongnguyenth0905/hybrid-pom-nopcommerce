@@ -53,12 +53,14 @@ public class Level_09_Web_Data_Table extends AbstractTest {
 		productPage.checkToSelectAllCheckbox();
 		
 		productPage.allProductCheckboxChecked();
+		productPage.sleepInSecond(2);
 		// deselect all
 		productPage.unCheckToSelectAllCheckbox();
 		productPage.allProductCheckboxUnChecked();
 		
 		//chỉ chọn 1 element-spacial check
-		//productPage.checkToProductCheckboxByName("Adobe Photoshop CS4");
+		
+		productPage.checkToProductCheckboxByName("$100 Physical Gift Card");
 		productPage.sleepInSecond(2);
 
 		productPage.checkToProductCheckboxByName("Adobe Photoshop CS4");

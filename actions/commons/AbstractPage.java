@@ -20,11 +20,6 @@ import pageObjects.UserMyproductReviewsPO;
 import pageObjects.UserOrdersPO;
 import pageObjects.PageGeneratorManager;
 import pageUI.AbstractPageUI;
-import pageUI.UserAddressesPageUI;
-import pageUI.UserCustomerInforPageUI;
-import pageUI.UserMyproductReviewsPageUI;
-import pageUI.UserOrdersPageUI;
-
 public class AbstractPage {
 	// WebDriver driver;
 	private WebDriverWait explicitWait;
