@@ -20,6 +20,7 @@ import pageObjects.UserMyproductReviewsPO;
 import pageObjects.UserOrdersPO;
 import pageObjects.PageGeneratorManager;
 import pageUI.AbstractPageUI;
+
 public class AbstractPage {
 	// WebDriver driver;
 	private WebDriverWait explicitWait;
@@ -230,9 +231,16 @@ public class AbstractPage {
 		element = getElement(driver, locator);
 		return element.getText();
 	}
+	public String getElementText(WebDriver driver, String locator,String...values) {
+		element = getElement(driver, getDynamicLocator(locator, values));
+		return element.getText();
+	}
 
 	public int countElementSize(WebDriver driver, String locator) {
 		return getElements(driver, locator).size();
+	}
+	public int countElementSize(WebDriver driver, String locator,String... values) {
+		return getElements(driver, getDynamicLocator(locator, values)).size();
 	}
 
 	public void checkToCheckbox(WebDriver driver, String locator) {
@@ -467,5 +475,8 @@ public class AbstractPage {
 	public void openLinkWithPageName(WebDriver driver, String pageName) {
 		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
 		clickToElement(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
+	}
+	public void waitAjaxLoadingInvisible(WebDriver driver) {
+		waitToElementInvisible(driver, AbstractPageUI.LOADING_ICON);
 	}
 }

@@ -17,7 +17,10 @@ public class AdminDashboardPO extends AbstractPage{
 		clickToElement(driver, AdminDashboardPageUI.CATALOG_TEXT_AT_SIDEBAR);
 		waitToElementClickAble(driver, AdminDashboardPageUI.PRODUCT_LINK_AT_SIDEBAR);
 		clickToElement(driver, AdminDashboardPageUI.PRODUCT_LINK_AT_SIDEBAR);
-		waitToJQueryAndJSLoadedSuccess(driver);
+		//1 cach
+		//waitToJQueryAndJSLoadedSuccess(driver);
+		//cach 2:
+		waitAjaxLoadingInvisible(driver);
 		return PageGeneratorManager.getAdminProductPage(driver);
 	}
 }

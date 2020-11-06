@@ -8,4 +8,5 @@ public class AbstractPageUI {
 	
 	//dynamic link
 	public static final String DYNAMIC_LINK="//div[@class='listbox']//a[text()='%s']";
+	public static final String LOADING_ICON = "//div[@id='ajaxBusy']/span";
 }
