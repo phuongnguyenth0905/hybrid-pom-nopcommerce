@@ -15,12 +15,12 @@ public class UserLoginPO extends AbstractPage {
 
 	public void inputToEmailTextbox(String email) {
 		waitToElementVisible(driver, UserLoginPageUI.EMAIL_TEXTBOX);
-		senkeyToElement(driver, UserLoginPageUI.EMAIL_TEXTBOX, email);
+		sendkeyToElement(driver, UserLoginPageUI.EMAIL_TEXTBOX, email);
 	}
 
 	public void inputToPasswordTextbox(String password) {
 		waitToElementVisible(driver, UserLoginPageUI.PASSWORD_TEXTBOX);
-		senkeyToElement(driver, UserLoginPageUI.PASSWORD_TEXTBOX, password);
+		sendkeyToElement(driver, UserLoginPageUI.PASSWORD_TEXTBOX, password);
 	}
 
 	public UserHomePO clickToLoginButton() {

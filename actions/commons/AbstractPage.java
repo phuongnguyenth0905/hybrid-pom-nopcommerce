@@ -144,7 +144,7 @@ public class AbstractPage {
 		element.click();
 	}
 
-	public void senkeyToElement(WebDriver driver, String locator, String value) {
+	public void sendkeyToElement(WebDriver driver, String locator, String value) {
 		element = getElement(driver, locator);
 		element.clear();
 		if (driver.toString().toLowerCase().contains("chrome") || driver.toString().toLowerCase().contains("edge")) {
@@ -227,11 +227,17 @@ public class AbstractPage {
 		return element.getAttribute(attributeName);
 	}
 
+	public String getElementAttribute(WebDriver driver, String locator, String attributeName, String... values) {
+		element = getElement(driver, getDynamicLocator(locator, values));
+		return element.getAttribute(attributeName);
+	}
+
 	public String getElementText(WebDriver driver, String locator) {
 		element = getElement(driver, locator);
 		return element.getText();
 	}
-	public String getElementText(WebDriver driver, String locator,String...values) {
+
+	public String getElementText(WebDriver driver, String locator, String... values) {
 		element = getElement(driver, getDynamicLocator(locator, values));
 		return element.getText();
 	}
@@ -239,7 +245,8 @@ public class AbstractPage {
 	public int countElementSize(WebDriver driver, String locator) {
 		return getElements(driver, locator).size();
 	}
-	public int countElementSize(WebDriver driver, String locator,String... values) {
+
+	public int countElementSize(WebDriver driver, String locator, String... values) {
 		return getElements(driver, getDynamicLocator(locator, values)).size();
 	}
 
@@ -250,7 +257,7 @@ public class AbstractPage {
 		}
 	}
 
-	public void checkToCheckbox(WebDriver driver, String locator,String... values) {
+	public void checkToCheckbox(WebDriver driver, String locator, String... values) {
 		element = getElement(driver, getDynamicLocator(locator, values));
 		if (!element.isSelected()) {
 			element.click();
@@ -363,6 +370,7 @@ public class AbstractPage {
 		jsExecutor = (JavascriptExecutor) driver;
 		element = getElement(driver, locator);
 		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", element);
+		sleepInSecond(1);
 	}
 
 	public void sendkeyToElementByJS(WebDriver driver, String locator, String value) {
@@ -426,7 +434,8 @@ public class AbstractPage {
 		explicitWait = new WebDriverWait(driver, GlobalConstans.LONG_TIMEOUT);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(getDynamicLocator(locator, values))));
 	}
-	public void waitToElementClickAble(WebDriver driver, String locator ) {
+
+	public void waitToElementClickAble(WebDriver driver, String locator) {
 		explicitWait = new WebDriverWait(driver, GlobalConstans.LONG_TIMEOUT);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
 	}
@@ -455,12 +464,13 @@ public class AbstractPage {
 		clickToElement(driver, AbstractPageUI.ORDER_LINK);
 		return PageGeneratorManager.getUserOrdersPage(driver);
 	}
+
 //cach1: dùng cho page nhỏ:10-15 page
 	public AbstractPage openLinkByPageName(WebDriver driver, String pageName) {
 		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
 		clickToElement(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
-		
-		switch(pageName) {
+
+		switch (pageName) {
 		case "Addresses":
 			return PageGeneratorManager.getUserAddressesPage(driver);
 		case "My product reviews":
@@ -471,12 +481,38 @@ public class AbstractPage {
 			return PageGeneratorManager.getUserOrdersPage(driver);
 		}
 	}
-	//cách 2:
+
+	// cách 2:
 	public void openLinkWithPageName(WebDriver driver, String pageName) {
 		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
 		clickToElement(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
 	}
+
 	public void waitAjaxLoadingInvisible(WebDriver driver) {
 		waitToElementInvisible(driver, AbstractPageUI.LOADING_ICON);
+	}
+
+	public void uploadFileByPanelD(WebDriver driver, String panelID, String... fileNames) {
+		String filePath = GlobalConstans.UPLOAD_FOLDER;
+		String fullFileName = "";
+		for (String file : fileNames) {
+			fullFileName = fullFileName + filePath + file + "\n";
+		}
+		fullFileName = fullFileName.trim();
+		// Dùng cho chrome
+		// senkeyToElement(driver, AbstractPageUI.UPLOAD_FILE_BY_PANEL, fullFileName, panelID);
+
+		// Dùng cho firefox
+		getElement(driver, getDynamicLocator(AbstractPageUI.UPLOAD_FILE_BY_PANEL, panelID)).sendKeys(fullFileName);
+	}
+
+	public void clickToPlusIconByPanelID(WebDriver driver, String panelID) {
+		waitToElementClickAble(driver, AbstractPageUI.PLUS_ICON_BY_PANEL,panelID);
+		String iconAttibuteValue=getElementAttribute(driver, AbstractPageUI.PLUS_ICON_BY_PANEL, "class",panelID);
+		
+		if (iconAttibuteValue.contains("fa-plus")) {
+			clickToElement(driver, AbstractPageUI.PLUS_ICON_BY_PANEL,panelID);
+			sleepInMilisecond(500);
+		}
 	}
 }

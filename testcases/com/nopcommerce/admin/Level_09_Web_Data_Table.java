@@ -87,13 +87,13 @@ public class Level_09_Web_Data_Table extends AbstractTest {
 	// 4.Edit
 	//@Test
 	public void TC_04_() {
-		productPage.clickToEditIcontDetailByName("$50 Physical Gift Card");
+		productPage.clickToEditIconDetailByName("$50 Physical Gift Card");
 		productPage.backToPage(driver);
 
-		productPage.clickToEditIcontDetailByName("Adobe Photoshop CS4");
+		productPage.clickToEditIconDetailByName("Adobe Photoshop CS4");
 		productPage.backToPage(driver);
 
-		productPage.clickToEditIcontDetailByName("Apple MacBook Pro 13-inch");
+		productPage.clickToEditIconDetailByName("Apple MacBook Pro 13-inch");
 		productPage.backToPage(driver);
 	}
 

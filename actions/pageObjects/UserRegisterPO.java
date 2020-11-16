@@ -18,12 +18,12 @@ public class UserRegisterPO extends AbstractPage{
 
 	public void inputToFirstNameTextbox(String firtName) {
 		waitToElementVisible(driver, UserRegisterPageUI.FIRSTNAME_TEXTBOX);
-		senkeyToElement(driver, UserRegisterPageUI.FIRSTNAME_TEXTBOX, firtName);
+		sendkeyToElement(driver, UserRegisterPageUI.FIRSTNAME_TEXTBOX, firtName);
 	}
 
 	public void inputToLastNameTextbox(String lastName) {
 		waitToElementVisible(driver, UserRegisterPageUI.LASTNAME_TEXTBOX);
-		senkeyToElement(driver, UserRegisterPageUI.LASTNAME_TEXTBOX, lastName);
+		sendkeyToElement(driver, UserRegisterPageUI.LASTNAME_TEXTBOX, lastName);
 		
 	}
 
@@ -46,25 +46,25 @@ public class UserRegisterPO extends AbstractPage{
 
 	public void inputToEmailTexbox(String email) {
 		waitToElementVisible(driver, UserRegisterPageUI.EMAIL_TEXTBOX);
-		senkeyToElement(driver, UserRegisterPageUI.EMAIL_TEXTBOX, email);
+		sendkeyToElement(driver, UserRegisterPageUI.EMAIL_TEXTBOX, email);
 		
 	}
 
 	public void inputToCompanyTexbox(String companyName) {
 		waitToElementVisible(driver, UserRegisterPageUI.COMPANY_TEXTBOX);
-		senkeyToElement(driver, UserRegisterPageUI.COMPANY_TEXTBOX, companyName);
+		sendkeyToElement(driver, UserRegisterPageUI.COMPANY_TEXTBOX, companyName);
 		
 	}
 
 	public void inputToConfirmPasswordTexbox(String password) {
 		waitToElementVisible(driver, UserRegisterPageUI.PASSWORD_TEXTBOX);
-		senkeyToElement(driver, UserRegisterPageUI.PASSWORD_TEXTBOX, password);
+		sendkeyToElement(driver, UserRegisterPageUI.PASSWORD_TEXTBOX, password);
 		
 	}
 
 	public void inputToPasswordTexbox(String password) {
 		waitToElementVisible(driver, UserRegisterPageUI.CONFIRM_PASSWORD_TEXTBOX);
-		senkeyToElement(driver, UserRegisterPageUI.CONFIRM_PASSWORD_TEXTBOX, password);
+		sendkeyToElement(driver, UserRegisterPageUI.CONFIRM_PASSWORD_TEXTBOX, password);
 		
 	}
 

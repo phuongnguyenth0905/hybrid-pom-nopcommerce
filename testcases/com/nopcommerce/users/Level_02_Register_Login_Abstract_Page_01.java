@@ -44,17 +44,17 @@ public class Level_02_Register_Login_Abstract_Page_01 {
 	public void TC_01_Register() {
 		abstractPage.clickToElement(driver, "//a[@class='ico-register']");
 		abstractPage.clickToElement(driver, "//input[@id='gender-male']");
-		abstractPage.senkeyToElement(driver, "//input[@id='FirstName']", firtName);
-		abstractPage.senkeyToElement(driver, "//input[@id='LastName']", lastName);
+		abstractPage.sendkeyToElement(driver, "//input[@id='FirstName']", firtName);
+		abstractPage.sendkeyToElement(driver, "//input[@id='LastName']", lastName);
 
 		abstractPage.selectItemInDropdown(driver, "//select[@name='DateOfBirthDay']", "11");
 		abstractPage.selectItemInDropdown(driver, "//select[@name='DateOfBirthMonth']", "September");
 		abstractPage.selectItemInDropdown(driver, "//select[@name='DateOfBirthYear']", "1989");
 
-		abstractPage.senkeyToElement(driver, "//input[@id='Email']", email);
-		abstractPage.senkeyToElement(driver, "//input[@id='Company']", companyName);
-		abstractPage.senkeyToElement(driver, "//input[@id='Password']", password);
-		abstractPage.senkeyToElement(driver, "//input[@id='ConfirmPassword']", password);
+		abstractPage.sendkeyToElement(driver, "//input[@id='Email']", email);
+		abstractPage.sendkeyToElement(driver, "//input[@id='Company']", companyName);
+		abstractPage.sendkeyToElement(driver, "//input[@id='Password']", password);
+		abstractPage.sendkeyToElement(driver, "//input[@id='ConfirmPassword']", password);
 
 		abstractPage.clickToElement(driver, "//input[@id='register-button']");
 		Assert.assertEquals(abstractPage.getElementText(driver, "//div[text()='Your registration completed']"), "Your registration completed");

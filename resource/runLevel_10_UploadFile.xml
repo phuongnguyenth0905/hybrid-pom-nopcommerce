@@ -5,7 +5,7 @@
 		<parameter name="browser" value="firefox" />
 		<parameter name="url" value="https://admin-demo.nopcommerce.com/" />
 		<classes>
-			<class name="com.nopcommerce.admin.Level_09_Web_Data_Table" />
+			<class name="com.nopcommerce.admin.Level_10_Upload_File" />
 		</classes>
 	</test>
 
