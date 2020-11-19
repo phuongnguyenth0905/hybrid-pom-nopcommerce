@@ -21,5 +21,14 @@
 	<classpathentry kind="lib" path="libLog4j/log4j-1.2.16.jar"/>
 	<classpathentry kind="lib" path="libSelenium/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="libSelenium/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager/commons-lang3-3.11.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager/httpclient5-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager/httpcore5-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager/jarchivelib-1.1.0.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="libWebDriverManager/webdrivermanager-4.2.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
