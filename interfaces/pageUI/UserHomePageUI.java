@@ -7,4 +7,7 @@ public class UserHomePageUI {
 	public static final String LOGOUT_LINK="//a[@class='ico-logout']";
 	
 	
+	public static final String SHOPPING_CART_NO_ITEM_TOOLTIP = "//div[contains(text(),'You have no items in your shopping cart.')]";
+	
+	
 }

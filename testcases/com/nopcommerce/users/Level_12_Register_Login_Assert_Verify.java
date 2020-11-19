@@ -20,27 +20,23 @@ import pageObjects.UserOrdersPO;
 import pageObjects.PageGeneratorManager;
 import pageObjects.UserRegisterPO;
 
-public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
+public class Level_12_Register_Login_Assert_Verify extends AbstractTest {
 
 	WebDriver driver;
 	// tạo bộ DL
 	String firtName, lastName, email, companyName, password, day, month, year;
+	boolean status;
 
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
 
-//		System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
-//		driver = new FirefoxDriver();
-//		System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
-//		driver=new ChromeDriver();
-
 		driver = getBrowserDriver(browserName);
 
 		firtName = "Hoang Anh";
-		lastName = "Nam";
+		lastName = "Nguyen";
 		email = "hoanganh" + getRandomNumber() + "@gmail.com";
-		// System.out.println(email);
+
 		companyName = "Digital Tech";
 		password = "123456";
 		day = "11";
@@ -53,6 +49,11 @@ public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
 	public void TC_01_Register() {
 
 		homePage = PageGeneratorManager.getUserHomePage(driver);
+
+		// verify register link displaed-> failed
+		verifyFalse(homePage.isRegisterLinkDisplayed());
+		// verify login link displaed->failed
+		verifyFalse(homePage.isLoginLinkDisplayed());
 		homePage.clickToRegisterLink();
 		registerPage = new UserRegisterPO(driver);
 		// sleepInSecond(1);
@@ -72,13 +73,10 @@ public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
 		registerPage.inputToConfirmPasswordTexbox(password);
 
 		registerPage.clickToRegisterButton();
-		// sleepInSecond(1);
-		registerPage.clickToRegisterButton();
-		// cach1
-		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 
-		// cach2
-		// Assert.assertTrue(registerPage.isRegisterSuccessMessageDisplayed());
+		registerPage.clickToRegisterButton();
+		// Failed
+		verifyEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed......");
 
 		homePage = registerPage.clickToLogoutLink();
 	}
@@ -93,13 +91,24 @@ public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
 		loginPage.inputToPasswordTextbox(password);
 		// 5.
 		homePage = loginPage.clickToLoginButton();
-		
-		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 
-		Assert.assertTrue(homePage.isLogoutLinkDisplayed());
+		// verify my account link displayed->Failed
+		verifyFalse(homePage.isMyAccountLinkDisplayed());
+
+		// verify tooltip item undisplayed
+		verifyFalse(homePage.isShoppingCartNoItemTooltipUndisplayed());
+
+		// verify logout link displayed->Failed
+		verifyTrue(homePage.isLogoutLinkDisplayed());
+
+		// verify register link undisplayed->Pass
+		verifyTrue(homePage.isRegisterLinkUndisplayed());
+
+		// verify login link undisplayed->Failed
+		verifyFalse(homePage.isLoginLinkUndisplayed());
 	}
 
-	@Test
+	//@Test
 	public void TC_03_View_My_Account() {
 
 		// homePage.clickToMyAccountLink();
@@ -119,7 +128,7 @@ public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
 	}
 
 	// cách 1:dùng cho page nhỏ (ít page)
-	@Test
+	//@Test
 	public void TC_04_Rest_Parameter_01() {
 
 		adressesPage = (UserAddressesPO) customerInforPage.openLinkByPageName(driver, "Addresses");
@@ -140,7 +149,7 @@ public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
 	}
 
 	// cách 2:
-	@Test
+	//@Test
 	public void TC_05_Rest_Parameter_02() {
 		customerInforPage.openLinkWithPageName(driver, "Addresses");
 		adressesPage = PageGeneratorManager.getUserAddressesPage(driver);

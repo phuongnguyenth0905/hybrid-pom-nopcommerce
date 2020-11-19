@@ -129,8 +129,8 @@ public class AdminProductPO extends AbstractPage {
 	}
 
 	public boolean areImageDetailDisplayed(String productName, String pictureOrder, String pictureAlt, String pictureTitle) {
-		waitToElementVisible(driver, AdminProductPageUI.IMAGE_UPLOAD_DETAIL, productName, pictureOrder, pictureAlt, pictureTitle);
-		return isElementDisplayed(driver, AdminProductPageUI.IMAGE_UPLOAD_DETAIL, productName, pictureOrder, pictureAlt, pictureTitle);
+		waitToElementVisible(driver, AdminProductPageUI.IMAGE_UPLOAD_DETAIL, productName.toLowerCase().replace("", "-"), pictureOrder, pictureAlt, pictureTitle);
+		return isElementDisplayed(driver, AdminProductPageUI.IMAGE_UPLOAD_DETAIL, productName.toLowerCase().replace("", "-"), pictureOrder, pictureAlt, pictureTitle);
 	}
 
 	public void clickToSaveButton() {

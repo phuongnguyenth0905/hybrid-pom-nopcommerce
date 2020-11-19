@@ -1,7 +1,9 @@
 package commons;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -272,13 +274,18 @@ public class AbstractPage {
 	}
 
 	public boolean isElementDisplayed(WebDriver driver, String locator) {
-		return getElement(driver, locator).isDisplayed();
+		try {
+			return getElement(driver, locator).isDisplayed();
+		} catch (Exception e) {
+			return false;
+		}
 	}
 
 	public boolean isElementDisplayed(WebDriver driver, String locator, String... values) {
 		return getElement(driver, getDynamicLocator(locator, values)).isDisplayed();
 	}
 
+//////
 	public boolean isElementSelected(WebDriver driver, String locator) {
 		return getElement(driver, locator).isSelected();
 	}
@@ -421,10 +428,37 @@ public class AbstractPage {
 	}
 
 	public void waitToElementInvisible(WebDriver driver, String locator) {
-		explicitWait = new WebDriverWait(driver, GlobalConstans.LONG_TIMEOUT);
+		explicitWait = new WebDriverWait(driver, GlobalConstans.SHORT_TIMEOUT);
+		overideImplicitWait(driver, GlobalConstans.SHORT_TIMEOUT);
+		
+		System.out.println("Start time for wait invisible = " + new Date().toString());
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(locator)));
+		System.out.println("End time for wait invisible = " + new Date().toString());
+		overideImplicitWait(driver, GlobalConstans.LONG_TIMEOUT);
 	}
 
+	public boolean isElementUndisplayed(WebDriver driver, String locator) {
+		System.out.println("Start time = " + new Date().toString());
+		overideImplicitWait(driver, GlobalConstans.SHORT_TIMEOUT);
+		elements=getElements(driver, locator);
+		overideImplicitWait(driver, GlobalConstans.LONG_TIMEOUT);
+		if (elements.size()==0) {
+			System.out.println("Element not in DOM/UI");
+			System.out.println("Start time = " + new Date().toString());
+			return true;
+		} else if(elements.size()>0&&!elements.get(0).isDisplayed()) {
+			System.out.println("Element in DOM but not visible/displayed(not UI)");
+			System.out.println("Start time = " + new Date().toString());
+			return true;
+		}else {
+			System.out.println("Element  in DOM and visible");
+			return false;
+		}
+	}
+
+	public void overideImplicitWait(WebDriver driver,long timeInSecond) {
+		driver.manage().timeouts().implicitlyWait(timeInSecond, TimeUnit.SECONDS);
+	}
 	public void waitToElementInvisible(WebDriver driver, String locator, String... values) {
 		explicitWait = new WebDriverWait(driver, GlobalConstans.LONG_TIMEOUT);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(getDynamicLocator(locator, values))));
@@ -507,11 +541,11 @@ public class AbstractPage {
 	}
 
 	public void clickToPlusIconByPanelID(WebDriver driver, String panelID) {
-		waitToElementClickAble(driver, AbstractPageUI.PLUS_ICON_BY_PANEL,panelID);
-		String iconAttibuteValue=getElementAttribute(driver, AbstractPageUI.PLUS_ICON_BY_PANEL, "class",panelID);
-		
+		waitToElementClickAble(driver, AbstractPageUI.PLUS_ICON_BY_PANEL, panelID);
+		String iconAttibuteValue = getElementAttribute(driver, AbstractPageUI.PLUS_ICON_BY_PANEL, "class", panelID);
+
 		if (iconAttibuteValue.contains("fa-plus")) {
-			clickToElement(driver, AbstractPageUI.PLUS_ICON_BY_PANEL,panelID);
+			clickToElement(driver, AbstractPageUI.PLUS_ICON_BY_PANEL, panelID);
 			sleepInMilisecond(500);
 		}
 	}

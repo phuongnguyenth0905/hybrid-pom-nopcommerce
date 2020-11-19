@@ -2,6 +2,7 @@ package com.nopcommerce.users;
 
 import java.util.Random;
 
+
 import org.openqa.selenium.WebDriver;
 
 import org.testng.Assert;
@@ -20,11 +21,12 @@ import pageObjects.UserOrdersPO;
 import pageObjects.PageGeneratorManager;
 import pageObjects.UserRegisterPO;
 
-public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
+public class Level_11_Register_Login_Element_Undisplayed extends AbstractTest {
 
 	WebDriver driver;
 	// tạo bộ DL
 	String firtName, lastName, email, companyName, password, day, month, year;
+	boolean status;
 
 	@Parameters("browser")
 	@BeforeClass
@@ -38,9 +40,9 @@ public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
 		driver = getBrowserDriver(browserName);
 
 		firtName = "Hoang Anh";
-		lastName = "Nam";
+		lastName = "Nguyen";
 		email = "hoanganh" + getRandomNumber() + "@gmail.com";
-		// System.out.println(email);
+		
 		companyName = "Digital Tech";
 		password = "123456";
 		day = "11";
@@ -53,6 +55,11 @@ public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
 	public void TC_01_Register() {
 
 		homePage = PageGeneratorManager.getUserHomePage(driver);
+		
+		//verify register link displaed
+		Assert.assertTrue(homePage.isRegisterLinkDisplayed());
+		//verify login link displaed
+		Assert.assertTrue(homePage.isLoginLinkDisplayed());
 		homePage.clickToRegisterLink();
 		registerPage = new UserRegisterPO(driver);
 		// sleepInSecond(1);
@@ -80,31 +87,53 @@ public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
 		// cach2
 		// Assert.assertTrue(registerPage.isRegisterSuccessMessageDisplayed());
 
-		homePage = registerPage.clickToLogoutLink();
+		homePage =registerPage.clickToLogoutLink();
 	}
 
 	@Test
 	public void TC_02_Login() {
-		// 4
-		// homePage.clickToLoginLink();
-		loginPage = homePage.clickToLoginLink();
+		//4
+		//homePage.clickToLoginLink();
+		loginPage=homePage.clickToLoginLink();
+		
 
 		loginPage.inputToEmailTextbox(email);
 		loginPage.inputToPasswordTextbox(password);
-		// 5.
-		homePage = loginPage.clickToLoginButton();
+		//5.
+		homePage=loginPage.clickToLoginButton();
 		
-		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
-
-		Assert.assertTrue(homePage.isLogoutLinkDisplayed());
+		// verify my account link displayed
+		status=homePage.isMyAccountLinkDisplayed();
+		System.out.println("My Account Link status = "+status);
+		Assert.assertTrue(status);
+		
+		// verify logout link displayed
+		status=homePage.isLogoutLinkDisplayed();
+		System.out.println("Logout Link status = "+status);
+		Assert.assertTrue(status);
+		
+		//verify tooltip item undisplayed
+		status=homePage.isShoppingCartNoItemTooltipUndisplayed();
+		System.out.println("Shopping cart item status = "+status);
+		Assert.assertTrue(status);
+		
+		//verify register link undisplayed
+		status=homePage.isRegisterLinkUndisplayed();
+		System.out.println("Register Link status = "+status);
+		Assert.assertTrue(status);
+		
+		//verify login link undisplayed
+		status=homePage.isLoginLinkUndisplayed();
+		System.out.println("Logout Link status = "+status);
+		Assert.assertTrue(status);
 	}
 
 	@Test
 	public void TC_03_View_My_Account() {
 
-		// homePage.clickToMyAccountLink();
-		customerInforPage = homePage.clickToMyAccountLink();
-
+		//homePage.clickToMyAccountLink();
+		customerInforPage=homePage.clickToMyAccountLink();
+		
 		Assert.assertTrue(customerInforPage.isGenderMaleRadioButtonSelected());
 		Assert.assertEquals(customerInforPage.getFirstNameTextboxValue(), firtName);
 		Assert.assertEquals(customerInforPage.getLastNameTextboxValue(), lastName);
@@ -117,41 +146,38 @@ public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
 		Assert.assertEquals(customerInforPage.getCompanyTextboxValue(), companyName);
 		Assert.assertTrue(customerInforPage.isNewsletterCheckboxSelected());
 	}
-
-	// cách 1:dùng cho page nhỏ (ít page)
+	//cách 1:dùng cho page nhỏ (ít page)
 	@Test
 	public void TC_04_Rest_Parameter_01() {
-
-		adressesPage = (UserAddressesPO) customerInforPage.openLinkByPageName(driver, "Addresses");
-
-		customerInforPage = (UserCustomerInforPO) adressesPage.openLinkByPageName(driver, "Customer info");
-
-		myProductPage = (UserMyproductReviewsPO) customerInforPage.openLinkByPageName(driver, "My product reviews");
-		customerInforPage = (UserCustomerInforPO) myProductPage.openLinkByPageName(driver, "Customer info");
-		adressesPage = (UserAddressesPO) customerInforPage.openLinkByPageName(driver, "Addresses");
-		// Addresses->My product reviews
-		myProductPage = (UserMyproductReviewsPO) adressesPage.openLinkByPageName(driver, "My product reviews");
-		// My product reviews->Orders
-		oderPage = (UserOrdersPO) myProductPage.openLinkByPageName(driver, "Orders");
-		// Orders ->Addresses
-		adressesPage = (UserAddressesPO) oderPage.openLinkByPageName(driver, "Addresses");
-		// Addresses->Customer info
-		customerInforPage = (UserCustomerInforPO) adressesPage.openLinkByPageName(driver, "Customer info");
+		
+		adressesPage=(UserAddressesPO) customerInforPage.openLinkByPageName(driver, "Addresses");
+		
+		customerInforPage=(UserCustomerInforPO) adressesPage.openLinkByPageName(driver, "Customer info");
+		
+		myProductPage=(UserMyproductReviewsPO) customerInforPage.openLinkByPageName(driver, "My product reviews");
+		customerInforPage=(UserCustomerInforPO) myProductPage.openLinkByPageName(driver, "Customer info");
+		adressesPage=(UserAddressesPO) customerInforPage.openLinkByPageName(driver, "Addresses");
+		//Addresses->My product reviews
+		myProductPage=(UserMyproductReviewsPO) adressesPage.openLinkByPageName(driver, "My product reviews");
+		//My product reviews->Orders
+		oderPage=(UserOrdersPO) myProductPage.openLinkByPageName(driver, "Orders");
+		//Orders ->Addresses
+		adressesPage=(UserAddressesPO) oderPage.openLinkByPageName(driver, "Addresses");
+		//Addresses->Customer info
+		customerInforPage=(UserCustomerInforPO) adressesPage.openLinkByPageName(driver,"Customer info");
 	}
-
-	// cách 2:
+	//cách 2:
 	@Test
 	public void TC_05_Rest_Parameter_02() {
 		customerInforPage.openLinkWithPageName(driver, "Addresses");
-		adressesPage = PageGeneratorManager.getUserAddressesPage(driver);
-
+		adressesPage=PageGeneratorManager.getUserAddressesPage(driver);
+		
 		adressesPage.openLinkWithPageName(driver, "Customer info");
-		customerInforPage = PageGeneratorManager.getUserCustomerInforPage(driver);
-
+		customerInforPage=PageGeneratorManager.getUserCustomerInforPage(driver);
+		
 		customerInforPage.openLinkWithPageName(driver, "My product reviews");
-		myProductPage = PageGeneratorManager.getUserMyproductReviewsPage(driver);
+		myProductPage=PageGeneratorManager.getUserMyproductReviewsPage(driver);
 	}
-
 	public int getRandomNumber() {
 		Random rand = new Random();
 		return rand.nextInt(999);

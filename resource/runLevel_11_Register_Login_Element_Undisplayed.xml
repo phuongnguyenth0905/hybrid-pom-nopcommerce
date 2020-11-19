@@ -3,17 +3,19 @@
 
 	<test name="Run on firefox">
 		<parameter name="browser" value="firefox" />
+		
 		<classes>
-			<class name="com.nopcommerce.users.Level_08_Register_Login_Rest_Parameter" />
+			<class name="com.nopcommerce.users.Level_11_Register_Login_Element_Undisplayed" />
 		</classes>
 	</test>
 
-	<test name="Run on chrome">
+	<!-- <test name="Run on chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.nopcommerce.users.Level_08_Register_Login_Rest_Parameter" />
 		</classes>
-	</test>
-
+	</test> -->
+<!--admin@yourstore.com-->
+<!--admin-->
 
 </suite>

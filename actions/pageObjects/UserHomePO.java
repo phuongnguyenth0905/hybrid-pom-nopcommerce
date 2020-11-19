@@ -41,4 +41,33 @@ public class UserHomePO extends AbstractPage {
 		return PageGeneratorManager.getUserCustomerInforPage(driver);
 	}
 
+	public boolean isRegisterLinkDisplayed() {
+		//waitToElementVisible(driver, UserHomePageUI.REGISTER_LINK);
+		return isElementDisplayed(driver, UserHomePageUI.REGISTER_LINK);
+	}
+	
+	public boolean isLoginLinkDisplayed() {
+		//waitToElementVisible(driver, UserHomePageUI.LOGIN_LINK);
+		return isElementDisplayed(driver, UserHomePageUI.LOGIN_LINK);
+	}
+	
+	public boolean isShoppingCartNoItemTooltipDisplayed() {
+		
+		return isElementDisplayed(driver, UserHomePageUI.SHOPPING_CART_NO_ITEM_TOOLTIP);
+	}
+	public boolean isRegisterLinkUndisplayed() {
+		waitToElementInvisible(driver, UserHomePageUI.REGISTER_LINK);
+		return isElementUndisplayed(driver, UserHomePageUI.REGISTER_LINK);
+	}
+
+	public boolean isLoginLinkUndisplayed() {
+		waitToElementInvisible(driver, UserHomePageUI.LOGIN_LINK);
+		return isElementUndisplayed(driver, UserHomePageUI.LOGIN_LINK);
+	}
+
+	public boolean isShoppingCartNoItemTooltipUndisplayed() {
+		waitToElementInvisible(driver, UserHomePageUI.SHOPPING_CART_NO_ITEM_TOOLTIP);
+		return isElementUndisplayed(driver, UserHomePageUI.SHOPPING_CART_NO_ITEM_TOOLTIP);
+	}
+
 }
