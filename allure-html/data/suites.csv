@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 25 16:07:13 ICT 2020","Wed Nov 25 16:07:23 ICT 2020","9146","Nop Commerce user","Run on chrome_ui","com.nopcommerce.users.Level_13_Register_Login_Log_Report_HTML","com.nopcommerce.users.Level_13_Register_Login_Log_Report_HTML","TC_01_Register","TC_01_Register",""
+"broken","Wed Nov 25 16:07:23 ICT 2020","Wed Nov 25 16:08:23 ICT 2020","60920","Nop Commerce user","Run on chrome_ui","com.nopcommerce.users.Level_13_Register_Login_Log_Report_HTML","com.nopcommerce.users.Level_13_Register_Login_Log_Report_HTML","TC_02_Login","TC_02_Login",""

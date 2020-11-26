@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce user-admin" >
+	
+	<suite-files>
+		<suite-file path="runLevel_13_Register_Login_Log_Report_HTML.xml"/>
+		<suite-file path="runnopCommerceMultipleBrowser.xml"/>
+	</suite-files>
+
+</suite>

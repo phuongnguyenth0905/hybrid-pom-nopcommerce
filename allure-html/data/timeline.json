@@ -1,0 +1,69 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-LB2MBC3",
+    "children" : [ {
+      "name" : "11900@DESKTOP-LB2MBC3.main(1)",
+      "children" : [ {
+        "name" : "TC_01_Register",
+        "uid" : "90480b8860032296",
+        "parentUid" : "46a856889a6d29aebabf46359ba36df6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1606294858598,
+          "stop" : 1606294906037,
+          "duration" : 47439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome_ui" ]
+      }, {
+        "name" : "TC_02_Login",
+        "uid" : "461dac43babda4a8",
+        "parentUid" : "46a856889a6d29aebabf46359ba36df6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1606294906119,
+          "stop" : 1606294950888,
+          "duration" : 44769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome_ui" ]
+      } ],
+      "uid" : "46a856889a6d29aebabf46359ba36df6"
+    }, {
+      "name" : "6876@DESKTOP-LB2MBC3.main(1)",
+      "children" : [ {
+        "name" : "TC_01_Register",
+        "uid" : "12949984c25be0f7",
+        "parentUid" : "8f93c35cb1efa63e53b24e635a750bc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606295233882,
+          "stop" : 1606295243028,
+          "duration" : 9146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome_ui" ]
+      }, {
+        "name" : "TC_02_Login",
+        "uid" : "33879fca87d23e3c",
+        "parentUid" : "8f93c35cb1efa63e53b24e635a750bc2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1606295243077,
+          "stop" : 1606295303997,
+          "duration" : 60920
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome_ui" ]
+      } ],
+      "uid" : "8f93c35cb1efa63e53b24e635a750bc2"
+    } ],
+    "uid" : "53c7dfb9217691a963a88d08f9ad0e39"
+  } ]
+}

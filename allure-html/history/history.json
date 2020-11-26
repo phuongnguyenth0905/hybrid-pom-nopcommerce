@@ -1,0 +1,41 @@
+{
+  "58fcc203161d4cb7d7150d7de53be63f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33879fca87d23e3c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class='ico-login'] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1606295243077,
+        "stop" : 1606295303997,
+        "duration" : 60920
+      }
+    } ]
+  },
+  "25c7bda6c32820b613a15b670c7a48d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12949984c25be0f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606295233882,
+        "stop" : 1606295243028,
+        "duration" : 9146
+      }
+    } ]
+  }
+}

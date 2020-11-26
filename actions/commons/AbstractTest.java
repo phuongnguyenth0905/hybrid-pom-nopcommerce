@@ -34,39 +34,39 @@ public class AbstractTest {
 	}
 
 	protected WebDriver getBrowserDriver(String browserName) {
-		/// setBrowserDriver();
-		if (browserName.equals("firefox")) {
+		Browser browser=Browser.valueOf(browserName.toUpperCase());
+		if (browser==Browser.FIREFOX_UI) {
 			WebDriverManager.firefoxdriver().setup();
 			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
-		} else if (browserName.equals("chrome")) {
+		} else if (browser==Browser.CHROME_UI) {
 			WebDriverManager.chromedriver().setup();
 			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setExperimentalOption("useAutomationExtension", false);
 			chromeOptions.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 			driver = new ChromeDriver(chromeOptions);
-		} else if (browserName.equals("firefox_headless")) {
+		} else if (browser==Browser.FIREFOX_HEADLESS) {
 			WebDriverManager.firefoxdriver().setup();
 			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
 			FirefoxOptions ffOptions = new FirefoxOptions();
 			ffOptions.setHeadless(true);
 			driver = new FirefoxDriver(ffOptions);
-		} else if (browserName.equals("chrome_headless")) {
+		} else if (browser==Browser.CHROME_HEADLESS) {
 			WebDriverManager.chromedriver().setup();
 			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
 			options.addArguments("window-size=1920x1080");
 			driver = new ChromeDriver(options);
-		} else if (browserName.equals("edge_chromium")) {
+		} else if (browser==Browser.EDGE_CHROMIUM) {
 			WebDriverManager.edgedriver().setup();
 			// System.setProperty("webdriver.edge.driver", projectFolder + "\\browserDriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		} else if (browserName.equals("safari")) {
+		} else if (browser==Browser.SAFARI) {
 
 			driver = new SafariDriver();
-		} else if (browserName.equals("ie")) {
+		} else if (browser==Browser.IE) {
 			WebDriverManager.iedriver().arch32().setup();
 			driver = new InternetExplorerDriver();
 		} else {
@@ -80,39 +80,39 @@ public class AbstractTest {
 	}
 
 	protected WebDriver getBrowserDriver(String browserName, String url) {
-		/// setBrowserDriver();
-		if (browserName.equals("firefox")) {
+		Browser browser=Browser.valueOf(browserName.toUpperCase());
+		if (browser==Browser.FIREFOX_UI) {
 			WebDriverManager.firefoxdriver().setup();
 			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
-		} else if (browserName.equals("chrome")) {
+		} else if (browser==Browser.CHROME_UI) {
 			WebDriverManager.chromedriver().setup();
 			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setExperimentalOption("useAutomationExtension", false);
 			chromeOptions.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 			driver = new ChromeDriver(chromeOptions);
-		} else if (browserName.equals("firefox_headless")) {
+		} else if (browser==Browser.FIREFOX_HEADLESS) {
 			WebDriverManager.firefoxdriver().setup();
 			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
 			FirefoxOptions ffOptions = new FirefoxOptions();
 			ffOptions.setHeadless(true);
 			driver = new FirefoxDriver(ffOptions);
-		} else if (browserName.equals("chrome_headless")) {
+		} else if (browser==Browser.CHROME_HEADLESS) {
 			WebDriverManager.chromedriver().setup();
 			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
 			options.addArguments("window-size=1920x1080");
 			driver = new ChromeDriver(options);
-		} else if (browserName.equals("edge_chromium")) {
+		} else if (browser==Browser.EDGE_CHROMIUM) {
 			WebDriverManager.edgedriver().setup();
 			// System.setProperty("webdriver.edge.driver", projectFolder + "\\browserDriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		} else if (browserName.equals("safari")) {
+		} else if (browser==Browser.SAFARI) {
 
 			driver = new SafariDriver();
-		} else if (browserName.equals("ie")) {
+		} else if (browser==Browser.IE) {
 			WebDriverManager.iedriver().arch32().setup();
 			driver = new InternetExplorerDriver();
 		} else {
@@ -145,7 +145,9 @@ public class AbstractTest {
 			System.setProperty("webdriver.gecko.driver", projectFolder + getDirectorySlash("browserDriver") + "geckodriver_linux");
 		}
 	}
-
+	 public WebDriver getDriver() {
+		return driver;
+	}
 	// Webdriver Manager
 	private String getDirectorySlash(String folderName) {
 		if (isMac() || isUnix() || isSolaris()) {

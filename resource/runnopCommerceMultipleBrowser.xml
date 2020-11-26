@@ -7,7 +7,7 @@
 		</classes>
 	</test>
 
-	<!-- <test name="Run on firefox">
+	<test name="Run on firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" />
@@ -48,6 +48,6 @@
 			<class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" />
 		</classes>
 	</test>
- -->
+
 
 </suite>

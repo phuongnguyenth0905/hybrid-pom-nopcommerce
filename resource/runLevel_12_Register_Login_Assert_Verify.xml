@@ -4,7 +4,7 @@
 		<listener class-name="commons.MethodListener"/>
 	</listeners>
 	<test name="Run on firefox">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="firefox_ui" />
 
 		<classes>
 			<class name="com.nopcommerce.users.Level_12_Register_Login_Assert_Verify" />

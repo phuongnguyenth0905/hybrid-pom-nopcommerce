@@ -1,0 +1,33 @@
+[INFO ] [2020-11-25 20:52:33,016] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 20:52:33,018] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 20:52:33,100]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:33,103] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 20:52:33,158]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:33,159] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 20:52:34,749] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 20:52:34,883] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 20:52:35,550] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 20:52:36,237] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 20:52:36,390] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 20:52:36,530] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 20:52:36,672] Register - Step 11 : Input To Email textbox with value: hoanganh770@gmail.com
+[INFO ] [2020-11-25 20:52:37,334] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 20:52:38,003] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 20:52:39,338] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 20:52:41,886] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 20:52:41,966]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:41,966] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-25 20:52:43,061] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 20:52:44,297] Login - Step 02 : Input to Email textbox with value : hoanganh770@gmail.com
+[INFO ] [2020-11-25 20:52:44,957] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 20:52:45,639] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 20:52:47,296] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 20:52:47,354]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:47,354] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2020-11-25 20:52:47,491]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:47,491] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2020-11-25 20:52:47,554]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:47,554] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2020-11-25 20:52:57,750]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:57,751] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2020-11-25 20:53:07,945]  -------------------------- FAILED -------------------------- 

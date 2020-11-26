@@ -430,35 +430,30 @@ public class AbstractPage {
 	public void waitToElementInvisible(WebDriver driver, String locator) {
 		explicitWait = new WebDriverWait(driver, GlobalConstans.SHORT_TIMEOUT);
 		overideImplicitWait(driver, GlobalConstans.SHORT_TIMEOUT);
-		
-		System.out.println("Start time for wait invisible = " + new Date().toString());
+
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(locator)));
-		System.out.println("End time for wait invisible = " + new Date().toString());
 		overideImplicitWait(driver, GlobalConstans.LONG_TIMEOUT);
 	}
 
 	public boolean isElementUndisplayed(WebDriver driver, String locator) {
-		System.out.println("Start time = " + new Date().toString());
 		overideImplicitWait(driver, GlobalConstans.SHORT_TIMEOUT);
-		elements=getElements(driver, locator);
+		elements = getElements(driver, locator);
 		overideImplicitWait(driver, GlobalConstans.LONG_TIMEOUT);
-		if (elements.size()==0) {
-			System.out.println("Element not in DOM/UI");
-			System.out.println("Start time = " + new Date().toString());
+		if (elements.size() == 0) {
 			return true;
-		} else if(elements.size()>0&&!elements.get(0).isDisplayed()) {
-			System.out.println("Element in DOM but not visible/displayed(not UI)");
-			System.out.println("Start time = " + new Date().toString());
+		} else if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
+
 			return true;
-		}else {
-			System.out.println("Element  in DOM and visible");
+		} else {
+
 			return false;
 		}
 	}
 
-	public void overideImplicitWait(WebDriver driver,long timeInSecond) {
+	public void overideImplicitWait(WebDriver driver, long timeInSecond) {
 		driver.manage().timeouts().implicitlyWait(timeInSecond, TimeUnit.SECONDS);
 	}
+
 	public void waitToElementInvisible(WebDriver driver, String locator, String... values) {
 		explicitWait = new WebDriverWait(driver, GlobalConstans.LONG_TIMEOUT);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(getDynamicLocator(locator, values))));

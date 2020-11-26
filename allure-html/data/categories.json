@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class='ico-login'] (tried for 30 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "TC_02_Login",
+        "uid" : "33879fca87d23e3c",
+        "parentUid" : "47cb651d012f1b49fd864619f316a882",
+        "status" : "broken",
+        "time" : {
+          "start" : 1606295243077,
+          "stop" : 1606295303997,
+          "duration" : 60920
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome_ui" ]
+      } ],
+      "uid" : "47cb651d012f1b49fd864619f316a882"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

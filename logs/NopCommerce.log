@@ -1,0 +1,561 @@
+[INFO ] [2020-11-24 13:18:19,887] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-24 13:18:19,890] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-24 13:18:19,949]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-24 13:18:19,950] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-24 13:18:20,008]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:18:20,008] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-24 13:18:21,534] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-24 13:18:21,660] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-24 13:18:22,326] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-24 13:18:23,015] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-24 13:18:23,153] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-24 13:18:23,293] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-24 13:18:23,434] Register - Step 11 : Input To Email textbox with value: hoanganh187@gmail.com
+[INFO ] [2020-11-24 13:18:24,113] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-24 13:18:24,822] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-24 13:18:26,224] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-24 13:18:27,712] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-24 13:18:27,795]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:18:27,795] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-24 13:18:28,725] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-24 13:18:29,839] Login - Step 02 : Input to Email textbox with value : hoanganh187@gmail.com
+[INFO ] [2020-11-24 13:18:30,519] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-24 13:18:31,194] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-24 13:18:32,735] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-24 13:18:32,801]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-24 13:18:32,801] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2020-11-24 13:18:32,924]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-24 13:18:32,924] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2020-11-24 13:18:32,986]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:18:32,986] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2020-11-24 13:18:43,218]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:18:43,219] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2020-11-24 13:18:53,335]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-24 13:31:25,059] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-24 13:31:25,064] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-24 13:31:25,129]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-24 13:31:25,131] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-24 13:31:25,198]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:31:25,198] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-24 13:31:26,765] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-24 13:31:26,890] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-24 13:31:27,542] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-24 13:31:28,254] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-24 13:31:28,391] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-24 13:31:28,532] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-24 13:31:28,672] Register - Step 11 : Input To Email textbox with value: hoanganh210@gmail.com
+[INFO ] [2020-11-24 13:31:29,354] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-24 13:31:30,041] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-24 13:31:31,408] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-24 13:31:31,588] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-24 13:32:12,248] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-24 13:32:12,358] Login - Step 02 : Input to Email textbox with value : hoanganh210@gmail.com
+[INFO ] [2020-11-24 13:32:13,008] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-24 13:32:13,671] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-24 13:38:10,295] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-24 13:38:10,298] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-24 13:38:10,358]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:38:10,360] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-24 13:38:10,417]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:38:10,417] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-24 13:38:12,138] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-24 13:38:12,260] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-24 13:38:12,965] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-24 13:38:13,612] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-24 13:38:13,753] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-24 13:38:13,894] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-24 13:38:14,035] Register - Step 11 : Input To Email textbox with value: hoanganh367@gmail.com
+[INFO ] [2020-11-24 13:38:14,722] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-24 13:38:15,377] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-24 13:38:16,769] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-24 13:38:16,975] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-24 13:38:57,639] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-24 13:38:57,748] Login - Step 02 : Input to Email textbox with value : hoanganh367@gmail.com
+[INFO ] [2020-11-24 13:38:58,399] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-24 13:38:59,075] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-24 13:49:38,408] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-24 13:49:38,411] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-24 13:49:38,471]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:49:38,472] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-24 13:49:38,532]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:49:38,532] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-24 13:49:40,132] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-24 13:49:40,255] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-24 13:49:40,914] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-24 13:49:41,581] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-24 13:49:41,728] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-24 13:49:41,866] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-24 13:49:42,007] Register - Step 11 : Input To Email textbox with value: hoanganh578@gmail.com
+[INFO ] [2020-11-24 13:49:42,679] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-24 13:49:43,357] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-24 13:49:44,730] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-24 13:49:47,327] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-24 13:49:47,415]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:49:47,415] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-24 13:49:49,347] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-24 13:49:49,878] Login - Step 02 : Input to Email textbox with value : hoanganh578@gmail.com
+[INFO ] [2020-11-24 13:49:50,575] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-24 13:49:51,252] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-24 13:49:52,262] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-24 13:49:52,326]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:49:52,326] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2020-11-24 13:49:52,450]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:49:52,450] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2020-11-24 13:49:52,511]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:49:52,511] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2020-11-24 13:50:02,693]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 13:50:02,693] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2020-11-24 13:50:12,876]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-24 14:45:57,998] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-24 14:45:58,001] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-24 14:45:58,064]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 14:45:58,065] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-24 14:45:58,137]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 14:45:58,137] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-24 14:45:58,867] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-24 14:45:59,063] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-24 14:45:59,730] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-24 14:46:00,393] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-24 14:46:00,532] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-24 14:46:00,673] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-24 14:46:00,811] Register - Step 11 : Input To Email textbox with value: hoanganh313@gmail.com
+[INFO ] [2020-11-24 14:46:01,482] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-24 14:46:02,157] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-24 14:46:03,514] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-24 14:46:03,711] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-24 14:46:44,352] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-24 14:46:45,688] Login - Step 02 : Input to Email textbox with value : hoanganh313@gmail.com
+[INFO ] [2020-11-24 14:46:46,352] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-24 14:46:47,030] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-24 14:46:47,592] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-24 14:48:33,859] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-24 14:48:33,866] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-24 14:48:33,924]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 14:48:33,925] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-24 14:48:33,986]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 14:48:33,986] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-24 14:48:35,436] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-24 14:48:35,550] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-24 14:48:36,209] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-24 14:48:36,890] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-24 14:48:37,077] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-24 14:48:37,219] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-24 14:48:37,365] Register - Step 11 : Input To Email textbox with value: hoanganh221@gmail.com
+[INFO ] [2020-11-24 14:48:38,032] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-24 14:48:38,696] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-24 14:48:40,043] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-24 14:48:41,733] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-24 14:48:41,790]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 14:48:41,790] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-24 14:48:43,406] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-24 14:48:44,523] Login - Step 02 : Input to Email textbox with value : hoanganh221@gmail.com
+[INFO ] [2020-11-24 14:48:45,193] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-24 14:48:45,875] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-24 14:48:47,373] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-24 14:48:47,447]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 14:48:47,447] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2020-11-24 14:48:47,592]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 14:48:47,592] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2020-11-24 14:48:47,696]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 14:48:47,696] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2020-11-24 14:48:57,855]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 14:48:57,855] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2020-11-24 14:49:08,012]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-24 15:08:35,204] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-24 15:08:35,207] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-24 15:08:35,274]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 15:08:35,275] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-24 15:08:35,333]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-24 15:08:35,333] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-24 15:08:36,064] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-24 15:08:36,181] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-24 15:08:36,867] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-24 15:08:37,544] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-24 15:08:37,696] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-24 15:08:37,838] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-24 15:08:37,975] Register - Step 11 : Input To Email textbox with value: hoanganh5@gmail.com
+[INFO ] [2020-11-24 15:08:38,645] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-24 15:08:39,340] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-24 15:08:40,678] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-24 15:08:40,890] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-24 15:09:21,496] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-24 15:09:21,606] Login - Step 02 : Input to Email textbox with value : hoanganh5@gmail.com
+[INFO ] [2020-11-24 15:09:22,268] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-24 15:09:22,928] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 08:47:18,611] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 08:47:18,695] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 08:47:18,814]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 08:47:18,815] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 08:47:18,893]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 08:47:18,893] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 08:47:20,609] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 08:47:20,760] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 08:47:21,426] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 08:47:22,117] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 08:47:22,286] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 08:47:22,427] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 08:47:22,567] Register - Step 11 : Input To Email textbox with value: hoanganh699@gmail.com
+[INFO ] [2020-11-25 08:47:23,251] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 08:47:23,931] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 08:47:25,257] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 08:47:25,457] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 08:48:06,122] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 08:48:07,493] Login - Step 02 : Input to Email textbox with value : hoanganh699@gmail.com
+[INFO ] [2020-11-25 08:48:08,197] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 08:48:08,883] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 08:48:08,993] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 08:55:22,115] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 08:55:22,118] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 08:55:22,172]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 08:55:22,173] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 08:55:22,233]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 08:55:22,233] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 08:55:23,836] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 08:55:23,998] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 08:55:24,724] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 08:55:25,415] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 08:55:25,596] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 08:55:25,738] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 08:55:25,877] Register - Step 11 : Input To Email textbox with value: hoanganh262@gmail.com
+[INFO ] [2020-11-25 08:55:26,611] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 08:55:27,291] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 08:55:28,654] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 08:55:28,853] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 08:56:09,511] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 08:56:09,609] Login - Step 02 : Input to Email textbox with value : hoanganh262@gmail.com
+[INFO ] [2020-11-25 08:56:10,249] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 08:56:10,898] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 09:40:26,166] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 09:40:26,169] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 09:40:26,232]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 09:40:26,233] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 09:40:26,291]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 09:40:26,291] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 09:40:27,876] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 09:40:28,004] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 09:40:28,667] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 09:40:29,321] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 09:40:29,508] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 09:40:29,651] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 09:40:29,793] Register - Step 11 : Input To Email textbox with value: hoanganh268@gmail.com
+[INFO ] [2020-11-25 09:40:30,457] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 09:40:31,142] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 09:40:32,489] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 09:40:34,997] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 09:40:35,052]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 09:40:35,052] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-25 09:40:36,021] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 09:40:36,574] Login - Step 02 : Input to Email textbox with value : hoanganh268@gmail.com
+[INFO ] [2020-11-25 09:40:37,237] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 09:40:37,931] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 09:40:40,627] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 09:40:40,764]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 09:40:40,764] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2020-11-25 09:40:40,939]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 09:40:40,939] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2020-11-25 09:40:41,033]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 09:40:41,034] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2020-11-25 09:40:51,220]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 09:40:51,220] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2020-11-25 09:41:01,396]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-25 13:45:34,482] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 13:45:34,485] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 13:45:34,587]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 13:45:34,588] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 13:45:34,647]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 13:45:34,647] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 13:45:35,427] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 13:45:35,537] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 13:45:36,203] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 13:45:36,869] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 13:45:37,078] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 13:45:37,236] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 13:45:37,377] Register - Step 11 : Input To Email textbox with value: hoanganh235@gmail.com
+[INFO ] [2020-11-25 13:45:38,091] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 13:45:38,769] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 13:45:40,136] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 13:45:41,315] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 13:45:41,390]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 13:45:41,390] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-25 13:45:44,083] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 13:45:45,405] Login - Step 02 : Input to Email textbox with value : hoanganh235@gmail.com
+[INFO ] [2020-11-25 13:45:46,071] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 13:45:46,755] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 13:45:47,750] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 13:45:47,828]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 13:45:47,829] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2020-11-25 13:45:47,952]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 13:45:47,952] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2020-11-25 13:45:48,015]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 13:45:48,015] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2020-11-25 13:45:58,227]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 13:45:58,227] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2020-11-25 13:46:08,364]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-25 14:34:18,293] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 14:34:18,296] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 14:34:18,357]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 14:34:18,358] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 14:34:18,419]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 14:34:18,419] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 14:34:20,156] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 14:34:20,290] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 14:34:20,961] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 14:34:21,621] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 14:34:21,794] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 14:34:21,938] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 14:34:22,074] Register - Step 11 : Input To Email textbox with value: hoanganh267@gmail.com
+[INFO ] [2020-11-25 14:34:22,736] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 14:34:23,426] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 14:34:24,763] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 14:34:24,958] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 14:35:05,620] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 14:35:06,933] Login - Step 02 : Input to Email textbox with value : hoanganh267@gmail.com
+[INFO ] [2020-11-25 14:35:07,649] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 14:35:08,317] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 14:35:08,420] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 14:35:30,989] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 14:35:30,992] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 14:35:31,058]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 14:35:31,059] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 14:35:31,119]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 14:35:31,119] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 14:35:32,786] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 14:35:32,924] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 14:35:33,598] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 14:35:34,300] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 14:35:34,450] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 14:35:34,622] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 14:35:34,773] Register - Step 11 : Input To Email textbox with value: hoanganh519@gmail.com
+[INFO ] [2020-11-25 14:35:35,453] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 14:35:36,128] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 14:35:37,518] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 14:35:39,453] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 14:35:39,533]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 14:35:39,533] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-25 14:35:40,536] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 14:35:41,837] Login - Step 02 : Input to Email textbox with value : hoanganh519@gmail.com
+[INFO ] [2020-11-25 14:35:42,496] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 14:35:43,151] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 14:35:44,133] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 14:35:44,199]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 14:35:44,199] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2020-11-25 14:35:44,336]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 14:35:44,336] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2020-11-25 14:35:44,398]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 14:35:44,398] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2020-11-25 14:35:54,504]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 14:35:54,504] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2020-11-25 14:36:04,616]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-25 16:00:58,600] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 16:00:58,600] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 16:00:58,655]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 16:00:58,656] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 16:00:58,716]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 16:00:58,716] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 16:01:00,293] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 16:01:00,418] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 16:01:01,069] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 16:01:01,757] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 16:01:01,891] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 16:01:02,034] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 16:01:02,174] Register - Step 11 : Input To Email textbox with value: hoanganh269@gmail.com
+[INFO ] [2020-11-25 16:01:02,844] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 16:01:03,535] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 16:01:04,853] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 16:01:05,034] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 16:01:46,119] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 16:01:47,413] Login - Step 02 : Input to Email textbox with value : hoanganh269@gmail.com
+[INFO ] [2020-11-25 16:01:48,078] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 16:01:48,746] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 16:01:50,043] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 16:07:13,883] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 16:07:13,885] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 16:07:13,937]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 16:07:13,938] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 16:07:13,984]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 16:07:13,984] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 16:07:15,596] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 16:07:15,704] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 16:07:16,364] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 16:07:17,032] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 16:07:17,217] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 16:07:17,355] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 16:07:17,497] Register - Step 11 : Input To Email textbox with value: hoanganh213@gmail.com
+[INFO ] [2020-11-25 16:07:18,170] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 16:07:18,867] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 16:07:20,227] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 16:07:22,808] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 16:07:22,880]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 16:07:22,880] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-25 16:07:23,077] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 16:37:59,972] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 16:37:59,974] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 16:38:00,052]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 16:38:00,053] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 16:38:00,113]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 16:38:00,113] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 16:38:00,819] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 16:38:00,948] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 16:38:01,601] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 16:38:02,251] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 16:38:02,390] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 16:38:02,529] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 16:38:02,670] Register - Step 11 : Input To Email textbox with value: hoanganh166@gmail.com
+[INFO ] [2020-11-25 16:38:03,352] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 16:38:04,030] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 16:38:05,357] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 16:38:05,536] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 16:38:46,583] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 16:38:47,995] Login - Step 02 : Input to Email textbox with value : hoanganh166@gmail.com
+[INFO ] [2020-11-25 16:38:48,687] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 16:38:49,340] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 16:38:49,918] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 20:04:48,923] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 20:04:48,924] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 20:04:48,985]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:04:48,986] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 20:04:49,046]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:04:49,046] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 20:04:50,674] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 20:04:50,787] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 20:04:51,467] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 20:04:52,138] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 20:04:52,286] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 20:04:52,428] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 20:04:52,582] Register - Step 11 : Input To Email textbox with value: hoanganh963@gmail.com
+[INFO ] [2020-11-25 20:04:53,247] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 20:04:53,913] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 20:04:55,281] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 20:04:57,111] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 20:04:57,184]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:04:57,184] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-25 20:04:59,050] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 20:04:59,633] Login - Step 02 : Input to Email textbox with value : hoanganh963@gmail.com
+[INFO ] [2020-11-25 20:05:00,347] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 20:05:01,051] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 20:05:02,364] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 20:05:02,435]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:05:02,435] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2020-11-25 20:05:02,559]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:05:02,559] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2020-11-25 20:05:02,636]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:05:02,636] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2020-11-25 20:05:12,866]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:05:12,866] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2020-11-25 20:05:23,036]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-25 20:09:12,314] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 20:09:12,316] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 20:09:12,373]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:09:12,375] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 20:09:12,447]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:09:12,448] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 20:09:13,376] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 20:09:13,505] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 20:09:14,159] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 20:09:14,829] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 20:09:14,981] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 20:09:15,120] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 20:09:15,260] Register - Step 11 : Input To Email textbox with value: hoanganh476@gmail.com
+[INFO ] [2020-11-25 20:09:15,928] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 20:09:16,619] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 20:09:18,077] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 20:09:20,159] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 20:09:20,242]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:09:20,242] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-25 20:09:21,549] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 20:09:23,022] Login - Step 02 : Input to Email textbox with value : hoanganh476@gmail.com
+[INFO ] [2020-11-25 20:09:23,697] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 20:09:24,370] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 20:09:27,218] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 20:09:27,304]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:09:27,304] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2020-11-25 20:09:27,472]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:09:27,472] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2020-11-25 20:09:27,552]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:09:27,553] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2020-11-25 20:09:37,685]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:09:37,685] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2020-11-25 20:09:47,813]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-25 20:18:38,259] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 20:18:38,262] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 20:18:38,333]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:18:38,335] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 20:18:38,430]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:18:38,430] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 20:18:40,030] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 20:18:40,151] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 20:18:40,806] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 20:18:41,485] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 20:18:41,636] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 20:18:41,775] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 20:18:41,915] Register - Step 11 : Input To Email textbox with value: hoanganh705@gmail.com
+[INFO ] [2020-11-25 20:18:42,585] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 20:18:43,243] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 20:18:44,592] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 20:18:44,800] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 20:22:54,209] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 20:22:54,211] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 20:22:54,292]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:22:54,294] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 20:22:54,353]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:22:54,354] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 20:22:55,977] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 20:22:56,094] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 20:22:56,760] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 20:22:57,452] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 20:22:57,598] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 20:22:57,738] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 20:22:57,880] Register - Step 11 : Input To Email textbox with value: hoanganh990@gmail.com
+[INFO ] [2020-11-25 20:22:58,538] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 20:22:59,210] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 20:23:00,563] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 20:23:02,511] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 20:23:02,612]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:23:02,613] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-25 20:23:05,484] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 20:23:06,013] Login - Step 02 : Input to Email textbox with value : hoanganh990@gmail.com
+[INFO ] [2020-11-25 20:23:06,675] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 20:23:07,359] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 20:23:09,256] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 20:23:09,316]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:23:09,316] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2020-11-25 20:23:09,473]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:23:09,473] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2020-11-25 20:23:09,535]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:23:09,535] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2020-11-25 20:23:19,730]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:23:19,730] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2020-11-25 20:23:29,926]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-25 20:52:33,016] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-25 20:52:33,018] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-25 20:52:33,100]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:33,103] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-25 20:52:33,158]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:33,159] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-25 20:52:34,749] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-25 20:52:34,883] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-25 20:52:35,550] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-25 20:52:36,237] Register - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-25 20:52:36,390] Register - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-25 20:52:36,530] Register - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-25 20:52:36,672] Register - Step 11 : Input To Email textbox with value: hoanganh770@gmail.com
+[INFO ] [2020-11-25 20:52:37,334] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-25 20:52:38,003] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-25 20:52:39,338] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-25 20:52:41,886] Register - Step 15 : Verify success message displayed
+[INFO ] [2020-11-25 20:52:41,966]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:41,966] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-25 20:52:43,061] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-25 20:52:44,297] Login - Step 02 : Input to Email textbox with value : hoanganh770@gmail.com
+[INFO ] [2020-11-25 20:52:44,957] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-25 20:52:45,639] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-25 20:52:47,296] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-25 20:52:47,354]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:47,354] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2020-11-25 20:52:47,491]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:47,491] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2020-11-25 20:52:47,554]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:47,554] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2020-11-25 20:52:57,750]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-25 20:52:57,751] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2020-11-25 20:53:07,945]  -------------------------- FAILED -------------------------- 
