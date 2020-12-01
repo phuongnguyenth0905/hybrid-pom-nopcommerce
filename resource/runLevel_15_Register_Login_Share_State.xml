@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce user" parallel="false">
+	<listeners>
+		<listener class-name="commons.MethodListener"/>
+		<!-- <listener class-name="reportConfig.ExtentListenerV2"/> -->
+		<!-- <listener class-name="reportConfig.ExtentListenerV3"/> -->
+		<!-- <listener class-name="reportConfig.ExtentListenerV4"/> -->
+		<listener class-name="reportConfig.AllureTestListener"/>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	<test name="Run on chrome_ui">
+		<parameter name="browser" value="chrome_ui" />
+
+		<classes>
+			<class name="com.nopcommerce.common.Common_01_Register" />
+			<class name="com.nopcommerce.users.Level_15_Register_Login_Share_State_Part1_Search" />
+			<class name="com.nopcommerce.users.Level_15_Register_Login_Share_State_Part2_Sort" />
+		</classes>
+	</test>
+
+	<!-- <test name="Run on chrome"> <parameter name="browser" value="chrome" /> <classes> <class name="com.nopcommerce.users.Level_08_Register_Login_Rest_Parameter" 
+		/> </classes> </test> -->
+	<!--admin@yourstore.com -->
+	<!--admin -->
+
+</suite>

@@ -559,3 +559,239 @@
 [INFO ] [2020-11-25 20:52:57,750]  -------------------------- PASSED -------------------------- 
 [INFO ] [2020-11-25 20:52:57,751] Login - Step 09 : Verify Login Link Undisplayed
 [INFO ] [2020-11-25 20:53:07,945]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-11-26 10:09:35,723] PreCondition - Step 01 : Open Home Page
+[INFO ] [2020-11-26 10:09:35,726] PreCondition - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-26 10:09:35,816]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:09:35,817] PreCondition - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-26 10:09:35,877]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:09:35,878] PreCondition - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-26 10:09:37,466] PreCondition - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-26 10:09:37,600] PreCondition - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-26 10:09:38,262] PreCondition - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-26 10:09:38,943] PreCondition - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-26 10:09:39,106] PreCondition - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-26 10:09:39,279] PreCondition - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-26 10:09:39,419] PreCondition - Step 11 : Input To Email textbox with value: hoanganh871@gmail.com
+[INFO ] [2020-11-26 10:09:40,100] PreCondition - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-26 10:09:40,791] PreCondition - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-26 10:09:42,110] PreCondition - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-26 10:09:43,983] PreCondition - Step 15 : Verify success message displayed
+[INFO ] [2020-11-26 10:09:44,058]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:09:54,406] PreCondition - Step 01 : Open Home Page
+[INFO ] [2020-11-26 10:09:54,406] PreCondition - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-26 10:09:54,465]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:09:54,465] PreCondition - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-26 10:09:54,510]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:09:54,510] PreCondition - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-26 10:09:56,071] PreCondition - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-26 10:09:56,204] PreCondition - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-26 10:09:56,869] PreCondition - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-26 10:09:57,536] PreCondition - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-26 10:09:57,677] PreCondition - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-26 10:09:57,822] PreCondition - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-26 10:09:57,993] PreCondition - Step 11 : Input To Email textbox with value: hoanganh159@gmail.com
+[INFO ] [2020-11-26 10:09:58,644] PreCondition - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-26 10:09:59,307] PreCondition - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-26 10:10:00,701] PreCondition - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-26 10:10:00,907] PreCondition - Step 15 : Verify success message displayed
+[INFO ] [2020-11-26 10:11:34,152] PreCondition - Step 01 : Open Home Page
+[INFO ] [2020-11-26 10:11:34,154] PreCondition - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-26 10:11:34,212]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:11:34,213] PreCondition - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-26 10:11:34,271]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:11:34,271] PreCondition - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-26 10:11:35,851] PreCondition - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-26 10:11:35,989] PreCondition - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-26 10:11:36,671] PreCondition - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-26 10:11:37,394] PreCondition - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-26 10:11:37,559] PreCondition - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-26 10:11:37,700] PreCondition - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-26 10:11:37,889] PreCondition - Step 11 : Input To Email textbox with value: hoanganh136@gmail.com
+[INFO ] [2020-11-26 10:11:38,543] PreCondition - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-26 10:11:39,216] PreCondition - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-26 10:11:40,552] PreCondition - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-26 10:11:40,727] PreCondition - Step 15 : Verify success message displayed
+[INFO ] [2020-11-26 10:12:31,162] PreCondition - Step 01 : Open Home Page
+[INFO ] [2020-11-26 10:12:31,162] PreCondition - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-26 10:12:31,222]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:12:31,222] PreCondition - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-26 10:12:31,266]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:12:31,266] PreCondition - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-26 10:12:32,793] PreCondition - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-26 10:12:32,911] PreCondition - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-26 10:12:33,569] PreCondition - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-26 10:12:34,226] PreCondition - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-26 10:12:34,405] PreCondition - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-26 10:12:34,543] PreCondition - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-26 10:12:34,684] PreCondition - Step 11 : Input To Email textbox with value: hoanganh183@gmail.com
+[INFO ] [2020-11-26 10:12:35,428] PreCondition - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-26 10:12:36,116] PreCondition - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-26 10:12:37,511] PreCondition - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-26 10:12:39,262] PreCondition - Step 15 : Verify success message displayed
+[INFO ] [2020-11-26 10:12:39,328]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:13:50,984] PreCondition - Step 01 : Open Home Page
+[INFO ] [2020-11-26 10:13:50,988] PreCondition - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-26 10:13:51,051]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:13:51,052] PreCondition - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-26 10:13:51,110]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:13:51,110] PreCondition - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-26 10:13:52,829] PreCondition - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-26 10:13:52,936] PreCondition - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-26 10:13:53,596] PreCondition - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-26 10:13:54,282] PreCondition - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-26 10:13:54,424] PreCondition - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-26 10:13:54,576] PreCondition - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-26 10:13:54,716] PreCondition - Step 11 : Input To Email textbox with value: hoanganh571@gmail.com
+[INFO ] [2020-11-26 10:13:55,379] PreCondition - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-26 10:13:56,063] PreCondition - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-26 10:13:57,387] PreCondition - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-26 10:13:59,912] PreCondition - Step 15 : Verify success message displayed
+[INFO ] [2020-11-26 10:13:59,992]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:14:10,310] PreCondition - Step 01 : Open Home Page
+[INFO ] [2020-11-26 10:14:10,311] PreCondition - Step 02 : Verify Register Link Displayed
+[INFO ] [2020-11-26 10:14:10,370]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:14:10,371] PreCondition - Step 03 : Verify Login Link Displayed
+[INFO ] [2020-11-26 10:14:10,415]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 10:14:10,415] PreCondition - Step 04 : Click To Register Link at Home Page
+[INFO ] [2020-11-26 10:14:12,032] PreCondition - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2020-11-26 10:14:12,142] PreCondition - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-26 10:14:12,805] PreCondition - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-26 10:14:13,490] PreCondition - Step 08 : Select Day Dropdown
+[INFO ] [2020-11-26 10:14:13,628] PreCondition - Step 09 : Select Month Dropdown
+[INFO ] [2020-11-26 10:14:13,767] PreCondition - Step 10 : Select Year Dropdown
+[INFO ] [2020-11-26 10:14:13,907] PreCondition - Step 11 : Input To Email textbox with value: hoanganh248@gmail.com
+[INFO ] [2020-11-26 10:14:14,572] PreCondition - Step 12 : Input To Company Name textbox 
+[INFO ] [2020-11-26 10:14:15,281] PreCondition - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-26 10:14:16,623] PreCondition - Step 14 : Click to Register Button at Register Page
+[INFO ] [2020-11-26 10:14:18,442] PreCondition - Step 15 : Verify success message displayed
+[INFO ] [2020-11-26 10:14:18,508]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 12:16:30,964] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-11-26 12:16:32,343] Precondition - Step 02 : Input to Email textbox with value : hoanganh603@gmail.com
+[INFO ] [2020-11-26 12:16:33,064] Precondition - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 12:16:33,740] Precondition - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-26 12:16:35,630] Precondition - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-26 12:16:35,701]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 12:16:46,062] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-11-26 12:16:47,486] Precondition - Step 02 : Input to Email textbox with value : hoanganh603@gmail.com
+[INFO ] [2020-11-26 12:16:48,168] Precondition - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 12:16:48,839] Precondition - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-26 12:16:49,856] Precondition - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-26 12:16:49,933]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 12:36:33,448] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-11-26 12:36:34,780] Precondition - Step 02 : Input to Email textbox with value : hoanganh224@gmail.com
+[INFO ] [2020-11-26 12:36:35,463] Precondition - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 12:36:36,182] Precondition - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-26 12:36:37,978] Precondition - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-26 12:36:38,054]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 12:36:48,450] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-11-26 12:36:49,897] Precondition - Step 02 : Input to Email textbox with value : hoanganh224@gmail.com
+[INFO ] [2020-11-26 12:36:50,563] Precondition - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 12:36:51,217] Precondition - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-26 12:36:53,765] Precondition - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-26 12:36:53,846]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 12:38:53,010] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-11-26 12:38:54,478] Precondition - Step 02 : Input to Email textbox with value : hoanganh390@gmail.com
+[INFO ] [2020-11-26 12:38:55,171] Precondition - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 12:38:55,833] Precondition - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-26 12:38:57,605] Precondition - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-26 12:38:57,679]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 12:39:08,099] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-11-26 12:39:09,514] Precondition - Step 02 : Input to Email textbox with value : hoanganh390@gmail.com
+[INFO ] [2020-11-26 12:39:10,178] Precondition - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 12:39:10,842] Precondition - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-26 12:39:12,569] Precondition - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-26 12:39:12,636]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 14:06:41,851] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-11-26 14:06:43,230] Precondition - Step 02 : Input to Email textbox with value : hoanganh818@gmail.com
+[INFO ] [2020-11-26 14:06:43,906] Precondition - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 14:06:44,590] Precondition - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-26 14:06:46,479] Precondition - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-26 14:06:46,557]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 14:07:44,223] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-11-26 14:07:45,618] Precondition - Step 02 : Input to Email textbox with value : hoanganh227@gmail.com
+[INFO ] [2020-11-26 14:07:46,300] Precondition - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 14:07:49,642] Precondition - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-26 14:07:49,715]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 14:08:34,005] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-11-26 14:08:35,422] Precondition - Step 02 : Input to Email textbox with value : hoanganh100@gmail.com
+[INFO ] [2020-11-26 14:08:36,080] Precondition - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 14:08:36,748] Precondition - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-26 14:08:36,748] Precondition - Step 05 : Verigy My account link displayed
+[INFO ] [2020-11-26 14:21:49,452] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-11-26 14:21:50,174] Precondition - Step 02 : Input to Email textbox with value : null
+[INFO ] [2020-11-26 14:22:16,739] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-11-26 14:22:18,131] Precondition - Step 02 : Input to Email textbox with value : null
+[INFO ] [2020-11-26 23:25:31,589] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-26 23:25:31,604] Register - Step 02 : Click To Register Link at Home Page
+[INFO ] [2020-11-26 23:25:33,256] Register - Step 03 : Click To Gender Male Radio Button
+[INFO ] [2020-11-26 23:25:33,374] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-26 23:25:34,058] Register - Step 05 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-26 23:25:34,719] Register - Step 06 : Select Day Dropdown with value: 11
+[INFO ] [2020-11-26 23:25:34,885] Register - Step 07 : Select Month Dropdown with value: September
+[INFO ] [2020-11-26 23:25:35,009] Register - Step 08 : Select Year Dropdown with value: 1989
+[INFO ] [2020-11-26 23:25:35,138] Register - Step 09 : Input To Email textbox with value: hoanganh657@gmail.com
+[INFO ] [2020-11-26 23:25:35,802] Register - Step 10 : Input To Company Name textbox 
+[INFO ] [2020-11-26 23:25:36,467] Register - Step 11 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-26 23:25:37,819] Register - Step 12 : Click to Register Button at Register Page
+[INFO ] [2020-11-26 23:26:28,909] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-26 23:27:54,707] OS name = windows 10
+[INFO ] [2020-11-26 23:27:55,526] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2020-11-26 23:28:39,923] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-26 23:28:39,924] Register - Step 02 : Click To Register Link at Home Page
+[INFO ] [2020-11-26 23:28:41,458] Register - Step 03 : Click To Gender Male Radio Button
+[INFO ] [2020-11-26 23:28:41,586] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-26 23:28:42,245] Register - Step 05 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-26 23:28:42,908] Register - Step 06 : Select Day Dropdown with value: 11
+[INFO ] [2020-11-26 23:28:43,039] Register - Step 07 : Select Month Dropdown with value: September
+[INFO ] [2020-11-26 23:28:43,178] Register - Step 08 : Select Year Dropdown with value: 1989
+[INFO ] [2020-11-26 23:28:43,305] Register - Step 09 : Input To Email textbox with value: hoanganh278@gmail.com
+[INFO ] [2020-11-26 23:28:43,981] Register - Step 10 : Input To Company Name textbox 
+[INFO ] [2020-11-26 23:28:44,680] Register - Step 11 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-26 23:28:46,035] Register - Step 12 : Click to Register Button at Register Page
+[INFO ] [2020-11-26 23:29:27,047] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-26 23:29:27,620] Login - Step 02 : Input to Email textbox with value : hoanganh278@gmail.com
+[INFO ] [2020-11-26 23:29:28,375] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 23:29:29,052] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-26 23:29:29,655] OS name = windows 10
+[INFO ] [2020-11-26 23:29:30,427] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2020-11-26 23:30:24,408] OS name = windows 10
+[INFO ] [2020-11-26 23:30:24,409] 
+[INFO ] [2020-11-26 23:31:18,795] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-26 23:31:18,797] Register - Step 02 : Click To Register Link at Home Page
+[INFO ] [2020-11-26 23:31:20,408] Register - Step 03 : Click To Gender Male Radio Button
+[INFO ] [2020-11-26 23:31:20,537] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-26 23:31:21,211] Register - Step 05 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-26 23:31:21,886] Register - Step 06 : Select Day Dropdown with value: 11
+[INFO ] [2020-11-26 23:31:22,021] Register - Step 07 : Select Month Dropdown with value: September
+[INFO ] [2020-11-26 23:31:22,145] Register - Step 08 : Select Year Dropdown with value: 1989
+[INFO ] [2020-11-26 23:31:22,272] Register - Step 09 : Input To Email textbox with value: hoanganh919@gmail.com
+[INFO ] [2020-11-26 23:31:22,930] Register - Step 10 : Input To Company Name textbox 
+[INFO ] [2020-11-26 23:31:23,606] Register - Step 11 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-26 23:31:24,977] Register - Step 12 : Click to Register Button at Register Page
+[INFO ] [2020-11-26 23:32:05,959] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-26 23:32:07,362] Login - Step 02 : Input to Email textbox with value : hoanganh919@gmail.com
+[INFO ] [2020-11-26 23:32:08,048] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 23:32:08,760] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-26 23:32:09,312] OS name = windows 10
+[INFO ] [2020-11-26 23:32:10,064] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2020-11-26 23:49:09,610] Register - Step 01 : Open Home Page
+[INFO ] [2020-11-26 23:49:09,611] Register - Step 02 : Click To Register Link at Home Page
+[INFO ] [2020-11-26 23:49:11,199] Register - Step 03 : Click To Gender Male Radio Button
+[INFO ] [2020-11-26 23:49:11,328] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-11-26 23:49:12,002] Register - Step 05 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-11-26 23:49:12,678] Register - Step 06 : Select Day Dropdown with value: 11
+[INFO ] [2020-11-26 23:49:12,811] Register - Step 07 : Select Month Dropdown with value: September
+[INFO ] [2020-11-26 23:49:12,980] Register - Step 08 : Select Year Dropdown with value: 1989
+[INFO ] [2020-11-26 23:49:13,105] Register - Step 09 : Input To Email textbox with value: hoanganh765@gmail.com
+[INFO ] [2020-11-26 23:49:13,772] Register - Step 10 : Input To Company Name textbox 
+[INFO ] [2020-11-26 23:49:14,455] Register - Step 11 : Input To Password textbox with value: 123456
+[INFO ] [2020-11-26 23:49:15,809] Register - Step 12 : Click to Register Button at Register Page
+[INFO ] [2020-11-26 23:49:18,472] Register - Step 13 : Verify success message displayed
+[INFO ] [2020-11-26 23:49:18,551]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-11-26 23:49:18,551] Register - Step 14 : Click To Logout Link and navigate to home page
+[INFO ] [2020-11-26 23:49:20,305] Login - Step 01 : Open Login Page
+[INFO ] [2020-11-26 23:49:20,886] Login - Step 02 : Input to Email textbox with value : hoanganh765@gmail.com
+[INFO ] [2020-11-26 23:49:21,549] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-11-26 23:49:22,213] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-11-26 23:49:24,091] OS name = windows 10
+[INFO ] [2020-11-26 23:49:24,860] ---------- QUIT BROWSER SUCCESS ----------

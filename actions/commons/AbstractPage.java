@@ -1,6 +1,5 @@
 package commons;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -166,6 +165,11 @@ public class AbstractPage {
 
 	public void selectItemInDropdown(WebDriver driver, String locator, String itemValue) {
 		element = getElement(driver, locator);
+		Select select = new Select(element);
+		select.selectByVisibleText(itemValue);
+	}
+	public void selectItemInDropdown(WebDriver driver, String locator, String itemValue,String...values) {
+		element = getElement(driver, getDynamicLocator(locator, values));
 		Select select = new Select(element);
 		select.selectByVisibleText(itemValue);
 	}
@@ -469,54 +473,6 @@ public class AbstractPage {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
 	}
 
-//4 hàm mở page
-	public UserAddressesPO openAddressesPage(WebDriver driver) {
-		waitToElementClickAble(driver, AbstractPageUI.ADDRESSES_LINK);
-		clickToElement(driver, AbstractPageUI.ADDRESSES_LINK);
-		return PageGeneratorManager.getUserAddressesPage(driver);
-	}
-
-	public UserMyproductReviewsPO openMyProductReviewPage(WebDriver driver) {
-		waitToElementClickAble(driver, AbstractPageUI.MY_PRODUCT_REVIEW_LINK);
-		clickToElement(driver, AbstractPageUI.MY_PRODUCT_REVIEW_LINK);
-		return PageGeneratorManager.getUserMyproductReviewsPage(driver);
-	}
-
-	public UserCustomerInforPO openCustomerInforPage(WebDriver driver) {
-		waitToElementClickAble(driver, AbstractPageUI.CUSTOMER_INFO_LINK);
-		clickToElement(driver, AbstractPageUI.CUSTOMER_INFO_LINK);
-		return PageGeneratorManager.getUserCustomerInforPage(driver);
-	}
-
-	public UserOrdersPO openOrderPage(WebDriver driver) {
-		waitToElementClickAble(driver, AbstractPageUI.ORDER_LINK);
-		clickToElement(driver, AbstractPageUI.ORDER_LINK);
-		return PageGeneratorManager.getUserOrdersPage(driver);
-	}
-
-//cach1: dùng cho page nhỏ:10-15 page
-	public AbstractPage openLinkByPageName(WebDriver driver, String pageName) {
-		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
-		clickToElement(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
-
-		switch (pageName) {
-		case "Addresses":
-			return PageGeneratorManager.getUserAddressesPage(driver);
-		case "My product reviews":
-			return PageGeneratorManager.getUserMyproductReviewsPage(driver);
-		case "Customer info":
-			return PageGeneratorManager.getUserCustomerInforPage(driver);
-		default:
-			return PageGeneratorManager.getUserOrdersPage(driver);
-		}
-	}
-
-	// cách 2:
-	public void openLinkWithPageName(WebDriver driver, String pageName) {
-		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
-		clickToElement(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
-	}
-
 	public void waitAjaxLoadingInvisible(WebDriver driver) {
 		waitToElementInvisible(driver, AbstractPageUI.LOADING_ICON);
 	}
@@ -543,5 +499,73 @@ public class AbstractPage {
 			clickToElement(driver, AbstractPageUI.PLUS_ICON_BY_PANEL, panelID);
 			sleepInMilisecond(500);
 		}
+	}
+
+	// 4 hàm mở page
+	public UserAddressesPO openAddressesPage(WebDriver driver) {
+		waitToElementClickAble(driver, AbstractPageUI.ADDRESSES_LINK);
+		clickToElement(driver, AbstractPageUI.ADDRESSES_LINK);
+		return PageGeneratorManager.getUserAddressesPage(driver);
+	}
+
+	public UserMyproductReviewsPO openMyProductReviewPage(WebDriver driver) {
+		waitToElementClickAble(driver, AbstractPageUI.MY_PRODUCT_REVIEW_LINK);
+		clickToElement(driver, AbstractPageUI.MY_PRODUCT_REVIEW_LINK);
+		return PageGeneratorManager.getUserMyproductReviewsPage(driver);
+	}
+
+	public UserCustomerInforPO openCustomerInforPage(WebDriver driver) {
+		waitToElementClickAble(driver, AbstractPageUI.CUSTOMER_INFO_LINK);
+		clickToElement(driver, AbstractPageUI.CUSTOMER_INFO_LINK);
+		return PageGeneratorManager.getUserCustomerInforPage(driver);
+	}
+
+	public UserOrdersPO openOrderPage(WebDriver driver) {
+		waitToElementClickAble(driver, AbstractPageUI.ORDER_LINK);
+		clickToElement(driver, AbstractPageUI.ORDER_LINK);
+		return PageGeneratorManager.getUserOrdersPage(driver);
+	}
+
+	// cach1: dùng cho page nhỏ:10-15 page
+	public AbstractPage openLinkByPageName(WebDriver driver, String pageName) {
+		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
+		clickToElement(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
+
+		switch (pageName) {
+		case "Addresses":
+			return PageGeneratorManager.getUserAddressesPage(driver);
+		case "My product reviews":
+			return PageGeneratorManager.getUserMyproductReviewsPage(driver);
+		case "Customer info":
+			return PageGeneratorManager.getUserCustomerInforPage(driver);
+		default:
+			return PageGeneratorManager.getUserOrdersPage(driver);
+		}
+	}
+
+	// cách 2:
+	public void openLinkWithPageName(WebDriver driver, String pageName) {
+		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
+		clickToElement(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
+	}
+	public void clickToRadioButtonByID(WebDriver driver,String radioButtonID) {
+		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID);
+		clickToElement(driver, AbstractPageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID);
+	}
+	public void inputToTextboxByID(WebDriver driver,String textboxID,String value) {
+		waitToElementVisible(driver, AbstractPageUI.DYNAMIC_TEXTBOX_BY_ID,textboxID);
+		senkeyToElement(driver, AbstractPageUI.DYNAMIC_TEXTBOX_BY_ID,value, textboxID);
+	}
+	public void clickToButtonByValue(WebDriver driver,String buttonValue) {
+		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_BUTTON_BY_VALUE,buttonValue);
+		clickToElement(driver, AbstractPageUI.DYNAMIC_BUTTON_BY_VALUE,buttonValue);
+	}
+	public void selectDropdownByName(WebDriver driver,String dropdownName,String itemValue) {
+		waitToElementVisible(driver, AbstractPageUI.DYNAMIC_DROPDOWN_BY_NAME,dropdownName);
+		selectItemInDropdown(driver, AbstractPageUI.DYNAMIC_DROPDOWN_BY_NAME,itemValue, dropdownName);
+	}
+	public String getErrorMesageAtMandantoryFieldByID(WebDriver driver,String fieldID) {
+		waitToElementVisible(driver, AbstractPageUI.DYNAMIC_ERROR_MESSAGE_BY_ID,fieldID);
+		return getElementText(driver, AbstractPageUI.DYNAMIC_ERROR_MESSAGE_BY_ID, fieldID);
 	}
 }

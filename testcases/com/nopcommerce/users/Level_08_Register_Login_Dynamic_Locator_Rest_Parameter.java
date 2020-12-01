@@ -20,7 +20,7 @@ import pageObjects.UserOrdersPO;
 import pageObjects.PageGeneratorManager;
 import pageObjects.UserRegisterPO;
 
-public class Level_08_Register_Login_Rest_Parameter extends AbstractTest {
+public class Level_08_Register_Login_Dynamic_Locator_Rest_Parameter extends AbstractTest {
 
 	WebDriver driver;
 	// tạo bộ DL
