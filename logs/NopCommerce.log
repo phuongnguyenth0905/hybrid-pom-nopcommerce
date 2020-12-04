@@ -795,3 +795,40 @@
 [INFO ] [2020-11-26 23:49:22,213] Login - Step 04 : Click to Login button at Login Page
 [INFO ] [2020-11-26 23:49:24,091] OS name = windows 10
 [INFO ] [2020-11-26 23:49:24,860] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2020-12-02 10:49:03,382] Validate - Step 01 : Open Home Page
+[INFO ] [2020-12-02 10:49:03,405] Validate - Step 02 : Click To Register Link at Home Page
+[INFO ] [2020-12-02 10:49:05,170] Validate - Step 03 : Click To Register Button
+[INFO ] [2020-12-02 10:49:05,314] Validate - Step 04 : Verify error message displayed at FirstName textbox
+[INFO ] [2020-12-03 10:42:19,105] Validate - Step 01 : Open Home Page
+[INFO ] [2020-12-03 10:42:19,133] Validate - Step 02 : Click To Register Link at Home Page
+[INFO ] [2020-12-03 10:42:20,758] Validate - Step 03 : Click To Register Button
+[INFO ] [2020-12-03 10:42:20,900] Validate - Step 04 : Verify error message displayed at FirstName textbox
+[INFO ] [2020-12-03 12:58:06,535] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-12-03 12:58:07,914] Precondition - Step 02 : Input to Email textbox with value : null
+[INFO ] [2020-12-03 12:58:08,649] OS name = windows 10
+[INFO ] [2020-12-03 12:58:09,428] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2020-12-03 12:59:25,451] Validate - Step 01 : Open Home Page
+[INFO ] [2020-12-03 12:59:25,452] Validate - Step 02 : Click To Register Link at Home Page
+[INFO ] [2020-12-03 12:59:27,017] Validate - Step 03 : Click To Register Button
+[INFO ] [2020-12-03 12:59:27,199] Validate - Step 04 : Verify error message displayed at FirstName textbox
+[INFO ] [2020-12-03 13:00:08,223] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-03 13:00:08,223] Register - Step 02 : Click To Register Link at Home Page
+[INFO ] [2020-12-03 13:00:09,569] Register - Step 03 : Click To Gender Male Radio Button
+[INFO ] [2020-12-03 13:00:09,703] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-03 13:00:10,383] Register - Step 05 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-12-03 13:00:11,080] Register - Step 06 : Select Day Dropdown with value: 11
+[INFO ] [2020-12-03 13:00:11,285] Register - Step 07 : Select Month Dropdown with value: September
+[INFO ] [2020-12-03 13:00:11,471] Register - Step 08 : Select Year Dropdown with value: 1989
+[INFO ] [2020-12-03 13:00:11,599] Register - Step 09 : Input To Email textbox with value: hoanganh382@gmail.com
+[INFO ] [2020-12-03 13:00:12,274] Register - Step 10 : Input To Company Name textbox 
+[INFO ] [2020-12-03 13:00:12,957] Register - Step 11 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-03 13:00:14,313] Register - Step 12 : Click to Register Button at Register Page
+[INFO ] [2020-12-03 13:00:16,756] Register - Step 13 : Verify success message displayed
+[INFO ] [2020-12-03 13:00:16,829]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-03 13:00:16,829] Register - Step 14 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-03 13:00:18,516] Login - Step 01 : Open Login Page
+[INFO ] [2020-12-03 13:00:19,854] Login - Step 02 : Input to Email textbox with value : hoanganh382@gmail.com
+[INFO ] [2020-12-03 13:00:20,509] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-12-03 13:00:21,176] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-12-03 13:00:22,246] OS name = windows 10
+[INFO ] [2020-12-03 13:00:23,016] ---------- QUIT BROWSER SUCCESS ----------

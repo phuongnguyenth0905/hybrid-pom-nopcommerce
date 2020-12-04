@@ -16,14 +16,14 @@ import com.beust.jcommander.Parameter;
 
 import commons.AbstractPage;
 import commons.AbstractTest;
-import pageObjects.UserAddressesPO;
-import pageObjects.UserCustomerInforPO;
-import pageObjects.UserHomePO;
-import pageObjects.UserLoginPO;
-import pageObjects.UserMyproductReviewsPO;
-import pageObjects.UserOrdersPO;
-import pageObjects.PageGeneratorManager;
-import pageObjects.UserRegisterPO;
+import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.UserAddressesPO;
+import pageObjects.nopCommerce.UserCustomerInforPO;
+import pageObjects.nopCommerce.UserHomePO;
+import pageObjects.nopCommerce.UserLoginPO;
+import pageObjects.nopCommerce.UserMyproductReviewsPO;
+import pageObjects.nopCommerce.UserOrdersPO;
+import pageObjects.nopCommerce.UserRegisterPO;
 
 public class Level_07_Register_Login_Swith_Page_Type extends AbstractTest {
 

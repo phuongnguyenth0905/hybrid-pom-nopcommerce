@@ -15,12 +15,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import pageObjects.UserAddressesPO;
-import pageObjects.UserCustomerInforPO;
-import pageObjects.UserMyproductReviewsPO;
-import pageObjects.UserOrdersPO;
-import pageObjects.PageGeneratorManager;
-import pageUI.AbstractPageUI;
+import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.UserAddressesPO;
+import pageObjects.nopCommerce.UserCustomerInforPO;
+import pageObjects.nopCommerce.UserMyproductReviewsPO;
+import pageObjects.nopCommerce.UserOrdersPO;
+import pageUI.nopCommerce.AbstractPageUI;
 
 public class AbstractPage {
 	// WebDriver driver;

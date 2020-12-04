@@ -8,10 +8,10 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.AbstractTest;
-import pageObjects.AdminDashboardPO;
-import pageObjects.AdminLoginPO;
-import pageObjects.AdminProductPO;
-import pageObjects.PageGeneratorManager;
+import pageObjects.nopCommerce.AdminDashboardPO;
+import pageObjects.nopCommerce.AdminLoginPO;
+import pageObjects.nopCommerce.AdminProductPO;
+import pageObjects.nopCommerce.PageGeneratorManager;
 
 public class Level_10_Upload_File extends AbstractTest {
 

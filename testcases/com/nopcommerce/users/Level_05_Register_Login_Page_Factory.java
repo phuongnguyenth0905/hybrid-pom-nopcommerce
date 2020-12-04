@@ -9,10 +9,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import commons.AbstractTest;
-import pageFactory.CustomerInforPageObject;
-import pageFactory.HomePageObject;
-import pageFactory.LoginPageObject;
-import pageFactory.RegisterPageObject;
+import pageFactory.nopCommerce.CustomerInforPageObject;
+import pageFactory.nopCommerce.HomePageObject;
+import pageFactory.nopCommerce.LoginPageObject;
+import pageFactory.nopCommerce.RegisterPageObject;
 
 public class Level_05_Register_Login_Page_Factory extends AbstractTest {
 

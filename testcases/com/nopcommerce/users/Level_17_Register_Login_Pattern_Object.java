@@ -1,7 +1,5 @@
 package com.nopcommerce.users;
 
-import java.util.Random;
-
 import org.openqa.selenium.WebDriver;
 
 import org.testng.Assert;
@@ -11,14 +9,14 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.AbstractTest;
-import pageObjects.UserAddressesPO;
-import pageObjects.UserCustomerInforPO;
-import pageObjects.UserHomePO;
-import pageObjects.UserLoginPO;
-import pageObjects.UserMyproductReviewsPO;
-import pageObjects.UserOrdersPO;
-import pageObjects.PageGeneratorManager;
-import pageObjects.UserRegisterPO;
+import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.UserAddressesPO;
+import pageObjects.nopCommerce.UserCustomerInforPO;
+import pageObjects.nopCommerce.UserHomePO;
+import pageObjects.nopCommerce.UserLoginPO;
+import pageObjects.nopCommerce.UserMyproductReviewsPO;
+import pageObjects.nopCommerce.UserOrdersPO;
+import pageObjects.nopCommerce.UserRegisterPO;
 
 public class Level_17_Register_Login_Pattern_Object extends AbstractTest {
 

@@ -10,9 +10,9 @@ import org.testng.annotations.Test;
 
 import com.nopcommerce.common.Common_01_Register;
 import commons.AbstractTest;
-import pageObjects.UserHomePO;
-import pageObjects.UserLoginPO;
-import pageObjects.PageGeneratorManager;
+import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.UserHomePO;
+import pageObjects.nopCommerce.UserLoginPO;
 
 public class Level_16_Register_Login_Close_Browser extends AbstractTest {
 

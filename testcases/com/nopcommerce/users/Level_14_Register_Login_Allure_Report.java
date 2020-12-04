@@ -16,14 +16,14 @@ import io.qameta.allure.Feature;
 
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
-import pageObjects.UserAddressesPO;
-import pageObjects.UserCustomerInforPO;
-import pageObjects.UserHomePO;
-import pageObjects.UserLoginPO;
-import pageObjects.UserMyproductReviewsPO;
-import pageObjects.UserOrdersPO;
-import pageObjects.PageGeneratorManager;
-import pageObjects.UserRegisterPO;
+import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.UserAddressesPO;
+import pageObjects.nopCommerce.UserCustomerInforPO;
+import pageObjects.nopCommerce.UserHomePO;
+import pageObjects.nopCommerce.UserLoginPO;
+import pageObjects.nopCommerce.UserMyproductReviewsPO;
+import pageObjects.nopCommerce.UserOrdersPO;
+import pageObjects.nopCommerce.UserRegisterPO;
 
 
 @Feature("User")
