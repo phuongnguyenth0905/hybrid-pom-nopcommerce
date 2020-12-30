@@ -26,7 +26,7 @@ public class AdminLoginPO extends AbstractPage{
 	public AdminDashboardPO clickToLoginButton() {
 		waitToElementClickAble(driver, AdminLoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, AdminLoginPageUI.LOGIN_BUTTON);
-		return PageGeneratorManager.getAdminDashboardPO(driver);
+		return PageGeneratorManagerNopCommerce.getAdminDashboardPO(driver);
 	}
 
 	public AdminDashboardPO loginToSystem(String email, String password) {

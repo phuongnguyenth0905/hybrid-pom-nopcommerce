@@ -16,7 +16,7 @@ import com.beust.jcommander.Parameter;
 
 import commons.AbstractPage;
 import commons.AbstractTest;
-import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.UserCustomerInforPO;
 import pageObjects.nopCommerce.UserHomePO;
 import pageObjects.nopCommerce.UserLoginPO;
@@ -54,7 +54,7 @@ public class Level_06_Register_Login_Page_Generator_Manager extends AbstractTest
 	@Test
 	public void TC_01_Register() {
 
-		homePage = PageGeneratorManager.getUserHomePage(driver);
+		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 		homePage.clickToRegisterLink();
 		registerPage = new UserRegisterPO(driver);
 		// sleepInSecond(1);

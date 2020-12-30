@@ -9,7 +9,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.AbstractTest;
-import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.UserAddressesPO;
 import pageObjects.nopCommerce.UserCustomerInforPO;
 import pageObjects.nopCommerce.UserHomePO;
@@ -45,7 +45,7 @@ public class Level_17_Register_Login_Pattern_Object extends AbstractTest {
 	@Test
 	public void TC_01_Validate_At_Register_Form() {
 		log.info("Validate - Step 01 : Open Home Page");
-		homePage = PageGeneratorManager.getUserHomePage(driver);
+		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 
 		log.info("Validate - Step 02 : Click To Register Link at Home Page");
 		registerPage = homePage.clickToRegisterLink();
@@ -75,7 +75,7 @@ public class Level_17_Register_Login_Pattern_Object extends AbstractTest {
 	@Test
 	public void TC_02_Register_Success() {
 		log.info("Register - Step 01 : Open Home Page");
-		homePage = PageGeneratorManager.getUserHomePage(driver);
+		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 
 		log.info("Register - Step 02 : Click To Register Link at Home Page");
 		registerPage = homePage.clickToRegisterLink();
@@ -132,7 +132,7 @@ public class Level_17_Register_Login_Pattern_Object extends AbstractTest {
 
 		log.info("Login - Step 04 : Click to Login button at Login Page");
 		loginPage.clickToButtonByValue(driver, "Log in");
-		homePage=PageGeneratorManager.getUserHomePage(driver);
+		homePage=PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 
 //		log.info("Login - Step 05 : Verigy My account link displayed");
 //		verifyTrue(homePage.isMyAccountLinkDisplayed());
@@ -194,13 +194,13 @@ public class Level_17_Register_Login_Pattern_Object extends AbstractTest {
 	// @Test
 	public void TC_05_Rest_Parameter_02() {
 		customerInforPage.openLinkWithPageName(driver, "Addresses");
-		adressesPage = PageGeneratorManager.getUserAddressesPage(driver);
+		adressesPage = PageGeneratorManagerNopCommerce.getUserAddressesPage(driver);
 
 		adressesPage.openLinkWithPageName(driver, "Customer info");
-		customerInforPage = PageGeneratorManager.getUserCustomerInforPage(driver);
+		customerInforPage = PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 
 		customerInforPage.openLinkWithPageName(driver, "My product reviews");
-		myProductPage = PageGeneratorManager.getUserMyproductReviewsPage(driver);
+		myProductPage = PageGeneratorManagerNopCommerce.getUserMyproductReviewsPage(driver);
 	}
 
 

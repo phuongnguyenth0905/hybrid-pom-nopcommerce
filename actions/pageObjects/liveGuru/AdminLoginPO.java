@@ -12,7 +12,7 @@ public class AdminLoginPO extends AbstractPage{
 		this.driver = driver;
 		
 	}
-
+//ko dùng
 	public void inputToEmailTextbox(String email) {
 		waitToElementVisible(driver, AdminLoginPageUI.EMAIL_TEXTBOX);
 		sendkeyToElement(driver, AdminLoginPageUI.EMAIL_TEXTBOX, email);
@@ -26,7 +26,7 @@ public class AdminLoginPO extends AbstractPage{
 	public AdminDashboardPO clickToLoginButton() {
 		waitToElementClickAble(driver, AdminLoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, AdminLoginPageUI.LOGIN_BUTTON);
-		return PageGeneratorManager.getAdminDashboardPO(driver);
+		return PageGeneratorManagerliveGuru.getAdminDashboardPO(driver);
 	}
 
 	public AdminDashboardPO loginToSystem(String email, String password) {

@@ -15,12 +15,18 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.UserAddressesPO;
 import pageObjects.nopCommerce.UserCustomerInforPO;
 import pageObjects.nopCommerce.UserMyproductReviewsPO;
 import pageObjects.nopCommerce.UserOrdersPO;
-import pageUI.nopCommerce.AbstractPageUI;
+import pageUI.nopCommerce.NopCommerceAbstractPageUI;
+import pageObjects.liveGuru.UserAdvancedSearchPO;
+import pageObjects.liveGuru.UserCheckoutPO;
+import pageObjects.liveGuru.UserMobilePO;
+import pageObjects.liveGuru.UserTVPO;
+import pageObjects.liveGuru.PageGeneratorManagerliveGuru;
+import pageUI.liveGuru.LiveGuruAbstractPageUI;
 
 public class AbstractPage {
 	// WebDriver driver;
@@ -154,7 +160,7 @@ public class AbstractPage {
 		element.sendKeys(value);
 	}
 
-	public void senkeyToElement(WebDriver driver, String locator, String value, String... values) {
+	public void sendkeyToElement(WebDriver driver, String locator, String value, String... values) {
 		element = getElement(driver, getDynamicLocator(locator, values));
 		element.clear();
 		if (driver.toString().toLowerCase().contains("chrome") || driver.toString().toLowerCase().contains("edge")) {
@@ -168,7 +174,8 @@ public class AbstractPage {
 		Select select = new Select(element);
 		select.selectByVisibleText(itemValue);
 	}
-	public void selectItemInDropdown(WebDriver driver, String locator, String itemValue,String...values) {
+
+	public void selectItemInDropdown(WebDriver driver, String locator, String itemValue, String... values) {
 		element = getElement(driver, getDynamicLocator(locator, values));
 		Select select = new Select(element);
 		select.selectByVisibleText(itemValue);
@@ -240,12 +247,12 @@ public class AbstractPage {
 
 	public String getElementText(WebDriver driver, String locator) {
 		element = getElement(driver, locator);
-		return element.getText();
+		return element.getText().trim();
 	}
 
 	public String getElementText(WebDriver driver, String locator, String... values) {
 		element = getElement(driver, getDynamicLocator(locator, values));
-		return element.getText();
+		return element.getText().trim();
 	}
 
 	public int countElementSize(WebDriver driver, String locator) {
@@ -474,7 +481,7 @@ public class AbstractPage {
 	}
 
 	public void waitAjaxLoadingInvisible(WebDriver driver) {
-		waitToElementInvisible(driver, AbstractPageUI.LOADING_ICON);
+		waitToElementInvisible(driver, NopCommerceAbstractPageUI.LOADING_ICON);
 	}
 
 	public void uploadFileByPanelD(WebDriver driver, String panelID, String... fileNames) {
@@ -488,84 +495,137 @@ public class AbstractPage {
 		// senkeyToElement(driver, AbstractPageUI.UPLOAD_FILE_BY_PANEL, fullFileName, panelID);
 
 		// Dùng cho firefox
-		getElement(driver, getDynamicLocator(AbstractPageUI.UPLOAD_FILE_BY_PANEL, panelID)).sendKeys(fullFileName);
+		getElement(driver, getDynamicLocator(NopCommerceAbstractPageUI.UPLOAD_FILE_BY_PANEL, panelID)).sendKeys(fullFileName);
 	}
 
 	public void clickToPlusIconByPanelID(WebDriver driver, String panelID) {
-		waitToElementClickAble(driver, AbstractPageUI.PLUS_ICON_BY_PANEL, panelID);
-		String iconAttibuteValue = getElementAttribute(driver, AbstractPageUI.PLUS_ICON_BY_PANEL, "class", panelID);
+		waitToElementClickAble(driver, NopCommerceAbstractPageUI.PLUS_ICON_BY_PANEL, panelID);
+		String iconAttibuteValue = getElementAttribute(driver, NopCommerceAbstractPageUI.PLUS_ICON_BY_PANEL, "class", panelID);
 
 		if (iconAttibuteValue.contains("fa-plus")) {
-			clickToElement(driver, AbstractPageUI.PLUS_ICON_BY_PANEL, panelID);
+			clickToElement(driver, NopCommerceAbstractPageUI.PLUS_ICON_BY_PANEL, panelID);
 			sleepInMilisecond(500);
 		}
 	}
 
 	// 4 hàm mở page
 	public UserAddressesPO openAddressesPage(WebDriver driver) {
-		waitToElementClickAble(driver, AbstractPageUI.ADDRESSES_LINK);
-		clickToElement(driver, AbstractPageUI.ADDRESSES_LINK);
-		return PageGeneratorManager.getUserAddressesPage(driver);
+		waitToElementClickAble(driver, NopCommerceAbstractPageUI.ADDRESSES_LINK);
+		clickToElement(driver, NopCommerceAbstractPageUI.ADDRESSES_LINK);
+		return PageGeneratorManagerNopCommerce.getUserAddressesPage(driver);
 	}
 
 	public UserMyproductReviewsPO openMyProductReviewPage(WebDriver driver) {
-		waitToElementClickAble(driver, AbstractPageUI.MY_PRODUCT_REVIEW_LINK);
-		clickToElement(driver, AbstractPageUI.MY_PRODUCT_REVIEW_LINK);
-		return PageGeneratorManager.getUserMyproductReviewsPage(driver);
+		waitToElementClickAble(driver, NopCommerceAbstractPageUI.MY_PRODUCT_REVIEW_LINK);
+		clickToElement(driver, NopCommerceAbstractPageUI.MY_PRODUCT_REVIEW_LINK);
+		return PageGeneratorManagerNopCommerce.getUserMyproductReviewsPage(driver);
 	}
 
 	public UserCustomerInforPO openCustomerInforPage(WebDriver driver) {
-		waitToElementClickAble(driver, AbstractPageUI.CUSTOMER_INFO_LINK);
-		clickToElement(driver, AbstractPageUI.CUSTOMER_INFO_LINK);
-		return PageGeneratorManager.getUserCustomerInforPage(driver);
+		waitToElementClickAble(driver, NopCommerceAbstractPageUI.CUSTOMER_INFO_LINK);
+		clickToElement(driver, NopCommerceAbstractPageUI.CUSTOMER_INFO_LINK);
+		return PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 	}
 
 	public UserOrdersPO openOrderPage(WebDriver driver) {
-		waitToElementClickAble(driver, AbstractPageUI.ORDER_LINK);
-		clickToElement(driver, AbstractPageUI.ORDER_LINK);
-		return PageGeneratorManager.getUserOrdersPage(driver);
+		waitToElementClickAble(driver, NopCommerceAbstractPageUI.ORDER_LINK);
+		clickToElement(driver, NopCommerceAbstractPageUI.ORDER_LINK);
+		return PageGeneratorManagerNopCommerce.getUserOrdersPage(driver);
 	}
 
 	// cach1: dùng cho page nhỏ:10-15 page
 	public AbstractPage openLinkByPageName(WebDriver driver, String pageName) {
-		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
-		clickToElement(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
+		waitToElementClickAble(driver, NopCommerceAbstractPageUI.DYNAMIC_LINK, pageName);
+		clickToElement(driver, NopCommerceAbstractPageUI.DYNAMIC_LINK, pageName);
 
 		switch (pageName) {
 		case "Addresses":
-			return PageGeneratorManager.getUserAddressesPage(driver);
+			return PageGeneratorManagerNopCommerce.getUserAddressesPage(driver);
 		case "My product reviews":
-			return PageGeneratorManager.getUserMyproductReviewsPage(driver);
+			return PageGeneratorManagerNopCommerce.getUserMyproductReviewsPage(driver);
 		case "Customer info":
-			return PageGeneratorManager.getUserCustomerInforPage(driver);
+			return PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 		default:
-			return PageGeneratorManager.getUserOrdersPage(driver);
+			return PageGeneratorManagerNopCommerce.getUserOrdersPage(driver);
 		}
 	}
 
 	// cách 2:
 	public void openLinkWithPageName(WebDriver driver, String pageName) {
-		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
-		clickToElement(driver, AbstractPageUI.DYNAMIC_LINK, pageName);
+		waitToElementClickAble(driver, NopCommerceAbstractPageUI.DYNAMIC_LINK, pageName);
+		clickToElement(driver, NopCommerceAbstractPageUI.DYNAMIC_LINK, pageName);
 	}
-	public void clickToRadioButtonByID(WebDriver driver,String radioButtonID) {
-		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID);
-		clickToElement(driver, AbstractPageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID);
+
+	public void clickToRadioButtonByID(WebDriver driver, String radioButtonID) {
+		waitToElementClickAble(driver, NopCommerceAbstractPageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID);
+		clickToElement(driver, NopCommerceAbstractPageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID);
 	}
-	public void inputToTextboxByID(WebDriver driver,String textboxID,String value) {
-		waitToElementVisible(driver, AbstractPageUI.DYNAMIC_TEXTBOX_BY_ID,textboxID);
-		senkeyToElement(driver, AbstractPageUI.DYNAMIC_TEXTBOX_BY_ID,value, textboxID);
+
+	public void inputToTextboxByID(WebDriver driver, String textboxID, String value) {
+		waitToElementVisible(driver, NopCommerceAbstractPageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		sendkeyToElement(driver, NopCommerceAbstractPageUI.DYNAMIC_TEXTBOX_BY_ID, value, textboxID);
 	}
-	public void clickToButtonByValue(WebDriver driver,String buttonValue) {
-		waitToElementClickAble(driver, AbstractPageUI.DYNAMIC_BUTTON_BY_VALUE,buttonValue);
-		clickToElement(driver, AbstractPageUI.DYNAMIC_BUTTON_BY_VALUE,buttonValue);
+
+	public void clickToButtonByValue(WebDriver driver, String buttonValue) {
+		waitToElementClickAble(driver, NopCommerceAbstractPageUI.DYNAMIC_BUTTON_BY_VALUE, buttonValue);
+		clickToElement(driver, NopCommerceAbstractPageUI.DYNAMIC_BUTTON_BY_VALUE, buttonValue);
 	}
-	public void selectDropdownByName(WebDriver driver,String dropdownName,String itemValue) {
-		waitToElementVisible(driver, AbstractPageUI.DYNAMIC_DROPDOWN_BY_NAME,dropdownName);
-		selectItemInDropdown(driver, AbstractPageUI.DYNAMIC_DROPDOWN_BY_NAME,itemValue, dropdownName);
+
+	public void selectDropdownByName(WebDriver driver, String dropdownName, String itemValue) {
+		waitToElementVisible(driver, NopCommerceAbstractPageUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
+		selectItemInDropdown(driver, NopCommerceAbstractPageUI.DYNAMIC_DROPDOWN_BY_NAME, itemValue, dropdownName);
 	}
-	public String getErrorMesageAtMandantoryFieldByID(WebDriver driver,String fieldID) {
-		waitToElementVisible(driver, AbstractPageUI.DYNAMIC_ERROR_MESSAGE_BY_ID,fieldID);
-		return getElementText(driver, AbstractPageUI.DYNAMIC_ERROR_MESSAGE_BY_ID, fieldID);
+
+	public String getErrorMesageAtMandantoryFieldByID(WebDriver driver, String fieldID) {
+		waitToElementVisible(driver, NopCommerceAbstractPageUI.DYNAMIC_ERROR_MESSAGE_BY_ID, fieldID);
+		return getElementText(driver, NopCommerceAbstractPageUI.DYNAMIC_ERROR_MESSAGE_BY_ID, fieldID);
 	}
+
+	public void checkToRadioOrCheckboxLabel(WebDriver driver, String radioOrCheckboxLabel) {
+		waitToElementClickAble(driver, LiveGuruAbstractPageUI.DYNAMIC_RADIO_OR_CHECKBOX_BY_LABEL, radioOrCheckboxLabel);
+		checkToCheckbox(driver, LiveGuruAbstractPageUI.DYNAMIC_RADIO_OR_CHECKBOX_BY_LABEL, radioOrCheckboxLabel);
+	}
+
+	public UserAdvancedSearchPO openAdvancedSearchPage(WebDriver driver) {
+		waitToElementClickAble(driver, LiveGuruAbstractPageUI.ADVANCED_SEARCH_LINK);
+		clickToElement(driver, LiveGuruAbstractPageUI.ADVANCED_SEARCH_LINK);
+		return PageGeneratorManagerliveGuru.getAdvancedSearchPage(driver);
+	}
+
+	public UserMobilePO openMobilePage(WebDriver driver) {
+		waitToElementClickAble(driver, LiveGuruAbstractPageUI.MOBILE_MENU_LINK);
+		clickToElement(driver, LiveGuruAbstractPageUI.MOBILE_MENU_LINK);
+		return PageGeneratorManagerliveGuru.getMobilePage(driver);
+
+	}
+
+	public UserTVPO openTVPage(WebDriver driver) {
+		waitToElementClickAble(driver, LiveGuruAbstractPageUI.TV_MENU_LINK);
+		clickToElement(driver, LiveGuruAbstractPageUI.TV_MENU_LINK);
+		return PageGeneratorManagerliveGuru.getTVPage(driver);
+
+	}
+
+	public UserCheckoutPO clickAddToCardButtonAProductName(WebDriver driver, String productName) {
+		waitToElementClickAble(driver, LiveGuruAbstractPageUI.ADD_TO_CART_BUTTON_BY_PRODUCT_NAME, productName);
+		clickToElement(driver, LiveGuruAbstractPageUI.ADD_TO_CART_BUTTON_BY_PRODUCT_NAME, productName);
+		return PageGeneratorManagerliveGuru.getCheckoutPage(driver);
+	}
+
+	public String getSuccessMessage(WebDriver driver) {
+		waitToElementVisible(driver, LiveGuruAbstractPageUI.SUCCESS_MESSAGE);
+		return getElementText(driver, LiveGuruAbstractPageUI.SUCCESS_MESSAGE);
+		
+	}
+	public String getErrorMessage(WebDriver driver) {
+		waitToElementVisible(driver, LiveGuruAbstractPageUI.ERROR_MESSAGE);
+		return getElementText(driver, LiveGuruAbstractPageUI.ERROR_MESSAGE);
+
+	}
+
+	public String getPriceAtShoppingCartTable(WebDriver driver, String title) {
+		waitToElementVisible(driver, LiveGuruAbstractPageUI.PRICE_VALUE_SHOPPING_CART_TABLE, title);
+		return getElementText(driver, LiveGuruAbstractPageUI.PRICE_VALUE_SHOPPING_CART_TABLE, title);
+	}
+
 }

@@ -26,6 +26,6 @@ public class UserLoginPO extends AbstractPage {
 	public UserHomePO clickToLoginButton() {
 		waitToElementClickAble(driver, UserLoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, UserLoginPageUI.LOGIN_BUTTON);
-		return PageGeneratorManager.getUserHomePage(driver);
+		return PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 	}
 }

@@ -80,7 +80,7 @@ public class UserRegisterPO extends AbstractPage {
 	public UserHomePO clickToLogoutLink() {
 		waitToElementClickAble(driver, UserRegisterPageUI.LOGOUT_LINK);
 		clickToElement(driver, UserRegisterPageUI.LOGOUT_LINK);
-		return PageGeneratorManager.getUserHomePage(driver);
+		return PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 	}
 
 	public String getRegisterSuccessMessage() {

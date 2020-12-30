@@ -12,7 +12,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.AbstractTest;
-import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.UserAddressesPO;
 import pageObjects.nopCommerce.UserCustomerInforPO;
 import pageObjects.nopCommerce.UserHomePO;
@@ -54,7 +54,7 @@ public class Level_11_Register_Login_Element_Undisplayed extends AbstractTest {
 	@Test
 	public void TC_01_Register() {
 
-		homePage = PageGeneratorManager.getUserHomePage(driver);
+		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 		
 		//verify register link displaed
 		Assert.assertTrue(homePage.isRegisterLinkDisplayed());
@@ -170,13 +170,13 @@ public class Level_11_Register_Login_Element_Undisplayed extends AbstractTest {
 	@Test
 	public void TC_05_Rest_Parameter_02() {
 		customerInforPage.openLinkWithPageName(driver, "Addresses");
-		adressesPage=PageGeneratorManager.getUserAddressesPage(driver);
+		adressesPage=PageGeneratorManagerNopCommerce.getUserAddressesPage(driver);
 		
 		adressesPage.openLinkWithPageName(driver, "Customer info");
-		customerInforPage=PageGeneratorManager.getUserCustomerInforPage(driver);
+		customerInforPage=PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 		
 		customerInforPage.openLinkWithPageName(driver, "My product reviews");
-		myProductPage=PageGeneratorManager.getUserMyproductReviewsPage(driver);
+		myProductPage=PageGeneratorManagerNopCommerce.getUserMyproductReviewsPage(driver);
 	}
 	public int getRandomNumber() {
 		Random rand = new Random();

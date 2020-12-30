@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import com.nopcommerce.common.Common_01_Register;
 import commons.AbstractTest;
-import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.UserHomePO;
 import pageObjects.nopCommerce.UserLoginPO;
 
@@ -26,7 +26,7 @@ public class Level_16_Register_Login_Close_Browser extends AbstractTest {
 
 		// LOGIN
 		log.info("Precondition - Step 01 : Open Login Page");
-		homePage = PageGeneratorManager.getUserHomePage(driver);
+		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 		loginPage = homePage.clickToLoginLink();
 
 		log.info("Precondition - Step 02 : Input to Email textbox with value : " + Common_01_Register.email);

@@ -34,7 +34,7 @@
 			<param name="ConversionPattern" value="[%-5p] [%d] %m%n" />
 		</layout>
 	</appender>
-
+<!-- nếu tạo 1 package mới thì cần phải thêm vào đây mới showlog dc -->
 	<category name="com.nopcommerce.users">
 		<priority value="all" />
 		<appender-ref ref="console" />
@@ -43,7 +43,7 @@
 		<appender-ref ref="testng" />
 	</category>
 
-	<category name="com.bankguru.payment">
+	<category name="com.liveguru.user">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />

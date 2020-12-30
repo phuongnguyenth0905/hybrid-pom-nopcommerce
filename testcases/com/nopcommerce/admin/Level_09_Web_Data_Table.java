@@ -13,7 +13,7 @@ import commons.AbstractTest;
 import pageObjects.nopCommerce.AdminDashboardPO;
 import pageObjects.nopCommerce.AdminLoginPO;
 import pageObjects.nopCommerce.AdminProductPO;
-import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.PageGeneratorManagerNopCommerce;
 
 public class Level_09_Web_Data_Table extends AbstractTest {
 
@@ -24,7 +24,7 @@ public class Level_09_Web_Data_Table extends AbstractTest {
 	public void beforeClass(String browserName, String urlValue) {
 
 		driver = getBrowserDriver(browserName, urlValue);
-		loginPage = PageGeneratorManager.getAdminLoginPage(driver);
+		loginPage = PageGeneratorManagerNopCommerce.getAdminLoginPage(driver);
 
 //		loginPage.inputToEmailTextbox("");
 //		loginPage.inputToPasswordTextbox("");

@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import commons.AbstractTest;
-import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.UserHomePO;
 import pageObjects.nopCommerce.UserRegisterPO;
 
@@ -38,7 +38,7 @@ public class Common_02_Cookie extends AbstractTest {
 		year = "1989";
 
 		log.info("Register - Step 01 : Open Home Page");
-		homePage = PageGeneratorManager.getUserHomePage(driver);
+		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 
 		log.info("Register - Step 02 : Verify Register Link Displayed");
 		verifyTrue(homePage.isRegisterLinkDisplayed());

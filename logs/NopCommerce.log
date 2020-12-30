@@ -832,3 +832,1944 @@
 [INFO ] [2020-12-03 13:00:21,176] Login - Step 04 : Click to Login button at Login Page
 [INFO ] [2020-12-03 13:00:22,246] OS name = windows 10
 [INFO ] [2020-12-03 13:00:23,016] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2020-12-04 15:01:55,900] Validate - Step 01 : Open Home Page
+[INFO ] [2020-12-04 15:01:55,922] Validate - Step 02 : Click To Register Link at Home Page
+[INFO ] [2020-12-04 15:01:57,550] Validate - Step 03 : Click To Register Button
+[INFO ] [2020-12-04 15:01:57,663] Validate - Step 04 : Verify error message displayed at FirstName textbox
+[INFO ] [2020-12-04 15:02:38,677] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-04 15:02:38,677] Register - Step 02 : Click To Register Link at Home Page
+[INFO ] [2020-12-04 15:02:39,243] Register - Step 03 : Click To Gender Male Radio Button
+[INFO ] [2020-12-04 15:02:39,369] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-04 15:02:40,025] Register - Step 05 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2020-12-04 15:02:40,675] Register - Step 06 : Select Day Dropdown with value: 11
+[INFO ] [2020-12-04 15:02:40,791] Register - Step 07 : Select Month Dropdown with value: September
+[INFO ] [2020-12-04 15:02:40,915] Register - Step 08 : Select Year Dropdown with value: 1989
+[INFO ] [2020-12-04 15:02:41,042] Register - Step 09 : Input To Email textbox with value: hoanganh801@gmail.com
+[INFO ] [2020-12-04 15:02:41,690] Register - Step 10 : Input To Company Name textbox 
+[INFO ] [2020-12-04 15:02:42,327] Register - Step 11 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-04 15:02:43,649] Register - Step 12 : Click to Register Button at Register Page
+[INFO ] [2020-12-04 15:02:46,450] Register - Step 13 : Verify success message displayed
+[INFO ] [2020-12-04 15:02:46,506]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-04 15:02:46,506] Register - Step 14 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-04 15:02:49,064] Login - Step 01 : Open Login Page
+[INFO ] [2020-12-04 15:02:49,542] Login - Step 02 : Input to Email textbox with value : hoanganh801@gmail.com
+[INFO ] [2020-12-04 15:02:50,177] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2020-12-04 15:02:50,863] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2020-12-04 15:02:52,694] OS name = windows 10
+[INFO ] [2020-12-04 15:02:53,454] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2020-12-04 15:18:03,893] Precondition - Step 01 : Open Login Page
+[INFO ] [2020-12-04 15:18:05,358] Precondition - Step 02 : Input to Email textbox with value : null
+[INFO ] [2020-12-04 15:18:06,051] OS name = windows 10
+[INFO ] [2020-12-04 15:18:06,809] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2020-12-04 15:57:41,797] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-04 15:57:41,799] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-04 15:57:44,979] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-04 15:57:47,801] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-04 15:57:48,420] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-04 15:57:49,046] Register - Step 06 : Input To Email textbox with value: hoanganh195@gmail.com
+[INFO ] [2020-12-04 15:57:49,708] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-04 15:57:51,053] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-04 15:57:54,023] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-04 15:57:54,082]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-04 15:57:54,191] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-04 15:57:57,111] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-04 15:57:59,966] Login - Step 02 : Input To Email textbox with value: hoanganh195@gmail.com
+[INFO ] [2020-12-04 15:58:00,624] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-04 15:58:01,272] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-04 15:58:04,129] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-04 15:58:14,326]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 01:08:50,714] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-05 01:08:50,733] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-05 01:08:53,847] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-05 01:08:56,620] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-05 01:08:57,284] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-05 01:08:57,923] Register - Step 06 : Input To Email textbox with value: hoanganh63@gmail.com
+[INFO ] [2020-12-05 01:08:58,570] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 01:08:59,884] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-05 01:09:02,901] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-05 01:09:02,960]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 01:09:03,061] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-05 01:09:05,909] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-05 01:09:08,701] Login - Step 02 : Input To Email textbox with value: hoanganh63@gmail.com
+[INFO ] [2020-12-05 01:09:09,383] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 01:09:10,075] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-05 01:09:12,917] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-05 01:09:23,112]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 10:53:50,534] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-05 10:53:50,548] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-05 10:53:53,432] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-05 10:53:56,207] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-05 10:53:56,865] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-05 10:53:57,552] Register - Step 06 : Input To Email textbox with value: hoanganh917@gmail.com
+[INFO ] [2020-12-05 10:53:58,214] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 10:53:59,556] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-05 10:54:02,480] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-05 10:54:02,562]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 10:54:02,689] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-05 10:54:05,589] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-05 10:54:08,426] Login - Step 02 : Input To Email textbox with value: hoanganh917@gmail.com
+[INFO ] [2020-12-05 10:54:09,116] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 10:54:09,814] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-05 10:54:12,708] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-05 11:01:40,621] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-05 11:01:40,624] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-05 11:01:43,534] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-05 11:01:46,068] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-05 11:01:46,723] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-05 11:01:47,384] Register - Step 06 : Input To Email textbox with value: hoanganh145@gmail.com
+[INFO ] [2020-12-05 11:01:48,037] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 11:01:49,382] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-05 11:01:52,327] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-05 11:01:52,409]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 11:01:52,522] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-05 11:01:55,368] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-05 11:01:58,141] Login - Step 02 : Input To Email textbox with value: hoanganh145@gmail.com
+[INFO ] [2020-12-05 11:01:58,839] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 11:01:59,515] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-05 11:02:02,408] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-05 11:02:12,601]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 11:56:42,286] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-05 11:56:42,288] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-05 11:56:45,474] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-05 11:56:48,297] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-05 11:56:48,969] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-05 11:56:49,690] Register - Step 06 : Input To Email textbox with value: hoanganh913@gmail.com
+[INFO ] [2020-12-05 11:56:50,376] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 11:56:51,703] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-05 11:56:54,623] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-05 11:56:54,706]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 11:56:54,820] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-05 11:56:57,650] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-05 11:57:00,441] Login - Step 02 : Input To Email textbox with value: hoanganh913@gmail.com
+[INFO ] [2020-12-05 11:57:01,120] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 11:57:01,837] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-05 11:57:04,672] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-05 11:57:14,803]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 11:57:14,808] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-05 11:57:50,551] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-05 11:57:50,553] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-05 11:57:53,690] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-05 11:57:56,465] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-05 11:57:57,117] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-05 11:57:57,817] Register - Step 06 : Input To Email textbox with value: hoanganh255@gmail.com
+[INFO ] [2020-12-05 11:57:58,517] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 11:57:59,921] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-05 11:58:02,883] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-05 11:58:02,962]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 11:58:03,091] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-05 11:58:05,952] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-05 11:58:08,777] Login - Step 02 : Input To Email textbox with value: hoanganh255@gmail.com
+[INFO ] [2020-12-05 11:58:09,474] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 11:58:10,167] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-05 11:58:13,055] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-05 11:58:13,368] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-05 12:01:22,684] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-05 12:01:22,686] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-05 12:01:25,565] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-05 12:01:28,047] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-05 12:01:28,720] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-05 12:01:29,415] Register - Step 06 : Input To Email textbox with value: hoanganh680@gmail.com
+[INFO ] [2020-12-05 12:01:30,066] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 12:01:31,396] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-05 12:01:34,292] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-05 12:01:34,368]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 12:01:34,522] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-05 12:01:37,446] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-05 12:01:40,219] Login - Step 02 : Input To Email textbox with value: hoanganh680@gmail.com
+[INFO ] [2020-12-05 12:01:40,895] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 12:01:41,587] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-05 12:01:44,457] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-05 12:01:44,782] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-05 12:03:12,601] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-05 12:03:12,603] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-05 12:03:15,486] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-05 12:03:18,360] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-05 12:03:19,016] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-05 12:03:19,695] Register - Step 06 : Input To Email textbox with value: hoanganh913@gmail.com
+[INFO ] [2020-12-05 12:03:20,350] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 12:03:21,686] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-05 12:03:24,531] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-05 12:04:05,452] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-05 12:04:08,282] Login - Step 02 : Input To Email textbox with value: hoanganh913@gmail.com
+[INFO ] [2020-12-05 12:04:08,987] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 12:04:09,640] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-05 12:04:12,490] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-05 12:04:12,806] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-05 23:59:22,427] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-05 23:59:22,463] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-05 23:59:25,399] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-05 23:59:28,331] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-05 23:59:29,011] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-05 23:59:29,705] Register - Step 06 : Input To Email textbox with value: hoanganh690@gmail.com
+[INFO ] [2020-12-05 23:59:30,411] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 23:59:31,776] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-05 23:59:34,803] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-05 23:59:34,884]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 23:59:34,995] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-05 23:59:37,940] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-05 23:59:40,889] Login - Step 02 : Input To Email textbox with value: hoanganh690@gmail.com
+[INFO ] [2020-12-05 23:59:41,570] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-05 23:59:42,243] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-05 23:59:45,242] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-05 23:59:55,438]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-05 23:59:55,442] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-06 22:08:20,488] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-06 22:08:20,498] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-06 22:08:23,462] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-06 22:08:26,351] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-06 22:08:27,018] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-06 22:08:27,691] Register - Step 06 : Input To Email textbox with value: hoanganh686@gmail.com
+[INFO ] [2020-12-06 22:08:28,385] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-06 22:08:29,728] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-06 22:08:32,980] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-06 22:08:33,058]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-06 22:08:33,171] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-06 22:08:36,268] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-06 22:08:39,067] Login - Step 02 : Input To Email textbox with value: hoanganh686@gmail.com
+[INFO ] [2020-12-06 22:08:39,770] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-06 22:08:40,432] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-06 22:08:43,349] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-06 22:08:53,521]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-06 22:08:53,525] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-07 15:59:05,243] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-07 15:59:05,265] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-07 15:59:08,492] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-07 15:59:11,026] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-07 15:59:11,715] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-07 15:59:12,401] Register - Step 06 : Input To Email textbox with value: hoanganh778@gmail.com
+[INFO ] [2020-12-07 15:59:13,054] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-07 15:59:14,411] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-07 15:59:17,777] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-07 15:59:17,853]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-07 15:59:17,966] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-07 15:59:20,933] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-07 15:59:23,743] Login - Step 02 : Input To Email textbox with value: hoanganh778@gmail.com
+[INFO ] [2020-12-07 15:59:24,446] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-07 15:59:25,129] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-07 15:59:28,047] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-07 15:59:38,303]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-07 15:59:38,307] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-09 13:53:36,299] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-09 13:53:36,327] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-09 13:53:39,556] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-09 13:53:42,078] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-09 13:53:42,750] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-09 13:53:43,409] Register - Step 06 : Input To Email textbox with value: hoanganh506@gmail.com
+[INFO ] [2020-12-09 13:53:44,116] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-09 13:53:45,470] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-09 13:53:48,384] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-09 13:53:48,463]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-09 13:53:48,578] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-09 13:53:51,523] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-09 13:53:54,334] Login - Step 02 : Input To Email textbox with value: hoanganh506@gmail.com
+[INFO ] [2020-12-09 13:53:55,009] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-09 13:53:55,731] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-09 13:53:58,617] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-09 13:54:08,766]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-09 13:54:08,772] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-21 09:37:16,333] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-21 09:37:16,375] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-21 09:37:19,274] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-21 09:37:21,799] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-21 09:37:22,455] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-21 09:37:23,133] Register - Step 06 : Input To Email textbox with value: hoanganh580@gmail.com
+[INFO ] [2020-12-21 09:37:23,805] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-21 09:37:25,161] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-21 09:37:28,398] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-21 09:37:28,476]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-21 09:37:28,589] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-21 09:37:31,472] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-21 09:37:34,241] Login - Step 02 : Input To Email textbox with value: hoanganh580@gmail.com
+[INFO ] [2020-12-21 09:37:34,925] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-21 09:37:35,595] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-21 09:37:38,477] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-21 09:37:48,686]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-21 09:37:48,691] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-21 10:22:41,030] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-21 10:22:41,036] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-21 10:22:44,128] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-21 10:22:46,965] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-21 10:22:47,638] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-21 10:22:48,300] Register - Step 06 : Input To Email textbox with value: hoanganh744@gmail.com
+[INFO ] [2020-12-21 10:22:48,988] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-21 10:22:50,321] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-21 10:22:53,300] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-21 10:22:53,381]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-21 10:22:53,524] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-21 10:22:56,379] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-21 10:23:00,879] Login - Step 02 : Input To Email textbox with value: hoanganh744@gmail.com
+[INFO ] [2020-12-21 10:23:01,580] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-21 10:23:02,250] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-21 10:23:06,017] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-21 10:23:16,154]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-21 10:23:16,159] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-21 10:24:37,820] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-21 10:24:37,822] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-21 10:24:40,761] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-21 10:24:43,281] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-21 10:24:43,956] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-21 10:24:44,632] Register - Step 06 : Input To Email textbox with value: hoanganh425@gmail.com
+[INFO ] [2020-12-21 10:24:45,299] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-21 10:24:46,618] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-21 10:24:49,572] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-21 10:24:49,650]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-21 10:24:49,781] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-21 10:24:52,626] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-21 10:24:55,417] Login - Step 02 : Input To Email textbox with value: hoanganh425@gmail.com
+[INFO ] [2020-12-21 10:24:56,093] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-21 10:24:56,756] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-21 10:24:59,630] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-21 10:25:09,820]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-21 10:26:16,294] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-21 10:26:16,296] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-21 10:26:19,483] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-21 10:26:22,003] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-21 10:26:22,673] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-21 10:26:23,430] Register - Step 06 : Input To Email textbox with value: hoanganh727@gmail.com
+[INFO ] [2020-12-21 10:26:24,117] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-21 10:26:25,500] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-21 10:26:28,409] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-21 10:26:28,483]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-21 10:26:28,644] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-21 10:26:31,467] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-21 10:26:34,276] Login - Step 02 : Input To Email textbox with value: hoanganh727@gmail.com
+[INFO ] [2020-12-21 10:26:34,993] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-21 10:26:35,755] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-21 10:26:39,623] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-21 10:26:49,789]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-21 10:26:49,799] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-21 10:28:50,719] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-21 10:28:50,721] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-21 10:28:53,855] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-21 10:28:56,593] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-21 10:28:57,256] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-21 10:28:57,936] Register - Step 06 : Input To Email textbox with value: hoanganh410@gmail.com
+[INFO ] [2020-12-21 10:28:58,596] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-21 10:28:59,982] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-21 10:29:02,925] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-21 10:29:03,001]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-21 10:29:03,115] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-21 10:29:06,942] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-21 10:29:09,703] Login - Step 02 : Input To Email textbox with value: hoanganh410@gmail.com
+[INFO ] [2020-12-21 10:29:10,403] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-21 10:29:11,122] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-21 10:29:13,980] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-21 10:29:24,163]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-21 10:29:24,173] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-22 10:24:56,570] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-22 10:24:56,615] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-22 10:24:59,613] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-22 10:25:02,121] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-22 10:25:02,780] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-22 10:25:03,448] Register - Step 06 : Input To Email textbox with value: hoanganh798@gmail.com
+[INFO ] [2020-12-22 10:25:04,125] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 10:25:05,522] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-22 10:25:08,696] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-22 10:25:08,775]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 10:25:08,887] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-22 10:25:11,778] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-22 10:25:14,545] Login - Step 02 : Input To Email textbox with value: hoanganh798@gmail.com
+[INFO ] [2020-12-22 10:25:15,217] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 10:25:15,899] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-22 10:25:18,799] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-22 10:25:29,002]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 10:25:29,007] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-22 10:35:54,473] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-22 10:35:54,475] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-22 10:35:57,572] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-22 10:36:00,435] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-22 10:36:01,098] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-22 10:36:01,761] Register - Step 06 : Input To Email textbox with value: hoanganh716@gmail.com
+[INFO ] [2020-12-22 10:36:02,434] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 10:36:03,796] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-22 10:36:06,751] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-22 10:36:06,825]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 10:36:06,979] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-22 10:36:09,922] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-22 10:36:12,788] Login - Step 02 : Input To Email textbox with value: hoanganh716@gmail.com
+[INFO ] [2020-12-22 10:36:13,467] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 10:36:14,164] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-22 10:36:17,104] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-22 10:36:27,273]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 10:36:27,277] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-22 11:01:55,792] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-22 11:01:55,795] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-22 11:01:58,934] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-22 11:02:01,778] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-22 11:02:02,450] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-22 11:02:03,135] Register - Step 06 : Input To Email textbox with value: hoanganh428@gmail.com
+[INFO ] [2020-12-22 11:02:03,805] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 11:02:05,132] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-22 11:02:08,064] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-22 11:02:08,139]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 11:02:08,251] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-22 11:02:11,110] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-22 11:02:13,885] Login - Step 02 : Input To Email textbox with value: hoanganh428@gmail.com
+[INFO ] [2020-12-22 11:02:14,557] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 11:02:15,263] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-22 11:02:18,153] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-22 11:02:28,281]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 11:02:28,285] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-22 11:30:22,548] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-22 11:30:22,551] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-22 11:30:25,629] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-22 11:30:30,590] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-22 11:30:31,261] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-22 11:30:31,982] Register - Step 06 : Input To Email textbox with value: hoanganh772@gmail.com
+[INFO ] [2020-12-22 11:30:32,689] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 11:30:34,036] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-22 11:30:36,966] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-22 11:30:37,047]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 11:30:37,158] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-22 11:30:40,230] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-22 11:30:42,996] Login - Step 02 : Input To Email textbox with value: hoanganh772@gmail.com
+[INFO ] [2020-12-22 11:30:43,667] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 11:30:44,320] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-22 11:30:47,144] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-22 11:30:47,461] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-22 11:32:00,001] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-22 11:32:00,004] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-22 11:32:03,092] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-22 11:32:05,849] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-22 11:32:06,518] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-22 11:32:07,178] Register - Step 06 : Input To Email textbox with value: hoanganh554@gmail.com
+[INFO ] [2020-12-22 11:32:07,838] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 11:32:09,146] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-22 11:32:12,080] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-22 11:32:12,163]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 11:32:12,276] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-22 11:32:15,078] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-22 11:32:17,856] Login - Step 02 : Input To Email textbox with value: hoanganh554@gmail.com
+[INFO ] [2020-12-22 11:32:18,569] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 11:32:19,232] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-22 11:32:22,110] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-22 11:32:32,284]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 11:32:32,289] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-22 22:09:41,315] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-22 22:09:41,324] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-22 22:09:44,463] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-22 22:09:46,970] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-22 22:09:47,616] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-22 22:09:48,325] Register - Step 06 : Input To Email textbox with value: hoanganh392@gmail.com
+[INFO ] [2020-12-22 22:09:48,986] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 22:09:50,304] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-22 22:09:54,206] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-22 22:09:54,285]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 22:09:54,400] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-22 22:09:57,272] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-22 22:10:01,007] Login - Step 02 : Input To Email textbox with value: hoanganh392@gmail.com
+[INFO ] [2020-12-22 22:10:01,683] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 22:10:02,372] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-22 22:10:05,269] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-22 22:10:15,439]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 22:10:15,444] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-22 22:10:15,444] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-22 22:19:19,013] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-22 22:19:19,015] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-22 22:19:22,155] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-22 22:19:24,999] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-22 22:19:25,678] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-22 22:19:26,366] Register - Step 06 : Input To Email textbox with value: hoanganh416@gmail.com
+[INFO ] [2020-12-22 22:19:27,028] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 22:19:28,418] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-22 22:19:31,239] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-22 22:20:02,188] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-22 22:20:02,190] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-22 22:20:04,954] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-22 22:20:07,717] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-22 22:20:08,397] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-22 22:20:09,099] Register - Step 06 : Input To Email textbox with value: hoanganh291@gmail.com
+[INFO ] [2020-12-22 22:20:09,802] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 22:20:11,158] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-22 22:20:14,079] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-22 22:20:14,154]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 22:20:14,281] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-22 22:20:17,152] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-22 22:20:21,652] Login - Step 02 : Input To Email textbox with value: hoanganh291@gmail.com
+[INFO ] [2020-12-22 22:20:22,355] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 22:20:23,074] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-22 22:20:25,926] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-22 22:39:04,163] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-22 22:39:04,165] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-22 22:39:07,229] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-22 22:39:10,126] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-22 22:39:10,793] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-22 22:39:11,458] Register - Step 06 : Input To Email textbox with value: hoanganh219@gmail.com
+[INFO ] [2020-12-22 22:39:12,141] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 22:39:13,476] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-22 22:39:17,441] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-22 22:39:17,519]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 22:39:17,631] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-22 22:39:20,618] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-22 22:39:23,398] Login - Step 02 : Input To Email textbox with value: hoanganh219@gmail.com
+[INFO ] [2020-12-22 22:39:24,122] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-22 22:39:24,832] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-22 22:39:27,694] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-22 22:39:37,855]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-22 22:39:37,877] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-24 00:21:43,529] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-24 00:21:43,532] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-24 00:21:46,371] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-24 00:21:48,899] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-24 00:21:49,564] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-24 00:21:50,273] Register - Step 06 : Input To Email textbox with value: hoanganh993@gmail.com
+[INFO ] [2020-12-24 00:21:50,950] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-24 00:21:52,362] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-24 00:21:55,641] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-24 00:21:55,718]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-24 00:21:55,835] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-24 00:21:58,695] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-24 00:22:01,514] Login - Step 02 : Input To Email textbox with value: hoanganh993@gmail.com
+[INFO ] [2020-12-24 00:22:02,235] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-24 00:22:02,958] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-24 00:22:05,875] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-24 00:22:16,118]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-24 00:22:16,125] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-24 00:22:18,587] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-24 00:22:18,650]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-24 00:22:18,650] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-24 00:22:18,712]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-24 00:22:18,712] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-24 00:22:18,774]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-24 00:25:49,430] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-24 00:25:49,432] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-24 00:25:52,346] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-24 00:25:55,206] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-24 00:25:55,852] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-24 00:25:56,540] Register - Step 06 : Input To Email textbox with value: hoanganh632@gmail.com
+[INFO ] [2020-12-24 00:25:57,213] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-24 00:25:58,592] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-24 00:26:01,757] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-24 00:26:01,837]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-24 00:26:01,986] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-24 00:26:04,849] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-24 00:26:07,622] Login - Step 02 : Input To Email textbox with value: hoanganh632@gmail.com
+[INFO ] [2020-12-24 00:26:08,316] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-24 00:26:09,005] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-24 00:26:11,894] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-24 00:26:22,054]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-24 00:26:22,058] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-24 00:26:24,557] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-24 00:26:24,615]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-24 00:26:24,615] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-24 00:26:24,675]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-24 00:26:24,675] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-24 00:26:24,736]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 08:43:12,902] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-25 08:43:12,921] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-25 08:43:16,297] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-25 08:43:19,168] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-25 08:43:19,859] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-25 08:43:20,566] Register - Step 06 : Input To Email textbox with value: hoanganh669@gmail.com
+[INFO ] [2020-12-25 08:43:21,270] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 08:43:22,737] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-25 08:43:25,787] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-25 08:43:25,865]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 08:43:25,865] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-25 08:43:28,986] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-25 08:43:31,800] Login - Step 02 : Input To Email textbox with value: hoanganh669@gmail.com
+[INFO ] [2020-12-25 08:43:32,504] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 08:43:33,232] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-25 08:43:36,171] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-25 08:43:46,352]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 08:43:46,356] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-25 08:43:48,900] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-25 08:43:48,978]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 08:43:48,978] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-25 08:43:49,066]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 08:43:49,066] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-25 08:43:49,126]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 08:55:57,171] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-25 08:55:57,173] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-25 08:56:00,266] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-25 08:56:03,129] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-25 08:56:03,809] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-25 08:56:04,483] Register - Step 06 : Input To Email textbox with value: hoanganh603@gmail.com
+[INFO ] [2020-12-25 08:56:05,147] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 08:56:06,482] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-25 08:56:09,492] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-25 08:56:09,592]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 08:56:09,592] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-25 08:56:12,568] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-25 08:56:15,395] Login - Step 02 : Input To Email textbox with value: hoanganh603@gmail.com
+[INFO ] [2020-12-25 08:56:16,088] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 08:56:16,773] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-25 08:56:19,720] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-25 08:56:19,804]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 08:56:19,819] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-25 08:56:22,344] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-25 08:56:22,448]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 08:56:22,448] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-25 08:56:22,537]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 08:56:22,537] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-25 08:56:22,597]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 09:07:58,842] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-25 09:07:58,844] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-25 09:08:02,062] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-25 09:08:04,887] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-25 09:08:05,561] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-25 09:08:06,249] Register - Step 06 : Input To Email textbox with value: hoanganh9@gmail.com
+[INFO ] [2020-12-25 09:08:06,952] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 09:08:08,303] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-25 09:08:11,294] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-25 09:08:11,372]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 09:08:11,372] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-25 09:08:14,440] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-25 09:08:17,307] Login - Step 02 : Input To Email textbox with value: hoanganh9@gmail.com
+[INFO ] [2020-12-25 09:08:18,055] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 09:08:18,743] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-25 09:08:21,743] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-25 09:08:21,839]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 09:08:21,845] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-25 09:08:24,426] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-25 09:08:24,523]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 09:08:24,523] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-25 09:08:24,584]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 09:08:24,584] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-25 09:08:24,647]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 14:45:15,973] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-25 14:45:15,976] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-25 14:45:18,987] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-25 14:45:21,834] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-25 14:45:22,510] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-25 14:45:23,202] Register - Step 06 : Input To Email textbox with value: hoanganh569@gmail.com
+[INFO ] [2020-12-25 14:45:23,884] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 14:45:25,279] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-25 14:45:28,419] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-25 14:45:28,501]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 14:45:28,501] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-25 14:45:28,845] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-25 14:45:31,411] Login - Step 02 : Input To Email textbox with value: hoanganh569@gmail.com
+[INFO ] [2020-12-25 14:46:32,732] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-25 14:46:32,735] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-25 14:46:36,003] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-25 14:46:38,853] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-25 14:46:39,517] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-25 14:46:40,187] Register - Step 06 : Input To Email textbox with value: hoanganh401@gmail.com
+[INFO ] [2020-12-25 14:46:40,846] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 14:46:42,173] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-25 14:46:45,194] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-25 14:46:45,272]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 14:46:45,272] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-25 14:46:45,633] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-25 14:46:48,170] Login - Step 02 : Input To Email textbox with value: hoanganh401@gmail.com
+[INFO ] [2020-12-25 14:47:29,086] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-25 14:49:03,394] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-25 14:49:03,396] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-25 14:49:06,663] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-25 14:49:09,474] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-25 14:49:10,131] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-25 14:49:10,821] Register - Step 06 : Input To Email textbox with value: hoanganh57@gmail.com
+[INFO ] [2020-12-25 14:49:11,477] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 14:49:12,854] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-25 14:49:15,933] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-25 14:49:16,011]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 14:49:16,011] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-25 14:49:18,981] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-25 14:49:22,051] Login - Step 02 : Input To Email textbox with value: hoanganh57@gmail.com
+[INFO ] [2020-12-25 14:49:22,740] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 14:49:23,418] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-25 14:49:26,446] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-25 14:49:26,529]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 14:49:26,533] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-25 14:49:29,048] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-25 14:49:29,151]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 14:49:29,151] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-25 14:49:29,213]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 14:49:29,213] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-25 14:49:29,271]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 16:54:52,305] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-25 16:54:52,307] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-25 16:54:55,566] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-25 16:54:58,364] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-25 16:54:59,026] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-25 16:54:59,740] Register - Step 06 : Input To Email textbox with value: hoanganh7759@gmail.com
+[INFO ] [2020-12-25 16:55:00,402] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 16:55:01,791] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-25 16:55:04,780] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-25 16:55:04,858]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 16:55:04,858] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-25 16:55:07,881] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-25 16:55:11,724] Login - Step 02 : Input To Email textbox with value: hoanganh7759@gmail.com
+[INFO ] [2020-12-25 16:55:12,419] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-25 16:55:13,121] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-25 16:55:16,012] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-25 16:55:16,086]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 16:55:16,090] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-25 16:55:18,605] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-25 16:55:18,687]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 16:55:18,687] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-25 16:55:18,761]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 16:55:18,761] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-25 16:55:18,821]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 16:55:18,824] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-25 16:55:21,667] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-25 16:55:21,731] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-25 16:55:24,983] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-25 16:55:25,056]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-25 16:56:54,811] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-25 16:56:55,167] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-25 16:56:55,483] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-26 12:20:51,679] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-26 12:20:52,052] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-26 12:20:52,330] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-26 12:21:53,729] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-26 12:21:54,069] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-26 12:21:54,390] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-26 12:22:53,303] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-26 12:22:53,603] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-26 12:23:30,967] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-26 12:23:31,301] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-26 12:23:31,570] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-26 12:26:48,958] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-26 12:27:14,328] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-26 12:27:14,356] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2020-12-26 12:27:17,413] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2020-12-26 12:27:20,226] Register - Step 04 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2020-12-26 12:27:20,889] Register - Step 05 : Input To Last Name textbox with value: Nam
+[INFO ] [2020-12-26 12:27:21,561] Register - Step 06 : Input To Email textbox with value: hoanganh8172@gmail.com
+[INFO ] [2020-12-26 12:27:22,260] Register - Step 07 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-26 12:27:23,611] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2020-12-26 12:27:26,900] Register - Step 09 : Verify success message displayed
+[INFO ] [2020-12-26 12:27:26,973]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:27:26,973] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2020-12-26 12:27:29,981] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-26 12:27:32,808] Login - Step 02 : Input To Email textbox with value: hoanganh8172@gmail.com
+[INFO ] [2020-12-26 12:27:33,505] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-26 12:27:34,201] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-26 12:27:37,144] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-26 12:27:37,221]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:27:37,225] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-26 12:27:39,762] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-26 12:27:39,860]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:27:39,860] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-26 12:27:39,953]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:27:39,953] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-26 12:27:40,009]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:27:40,012] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-26 12:27:42,914] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-26 12:27:42,992] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-26 12:27:46,193] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-26 12:27:46,267]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:37:39,866] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-26 12:37:39,868] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-26 12:37:42,860] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-26 12:37:43,578] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-26 12:37:44,279] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-26 12:37:47,513] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-26 12:37:47,587]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:37:47,640] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-26 12:37:50,514] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-26 12:37:50,574]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-26 12:37:50,574] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-26 12:37:50,635]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-26 12:37:50,635] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-26 12:37:50,696]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:37:50,983] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-26 12:37:53,882] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-26 12:37:53,946] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-26 12:37:57,144] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-26 12:37:57,223]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:39:16,331] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-26 12:39:16,334] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-26 12:39:19,634] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-26 12:39:20,330] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-26 12:39:21,027] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-26 12:39:24,575] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-26 12:39:24,673]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:39:24,727] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-26 12:39:27,613] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-26 12:39:27,695]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-26 12:39:27,695] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-26 12:39:27,756]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-26 12:39:27,756] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-26 12:39:27,817]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:39:28,112] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-26 12:39:30,995] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-26 12:39:31,066] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-26 12:39:34,347] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-26 12:39:34,470]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:54:16,082] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-26 12:54:16,084] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-26 12:54:19,350] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-26 12:54:20,062] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-26 12:54:20,731] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-26 12:54:24,247] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-26 12:54:24,330]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:54:24,381] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-26 12:54:26,958] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-26 12:54:27,095]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-26 12:54:27,095] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-26 12:54:27,152]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:54:27,152] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-26 12:54:27,212]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:54:27,499] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-26 12:54:30,324] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-26 12:54:30,388] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-26 12:54:33,651] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-26 12:54:33,725]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:55:44,161] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-26 12:55:44,163] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-26 12:55:47,402] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-26 12:55:48,119] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-26 12:55:48,828] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-26 12:55:52,280] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-26 12:55:52,378]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:55:52,431] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-26 12:55:54,974] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-26 12:55:55,036]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:55:55,036] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-26 12:55:55,111]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:55:55,111] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-26 12:55:55,189]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-26 12:55:55,204] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-26 12:55:58,084] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-26 12:55:58,165] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-26 12:56:03,278] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-26 12:56:03,355]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:04:36,012] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 02:04:36,032] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 02:04:39,266] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 02:04:39,951] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 02:04:40,605] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 02:04:44,100] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 02:04:44,194]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:04:44,278] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 02:04:46,835] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 02:04:46,894]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:04:46,894] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 02:04:46,971]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:04:46,971] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 02:04:47,031]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:04:47,035] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 02:04:49,938] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 02:04:50,006] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 02:04:53,363] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 02:04:53,443]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:04:53,446] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 02:04:56,026] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 02:04:59,620] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 02:07:45,887] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 02:07:45,889] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 02:07:49,187] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 02:07:49,885] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 02:07:50,596] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 02:07:53,788] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 02:07:53,873]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:07:53,928] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 02:07:56,452] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 02:07:56,530]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:07:56,530] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 02:07:56,605]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:07:56,605] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 02:07:56,667]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:07:56,681] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 02:07:59,514] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 02:07:59,594] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 02:08:02,797] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 02:08:02,922]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:08:02,927] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 02:08:05,460] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 02:08:08,967] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 02:17:45,435] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 02:17:45,437] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 02:17:48,642] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 02:17:49,333] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 02:17:50,024] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 02:17:53,569] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 02:17:53,668]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:17:53,721] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 02:17:56,362] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 02:17:56,428]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:17:56,428] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 02:17:56,489]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:17:56,489] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 02:17:56,568]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:17:56,573] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 02:17:59,492] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 02:17:59,572] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 02:18:02,793] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 02:18:02,871]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:18:02,874] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 02:18:05,416] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 02:18:08,997] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 02:18:09,074]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:18:09,074] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 02:24:42,948] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 02:24:42,950] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 02:24:46,185] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 02:24:46,883] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 02:24:47,559] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 02:24:50,755] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 02:24:50,838]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:24:50,899] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 02:24:53,436] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 02:24:53,532]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:24:53,532] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 02:24:53,594]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:24:53,594] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 02:24:53,655]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:24:53,659] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 02:24:56,511] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 02:24:56,575] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 02:24:59,771] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 02:24:59,855]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:24:59,859] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 02:25:02,536] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 02:25:06,034] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 02:25:06,105]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:25:06,105] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 02:25:06,168]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:25:06,168] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 02:25:06,844] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 02:25:10,142] TC_05_Discount_Code - Step 07: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 02:25:10,231]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 02:25:10,231] TC_05_Discount_Code - Step 08: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 03:30:44,643] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 03:30:44,645] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 03:30:48,334] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 03:30:49,002] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 03:30:49,676] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 03:30:53,144] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 03:30:53,223]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:30:53,276] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 03:30:56,173] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 03:30:56,235]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:30:56,235] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 03:30:56,310]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:30:56,311] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 03:30:56,372]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:30:56,376] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:30:59,220] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 03:30:59,298] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 03:31:02,530] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 03:31:02,608]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:31:02,612] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:31:05,173] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 03:31:08,910] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 03:31:08,982]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:31:08,982] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 03:31:09,042]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 03:31:09,042] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 03:31:09,722] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 03:31:13,006] TC_05_Discount_Code - Step 07: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 03:31:13,074]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 03:31:13,074] TC_05_Discount_Code - Step 08: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 03:33:01,248] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 03:33:01,250] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 03:33:04,558] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 03:33:05,246] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 03:33:05,920] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 03:33:09,112] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 03:33:09,211]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:33:09,264] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 03:33:11,853] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 03:33:11,912]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:33:11,912] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 03:33:11,973]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:33:11,973] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 03:33:12,035]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:33:12,039] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:33:14,880] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 03:33:14,986] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 03:33:18,214] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 03:33:18,289]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:33:18,293] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:33:20,843] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 03:33:24,455] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 03:33:24,527]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:33:24,527] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 03:33:24,584]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:33:24,584] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 03:33:25,315] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 03:33:28,584] TC_05_Discount_Code - Step 07: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 03:33:28,640]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:33:28,640] TC_05_Discount_Code - Step 08: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 03:38:55,525] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 03:38:55,527] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 03:38:58,827] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 03:38:59,521] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 03:39:00,234] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 03:39:03,718] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 03:39:03,816]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:39:03,869] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 03:39:06,456] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 03:39:06,565]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:39:06,565] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 03:39:06,626]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:39:06,626] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 03:39:06,686]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:39:06,690] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:39:09,550] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 03:39:09,628] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 03:39:12,842] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 03:39:12,921]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:39:12,925] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:39:15,470] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 03:39:19,039] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 03:39:19,129]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:39:19,129] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 03:39:19,184]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 03:39:19,184] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 03:39:19,843] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 03:39:23,070] TC_05_Discount_Code - Step 07: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 03:39:23,138]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 03:39:23,138] TC_05_Discount_Code - Step 08: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 03:41:02,453] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 03:41:02,455] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 03:41:05,701] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 03:41:06,390] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 03:41:07,067] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 03:41:10,253] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 03:41:10,339]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:41:10,392] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 03:41:12,957] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 03:41:13,030]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:41:13,030] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 03:41:13,090]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:41:13,090] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 03:41:13,152]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:41:13,156] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:41:16,084] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 03:41:16,164] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 03:41:19,349] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 03:41:19,427]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:41:19,430] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:41:22,044] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 03:41:25,560] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 03:41:25,653]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:41:25,653] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 03:41:25,712]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:41:25,712] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 03:41:26,381] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 03:41:29,595] TC_05_Discount_Code - Step 07: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 03:41:29,667]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:41:29,667] TC_05_Discount_Code - Step 08: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 03:47:26,997] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 03:47:26,999] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 03:47:30,181] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 03:47:30,920] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 03:47:31,668] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 03:47:35,143] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 03:47:35,222]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:47:35,275] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 03:47:37,796] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 03:47:37,882]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:47:37,882] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 03:47:37,944]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:47:37,944] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 03:47:38,005]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:47:38,009] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:47:40,887] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 03:47:40,957] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 03:47:44,176] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 03:47:44,246]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:47:44,249] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:47:46,821] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 03:47:50,380] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 03:47:50,454]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:47:50,454] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 03:47:50,511]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 03:47:50,511] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 03:47:51,204] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 03:47:54,520] TC_05_Discount_Code - Step 07: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 03:47:54,607]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 03:47:54,607] TC_05_Discount_Code - Step 08: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 03:50:11,158] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 03:50:11,160] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 03:50:14,343] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 03:50:15,015] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 03:50:15,729] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 03:50:18,926] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 03:50:19,008]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:50:19,059] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 03:50:21,628] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 03:50:21,686]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:50:21,686] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 03:50:21,747]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:50:21,747] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 03:50:21,809]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:50:21,813] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:50:24,649] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 03:50:24,730] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 03:50:27,929] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 03:50:28,011]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:50:28,014] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:50:30,569] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 03:50:34,127] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 03:50:34,184]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:50:34,184] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 03:50:34,242]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:50:34,242] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 03:50:34,902] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 03:50:38,105] TC_05_Discount_Code - Step 07: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 03:50:38,181]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:50:38,181] TC_05_Discount_Code - Step 08: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 03:57:23,123] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 03:57:23,125] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 03:57:26,380] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 03:57:27,078] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 03:57:27,776] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 03:57:31,332] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 03:57:31,418]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:57:31,470] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 03:57:34,069] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 03:57:34,143]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:57:34,143] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 03:57:34,204]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:57:34,204] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 03:57:34,264]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:57:34,268] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:57:37,130] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 03:57:37,210] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 03:57:40,405] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 03:57:40,481]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:57:40,484] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:57:43,076] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 03:57:46,592] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 03:57:46,666]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:57:46,666] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 03:58:40,803] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 03:58:40,805] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 03:58:44,006] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 03:58:44,692] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 03:58:45,406] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 03:58:48,653] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 03:58:48,736]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:58:48,790] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 03:58:51,358] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 03:58:51,449]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:58:51,449] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 03:58:51,524]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:58:51,524] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 03:58:51,584]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:58:51,588] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:58:54,849] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 03:58:54,934] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 03:58:58,064] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 03:58:58,147]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:58:58,151] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 03:59:00,679] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 03:59:04,206] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 03:59:04,280]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:59:04,280] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 03:59:04,336]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:59:04,336] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 03:59:05,016] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 03:59:08,230] TC_05_Discount_Code - Step 07: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 03:59:08,307]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 03:59:08,307] TC_05_Discount_Code - Step 08: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 04:01:50,281] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 04:01:50,283] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 04:01:53,514] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 04:01:54,232] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 04:01:54,924] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 04:01:58,137] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 04:01:58,214]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:01:58,267] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 04:02:00,797] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 04:02:00,879]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:02:00,879] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 04:02:00,956]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:02:00,956] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 04:02:01,014]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:02:01,018] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 04:02:03,844] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 04:02:03,924] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 04:02:07,103] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 04:02:07,219]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:02:07,224] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 04:02:09,812] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 04:02:13,351] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 04:02:13,423]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:02:13,423] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 04:02:13,481]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:02:13,481] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 04:02:14,137] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 04:02:17,373] TC_05_Discount_Code - Step 07: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 04:02:17,445]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:02:17,445] TC_05_Discount_Code - Step 08: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 04:11:36,814] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 04:11:36,817] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 04:11:39,923] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 04:11:40,606] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 04:11:41,273] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 04:11:44,753] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 04:11:44,835]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:11:44,887] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 04:11:47,450] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 04:11:47,540]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:11:47,540] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 04:11:47,615]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:11:47,615] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 04:11:47,676]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:11:47,680] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 04:11:50,534] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 04:11:50,604] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 04:11:53,854] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 04:11:53,927]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:11:53,930] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 04:11:56,529] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 04:12:00,036] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 04:12:00,094]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:12:00,094] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 04:12:00,152]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 04:12:00,152] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 04:13:05,554] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 04:13:05,556] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 04:13:08,601] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 04:13:09,292] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 04:13:09,987] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 04:13:17,431] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 04:13:17,553]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:13:17,609] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 04:13:20,129] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 04:13:20,202]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:13:20,202] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 04:13:20,264]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:13:20,264] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 04:13:20,326]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:13:20,330] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 04:13:23,214] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 04:13:23,310] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 04:13:26,514] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 04:13:26,581]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:13:26,585] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 04:13:29,161] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 04:13:32,704] TC_05_Discount_Code - Step 03: Verify Success Mesage Displayed
+[INFO ] [2020-12-27 04:13:32,767]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:13:32,767] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 04:13:32,825]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:13:32,825] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 04:13:33,482] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 04:13:36,800] TC_05_Discount_Code - Step 07: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 04:13:36,872]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:13:36,872] TC_05_Discount_Code - Step 08: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 04:13:36,934]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 04:13:36,934] TC_05_Discount_Code - Step 09: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 04:13:36,997]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 05:04:36,585] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 05:04:36,587] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 05:04:39,595] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 05:04:40,282] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 05:04:40,947] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 05:04:43,883] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 05:04:43,979]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:04:44,053] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 05:04:46,587] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 05:04:46,661]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:04:46,661] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 05:04:46,738]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:04:46,738] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 05:04:46,800]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:04:46,804] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 05:04:49,647] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 05:04:49,772] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 05:04:53,576] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 05:04:53,659]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:04:53,662] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 05:04:56,212] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 05:04:59,817] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 05:04:59,871]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:04:59,871] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 05:04:59,933]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:04:59,933] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 05:05:00,604] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 05:05:03,975] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 05:05:04,078]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 05:05:04,078] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 05:05:04,135]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:05:04,135] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 05:05:04,197]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:05:04,197] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 05:05:04,260]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 05:07:43,103] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 05:07:43,105] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 05:07:46,317] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 05:07:46,987] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 05:07:47,672] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 05:07:51,202] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 05:07:51,282]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:07:51,333] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 05:07:53,879] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 05:07:53,944]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:07:53,944] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 05:07:54,005]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:07:54,005] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 05:07:54,066]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:07:54,070] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 05:07:56,916] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 05:07:56,984] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 05:08:00,227] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 05:08:00,307]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:08:00,310] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 05:08:02,922] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 05:08:06,453] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 05:08:06,506]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:08:06,506] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 05:08:06,569]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 05:08:06,569] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 05:08:07,244] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 05:08:10,494] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 05:08:10,559]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 05:08:10,559] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 05:08:10,636]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 05:08:10,636] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 05:08:10,698]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 05:08:10,698] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 05:08:10,760]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 05:09:56,580] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 05:09:56,582] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 05:09:59,855] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 05:10:00,550] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 05:10:01,203] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 05:10:04,489] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 05:10:04,589]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:10:04,643] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 05:10:07,190] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 05:10:07,262]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:10:07,262] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 05:10:07,324]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:10:07,324] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 05:10:07,401]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:10:07,418] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 05:10:10,529] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 05:10:10,600] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 05:10:13,827] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 05:10:13,908]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:10:13,911] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 05:10:16,460] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 05:10:21,080] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 05:10:21,147]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:10:21,147] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 05:10:21,209]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:10:21,209] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 05:10:21,871] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 05:10:25,124] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 05:10:25,190]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 05:10:25,190] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 05:10:25,252]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:10:25,252] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 05:10:25,330]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 05:10:25,330] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 05:10:25,393]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 21:06:09,622] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 21:06:09,659] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 21:06:12,818] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 21:06:13,509] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 21:06:14,212] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 21:06:17,558] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 21:06:17,635]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:06:17,740] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 21:06:20,672] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 21:06:20,742]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:06:20,742] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 21:06:20,804]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:06:20,804] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 21:06:20,883]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:06:20,892] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 21:06:23,839] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 21:06:23,930] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 21:06:28,239] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 21:06:28,318]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:06:28,321] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 21:06:30,977] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 21:06:34,856] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 21:06:34,929]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:06:34,929] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 21:06:34,990]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 21:06:34,990] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 21:06:35,665] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 21:06:38,946] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 21:06:39,003]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 21:06:39,003] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 21:06:39,064]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 21:06:39,064] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 21:06:39,125]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 21:06:39,125] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 21:06:39,187]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 21:14:19,196] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 21:14:19,198] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 21:14:22,505] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 21:14:23,194] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 21:14:23,900] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 21:14:27,245] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 21:14:27,330]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:14:27,384] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 21:14:29,975] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 21:14:30,054]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:14:30,054] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 21:14:30,115]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:14:30,115] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 21:14:30,176]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:14:30,180] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 21:14:33,081] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 21:14:33,164] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 21:14:36,455] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 21:14:36,538]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:14:36,541] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 21:14:39,104] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 21:14:42,770] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 21:14:42,871]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:14:42,871] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 21:14:42,942]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:14:42,942] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 21:14:43,624] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 21:14:46,942] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 21:14:46,999]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 21:14:46,999] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 21:14:47,061]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:14:47,061] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 21:14:47,123]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:14:47,123] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 21:14:47,209]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 21:27:49,390] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 21:27:49,392] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 21:27:52,793] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 21:27:53,482] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 21:27:54,170] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 21:27:57,497] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 21:27:57,579]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:27:57,633] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 21:28:00,197] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 21:28:00,292]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:28:00,292] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 21:28:00,354]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:28:00,354] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 21:28:00,412]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:28:00,528] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 21:28:03,454] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 21:28:03,523] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 21:28:07,274] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 21:28:07,345]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:28:07,349] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 21:28:09,953] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 21:28:13,260] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 21:28:13,329]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:28:13,329] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 21:28:13,405]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:28:13,405] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 21:28:14,070] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 21:28:17,670] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 21:28:17,723]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:28:17,723] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 21:28:17,784]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:28:17,784] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 21:28:17,846]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 21:28:17,846] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 21:28:17,909]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 21:59:44,063] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 21:59:44,065] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 21:59:47,337] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 21:59:48,009] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 21:59:48,735] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 22:00:00,999] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 22:00:01,098]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:00:01,153] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 22:00:03,731] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 22:00:03,790]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:00:03,790] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 22:00:03,853]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:00:03,853] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 22:00:03,913]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:00:03,926] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:00:06,816] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 22:00:06,910] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 22:00:10,210] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 22:00:10,281]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:00:10,285] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:00:12,853] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 22:00:16,489] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 22:00:16,564]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:00:16,564] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 22:00:16,625]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:00:16,625] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 22:00:17,302] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 22:00:20,606] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 22:00:20,657]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:00:20,657] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 22:00:20,720]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:00:20,720] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 22:00:20,782]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:00:20,782] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 22:00:20,843]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:11:51,283] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 22:11:51,285] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 22:11:54,611] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 22:11:55,303] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 22:11:56,005] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 22:11:59,586] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 22:11:59,683]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:11:59,748] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 22:12:02,303] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 22:12:02,379]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:12:02,379] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 22:12:02,442]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:12:02,442] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 22:12:02,503]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:12:02,508] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:12:05,446] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 22:12:05,526] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 22:12:08,826] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 22:12:08,907]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:12:08,911] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:12:11,501] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 22:12:15,160] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 22:12:15,242]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:12:15,242] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 22:12:15,305]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:12:15,305] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 22:12:15,966] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 22:12:19,568] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 22:12:19,641]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:12:19,641] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 22:12:19,702]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:12:19,702] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 22:12:19,781]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:12:19,781] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 22:12:19,843]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:12:19,843] TC_05_Discount_Code - Step 11: Remove Item Product
+[INFO ] [2020-12-27 22:13:01,786] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 22:13:01,788] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 22:13:04,841] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 22:13:05,533] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 22:13:06,205] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 22:13:09,818] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 22:13:09,901]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:13:09,953] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 22:13:12,564] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 22:13:12,625]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:13:12,625] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 22:13:12,686]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:13:12,686] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 22:13:12,747]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:13:12,751] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:13:15,664] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 22:13:15,740] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 22:13:19,021] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 22:13:19,098]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:13:19,102] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:13:21,700] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 22:13:25,334] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 22:13:25,423]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:13:25,423] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 22:13:25,499]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:13:25,499] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 22:13:26,161] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 22:13:29,440] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 22:13:29,499]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:13:29,500] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 22:13:29,588]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:13:29,588] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 22:13:29,674]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:13:29,674] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 22:13:29,788]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:13:29,789] TC_05_Discount_Code - Step 11: Remove Item Product
+[INFO ] [2020-12-27 22:14:35,989] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 22:14:35,991] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 22:14:39,309] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 22:14:40,004] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 22:14:40,690] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 22:14:44,000] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 22:14:44,074]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:14:44,125] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 22:14:46,668] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 22:14:46,733]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:14:46,733] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 22:14:46,796]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:14:46,796] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 22:14:46,856]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:14:46,860] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:14:49,769] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 22:14:49,851] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 22:14:53,091] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 22:14:53,168]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:14:53,171] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:14:55,747] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 22:14:59,338] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 22:14:59,410]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:14:59,410] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 22:14:59,472]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:14:59,472] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 22:15:00,140] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 22:15:03,491] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 22:15:03,555]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:15:03,555] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 22:15:03,610]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:15:03,610] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 22:15:03,715]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:15:03,715] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 22:15:03,813]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:15:03,813] TC_05_Discount_Code - Step 11: Remove Item Product
+[INFO ] [2020-12-27 22:21:30,225] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 22:21:30,227] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 22:21:33,543] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 22:21:34,242] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 22:21:34,986] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 22:21:38,266] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 22:21:38,362]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:21:38,417] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 22:21:40,985] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 22:21:41,061]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:21:41,061] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 22:21:41,137]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:21:41,138] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 22:21:41,199]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:21:41,203] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:21:44,091] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 22:21:44,172] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 22:21:47,427] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 22:21:47,505]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:21:47,509] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:21:50,082] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 22:21:53,720] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 22:21:53,785]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:21:53,785] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 22:21:53,848]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:21:53,848] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 22:21:54,522] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 22:21:57,823] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 22:21:57,880]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:21:57,880] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 22:21:57,959]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:21:57,959] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 22:21:58,023]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:21:58,023] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 22:21:58,084]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:21:58,084] TC_05_Discount_Code - Step 11: Remove Item Product
+[INFO ] [2020-12-27 22:27:11,811] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 22:27:11,813] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 22:27:14,825] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 22:27:15,539] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 22:27:16,241] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 22:27:19,180] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 22:27:19,283]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:27:19,335] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 22:27:21,919] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 22:27:21,997]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:27:21,997] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 22:27:22,089]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:27:22,089] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 22:27:22,147]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:27:22,151] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:27:25,033] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 22:27:25,103] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 22:27:28,322] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 22:27:28,401]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:27:28,404] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 22:27:31,033] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 22:27:34,519] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 22:27:34,591]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:27:34,591] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 22:27:34,655]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:27:34,655] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 22:27:35,333] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 22:27:38,602] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 22:27:38,654]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:27:38,654] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 22:27:38,716]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:27:38,716] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 22:27:38,794]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 22:27:38,794] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 22:27:38,858]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 22:27:38,858] TC_05_Discount_Code - Step 11: Remove Item Product
+[INFO ] [2020-12-27 23:13:39,144] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 23:13:39,159] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 23:13:42,455] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 23:13:43,147] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 23:13:43,815] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 23:13:46,791] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 23:13:46,884]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:13:46,957] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 23:13:49,544] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 23:13:49,606]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:13:49,606] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 23:13:49,667]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:13:49,668] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 23:13:49,728]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:13:49,735] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 23:13:52,864] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 23:13:52,938] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 23:13:56,222] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 23:13:56,301]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:13:56,304] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 23:13:58,888] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 23:14:02,665] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 23:14:02,729]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:14:02,729] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 23:14:02,790]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:14:02,790] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 23:14:03,473] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 23:14:06,758] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 23:14:06,813]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:14:06,813] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 23:14:06,875]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:14:06,875] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 23:14:06,937]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:14:06,937] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 23:14:06,999]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 23:14:06,999] TC_05_Discount_Code - Step 11: Remove Item Product
+[INFO ] [2020-12-27 23:15:25,366] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-27 23:15:25,368] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-27 23:15:28,614] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-27 23:15:29,307] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-27 23:15:29,982] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-27 23:15:33,277] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-27 23:15:33,363]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:15:33,418] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-27 23:15:35,976] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-27 23:15:36,046]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:15:36,046] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-27 23:15:36,107]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:15:36,107] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-27 23:15:36,168]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:15:36,172] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 23:15:39,093] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-27 23:15:39,172] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-27 23:15:42,459] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-27 23:15:42,539]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:15:42,553] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-27 23:15:45,144] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-27 23:15:48,765] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-27 23:15:48,821]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:15:48,821] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-27 23:15:48,883]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:15:48,883] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-27 23:15:49,559] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-27 23:15:52,834] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-27 23:15:52,888]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:15:52,888] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-27 23:15:52,950]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:15:52,950] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-27 23:15:53,014]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-27 23:15:53,014] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-27 23:15:53,077]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-27 23:15:53,077] TC_05_Discount_Code - Step 11: Remove Item Product
+[INFO ] [2020-12-28 00:34:32,225] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-28 00:34:32,227] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-28 00:34:35,270] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-28 00:34:35,958] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-28 00:34:36,696] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-28 00:34:39,668] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-28 00:34:39,757]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:34:39,810] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-28 00:34:42,389] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-28 00:34:42,464]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:34:42,464] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-28 00:34:42,525]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:34:42,525] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-28 00:34:42,601]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:34:42,605] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:34:45,568] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-28 00:34:45,649] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-28 00:34:48,914] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-28 00:34:48,999]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:34:49,002] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:34:51,584] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-28 00:34:55,209] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-28 00:34:55,278]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:34:55,278] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-28 00:34:55,354]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:34:55,354] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-28 00:34:56,019] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-28 00:34:59,344] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-28 00:34:59,400]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:34:59,401] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-28 00:34:59,461]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:34:59,461] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-28 00:34:59,525]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:34:59,525] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-28 00:34:59,588]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-28 00:34:59,893] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
+[INFO ] [2020-12-28 00:35:00,593] TC_06_Add_Quantity - Step 02: Click Update button at Sony Xperia
+[INFO ] [2020-12-28 00:40:13,275] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-28 00:40:13,277] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-28 00:40:16,567] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-28 00:40:17,257] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-28 00:40:17,959] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-28 00:40:21,751] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-28 00:40:21,850]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:40:21,904] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-28 00:40:24,484] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-28 00:40:24,594]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:40:24,594] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-28 00:40:24,667]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:40:24,667] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-28 00:40:24,729]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:40:24,732] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:40:27,670] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-28 00:40:27,742] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-28 00:40:31,004] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-28 00:40:31,082]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:40:31,086] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:40:33,642] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-28 00:40:37,253] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-28 00:40:37,323]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:40:37,323] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-28 00:40:37,400]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-28 00:40:37,401] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-28 00:40:38,059] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-28 00:40:41,375] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-28 00:40:41,466]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:40:41,466] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-28 00:40:41,520]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-28 00:40:41,520] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-28 00:40:41,584]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-28 00:40:41,584] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-28 00:40:41,646]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-28 00:40:41,959] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
+[INFO ] [2020-12-28 00:40:42,628] TC_06_Add_Quantity - Step 02: Click Update button at Sony Xperia
+[INFO ] [2020-12-28 00:40:45,935] TC_06_Add_Quantity - Step 03: Verify error message ''
+[INFO ] [2020-12-28 00:40:46,005]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:40:46,005] TC_06_Add_Quantity - Step 04: Verify error message ''
+[INFO ] [2020-12-28 00:40:46,081]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:45:32,182] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-28 00:45:32,184] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-28 00:45:35,434] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-28 00:45:36,143] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-28 00:45:36,820] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-28 00:45:40,403] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-28 00:45:40,480]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:45:40,537] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-28 00:45:43,459] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-28 00:45:43,533]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:45:43,534] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-28 00:45:43,595]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:45:43,595] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-28 00:45:43,656]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:45:43,688] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:45:46,715] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-28 00:45:46,795] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-28 00:45:50,128] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-28 00:45:50,211]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:45:50,215] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:45:52,856] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-28 00:45:56,266] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-28 00:46:37,208] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
+[INFO ] [2020-12-28 00:48:15,500] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-28 00:48:15,502] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-28 00:48:18,857] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-28 00:48:19,546] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-28 00:48:20,225] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-28 00:48:23,481] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-28 00:48:23,561]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:48:23,615] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-28 00:48:26,162] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-28 00:48:26,225]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:48:26,225] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-28 00:48:26,288]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:48:26,289] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-28 00:48:26,348]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:48:26,356] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:48:29,251] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-28 00:48:29,322] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-28 00:48:32,556] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-28 00:48:32,638]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:48:32,641] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:48:35,240] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-28 00:48:38,877] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-28 00:48:38,983]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:48:38,983] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-28 00:48:39,037]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:48:39,037] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-28 00:48:39,719] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-28 00:48:43,067] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-28 00:48:43,121]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:48:43,121] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-28 00:48:43,184]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:48:43,184] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-28 00:48:43,260]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:48:43,260] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-28 00:48:43,322]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-28 00:48:43,621] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
+[INFO ] [2020-12-28 00:48:44,326] TC_06_Add_Quantity - Step 02: Click Update button at Sony Xperia
+[INFO ] [2020-12-28 00:48:47,647] TC_06_Add_Quantity - Step 03: Verify error message 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2020-12-28 00:48:47,723]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:48:47,723] TC_06_Add_Quantity - Step 04: Verify error message '* The maximum quantity allowed for purchase is 500.'
+[INFO ] [2020-12-28 00:48:47,803]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:52:43,552] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-28 00:52:43,554] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-28 00:52:46,615] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-28 00:52:47,321] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-28 00:52:47,994] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-28 00:52:51,316] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-28 00:52:51,413]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:52:51,465] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-28 00:52:54,034] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-28 00:52:54,094]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:52:54,094] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-28 00:52:54,155]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:52:54,155] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-28 00:52:54,217]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:52:54,220] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:52:57,151] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-28 00:52:57,229] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-28 00:53:00,614] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-28 00:53:00,690]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:53:00,693] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:53:03,260] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-28 00:53:07,103] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-28 00:53:07,155]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:53:07,155] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-28 00:53:07,236]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:53:07,236] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-28 00:53:07,902] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-28 00:53:11,210] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-28 00:53:11,261]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:53:11,261] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-28 00:53:11,322]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:53:11,322] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-28 00:53:11,396]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:53:11,396] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-28 00:53:11,447]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-28 00:53:11,756] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
+[INFO ] [2020-12-28 00:53:12,465] TC_06_Add_Quantity - Step 02: Click Update button at Sony Xperia
+[INFO ] [2020-12-28 00:53:15,801] TC_06_Add_Quantity - Step 03: Verify error message 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2020-12-28 00:53:15,858]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:53:15,858] TC_06_Add_Quantity - Step 04: Verify error message '* The maximum quantity allowed for purchase is 500.'
+[INFO ] [2020-12-28 00:53:15,935]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:53:15,935] TC_06_Add_Quantity - Step 05: Input value to QTY textbox at Sony Xperia
+[INFO ] [2020-12-28 00:53:16,600] TC_06_Add_Quantity - Step 06: Click Update button at Sony Xperia
+[INFO ] [2020-12-28 00:54:39,687] Register - Step 01 : Open Home Page
+[INFO ] [2020-12-28 00:54:39,689] Login - Step 01 : Click To My Account Link
+[INFO ] [2020-12-28 00:54:42,986] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
+[INFO ] [2020-12-28 00:54:43,675] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2020-12-28 00:54:44,383] Login - Step 04 : Click To Login Button
+[INFO ] [2020-12-28 00:54:47,675] Login - Step 05 : Verify Login Link
+[INFO ] [2020-12-28 00:54:47,752]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:54:47,806] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2020-12-28 00:54:50,382] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2020-12-28 00:54:50,463]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:54:50,463] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2020-12-28 00:54:50,540]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:54:50,540] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2020-12-28 00:54:50,602]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:54:50,606] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:54:58,916] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2020-12-28 00:54:58,982] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2020-12-28 00:55:01,652] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2020-12-28 00:55:01,749]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:55:01,752] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2020-12-28 00:55:04,363] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2020-12-28 00:55:08,005] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2020-12-28 00:55:08,103]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:55:08,103] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2020-12-28 00:55:08,165]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:55:08,165] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2020-12-28 00:55:08,830] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2020-12-28 00:55:12,156] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2020-12-28 00:55:12,212]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:55:12,212] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2020-12-28 00:55:12,274]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:55:12,274] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2020-12-28 00:55:12,337]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:55:12,337] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2020-12-28 00:55:12,399]  -------------------------- FAILED -------------------------- 
+[INFO ] [2020-12-28 00:55:12,698] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
+[INFO ] [2020-12-28 00:55:13,396] TC_06_Add_Quantity - Step 02: Click Update button at Sony Xperia
+[INFO ] [2020-12-28 00:55:16,686] TC_06_Add_Quantity - Step 03: Verify error message 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2020-12-28 00:55:16,754]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:55:16,754] TC_06_Add_Quantity - Step 04: Verify error message '* The maximum quantity allowed for purchase is 500.'
+[INFO ] [2020-12-28 00:55:16,815]  -------------------------- PASSED -------------------------- 
+[INFO ] [2020-12-28 00:55:16,815] TC_06_Add_Quantity - Step 05: Input value to QTY textbox at Sony Xperia
+[INFO ] [2020-12-28 00:55:17,474] TC_06_Add_Quantity - Step 06: Click Update button at Sony Xperia

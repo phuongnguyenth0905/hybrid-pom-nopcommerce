@@ -24,16 +24,17 @@ public class UserLoginPO extends AbstractPage {
 		sendkeyToElement(driver, UserLoginPageUI.PASSWORD_TEXTBOX, password);
 	}
 
-	public UserHomePO clickToLoginButton() {
+	public UserMyDashboardPO clickToLoginButton() {
 		waitToElementClickAble(driver, UserLoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, UserLoginPageUI.LOGIN_BUTTON);
-		return PageGeneratorManager.getUserHomePage(driver);
+		return PageGeneratorManagerliveGuru.getMyDasboardPage(driver);
 	}
 
 	public UserRegisterPO clickToCreateAnAccountButton() {
 		// Viết hàm click vào Register button ở đây
 		waitToElementClickAble(driver, UserRegisterPageUI.CLICK_CREATE_AN_ACCOUNT_BUTTON);
 		clickToElement(driver, UserRegisterPageUI.CLICK_CREATE_AN_ACCOUNT_BUTTON);
-		return PageGeneratorManager.getUserRegistePage(driver);
+		return PageGeneratorManagerliveGuru.getUserRegistePage(driver);
 	}
+	
 }

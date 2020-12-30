@@ -6,6 +6,8 @@ import java.util.Collections;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.joda.time.DateTime;
+import org.joda.time.DateTimeZone;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -24,49 +26,49 @@ public class AbstractTest {
 	private WebDriver driver;
 	private String projectFolder = System.getProperty("user.dir");
 	private String osName = System.getProperty("os.name");
-	
-	//init log
+
+	// init log
 	protected final Log log;
-	
-	//contructor
+
+	// contructor
 	protected AbstractTest() {
-		log=LogFactory.getLog(getClass());
+		log = LogFactory.getLog(getClass());
 	}
 
 	protected WebDriver getBrowserDriver(String browserName) {
-		Browser browser=Browser.valueOf(browserName.toUpperCase());
-		if (browser==Browser.FIREFOX_UI) {
+		Browser browser = Browser.valueOf(browserName.toUpperCase());
+		if (browser == Browser.FIREFOX_UI) {
 			WebDriverManager.firefoxdriver().setup();
 			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
-		} else if (browser==Browser.CHROME_UI) {
+		} else if (browser == Browser.CHROME_UI) {
 			WebDriverManager.chromedriver().setup();
 			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setExperimentalOption("useAutomationExtension", false);
 			chromeOptions.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 			driver = new ChromeDriver(chromeOptions);
-		} else if (browser==Browser.FIREFOX_HEADLESS) {
+		} else if (browser == Browser.FIREFOX_HEADLESS) {
 			WebDriverManager.firefoxdriver().setup();
 			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
 			FirefoxOptions ffOptions = new FirefoxOptions();
 			ffOptions.setHeadless(true);
 			driver = new FirefoxDriver(ffOptions);
-		} else if (browser==Browser.CHROME_HEADLESS) {
+		} else if (browser == Browser.CHROME_HEADLESS) {
 			WebDriverManager.chromedriver().setup();
 			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
 			options.addArguments("window-size=1920x1080");
 			driver = new ChromeDriver(options);
-		} else if (browser==Browser.EDGE_CHROMIUM) {
+		} else if (browser == Browser.EDGE_CHROMIUM) {
 			WebDriverManager.edgedriver().setup();
 			// System.setProperty("webdriver.edge.driver", projectFolder + "\\browserDriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		} else if (browser==Browser.SAFARI) {
+		} else if (browser == Browser.SAFARI) {
 
 			driver = new SafariDriver();
-		} else if (browser==Browser.IE) {
+		} else if (browser == Browser.IE) {
 			WebDriverManager.iedriver().arch32().setup();
 			driver = new InternetExplorerDriver();
 		} else {
@@ -80,39 +82,39 @@ public class AbstractTest {
 	}
 
 	protected WebDriver getBrowserDriver(String browserName, String url) {
-		Browser browser=Browser.valueOf(browserName.toUpperCase());
-		if (browser==Browser.FIREFOX_UI) {
+		Browser browser = Browser.valueOf(browserName.toUpperCase());
+		if (browser == Browser.FIREFOX_UI) {
 			WebDriverManager.firefoxdriver().setup();
 			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
-		} else if (browser==Browser.CHROME_UI) {
+		} else if (browser == Browser.CHROME_UI) {
 			WebDriverManager.chromedriver().setup();
 			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setExperimentalOption("useAutomationExtension", false);
 			chromeOptions.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 			driver = new ChromeDriver(chromeOptions);
-		} else if (browser==Browser.FIREFOX_HEADLESS) {
+		} else if (browser == Browser.FIREFOX_HEADLESS) {
 			WebDriverManager.firefoxdriver().setup();
 			// System.setProperty("webdriver.gecko.driver", projectFolder + "\\browserDriver\\geckodriver.exe");
 			FirefoxOptions ffOptions = new FirefoxOptions();
 			ffOptions.setHeadless(true);
 			driver = new FirefoxDriver(ffOptions);
-		} else if (browser==Browser.CHROME_HEADLESS) {
+		} else if (browser == Browser.CHROME_HEADLESS) {
 			WebDriverManager.chromedriver().setup();
 			// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
 			options.addArguments("window-size=1920x1080");
 			driver = new ChromeDriver(options);
-		} else if (browser==Browser.EDGE_CHROMIUM) {
+		} else if (browser == Browser.EDGE_CHROMIUM) {
 			WebDriverManager.edgedriver().setup();
 			// System.setProperty("webdriver.edge.driver", projectFolder + "\\browserDriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
-		} else if (browser==Browser.SAFARI) {
+		} else if (browser == Browser.SAFARI) {
 
 			driver = new SafariDriver();
-		} else if (browser==Browser.IE) {
+		} else if (browser == Browser.IE) {
 			WebDriverManager.iedriver().arch32().setup();
 			driver = new InternetExplorerDriver();
 		} else {
@@ -126,12 +128,12 @@ public class AbstractTest {
 
 	protected int getRandomNumber() {
 		Random rand = new Random();
-		return rand.nextInt(999);
+		return rand.nextInt(9999);
 
 	}
 
 	// Webdriver Manager
-	 void setBrowserDriver() {
+	void setBrowserDriver() {
 		if (isWindows()) {
 			System.setProperty("webdriver.chrome.driver", projectFolder + getDirectorySlash("browserDriver") + "chromedriver.exe");
 			System.setProperty("webdriver.gecko.driver", projectFolder + getDirectorySlash("browserDriver") + "geckodriver.exe");
@@ -145,9 +147,11 @@ public class AbstractTest {
 			System.setProperty("webdriver.gecko.driver", projectFolder + getDirectorySlash("browserDriver") + "geckodriver_linux");
 		}
 	}
-	 public WebDriver getDriver() {
+
+	public WebDriver getDriver() {
 		return driver;
 	}
+
 	// Webdriver Manager
 	private String getDirectorySlash(String folderName) {
 		if (isMac() || isUnix() || isSolaris()) {
@@ -235,7 +239,7 @@ public class AbstractTest {
 	protected boolean verifyEquals(Object actual, Object expected) {
 		return checkEquals(actual, expected);
 	}
-	
+
 	protected void closeBrowserAndDriver(WebDriver driver) {
 		try {
 			// Get ra tên của OS và convert qua chữ thường
@@ -244,12 +248,12 @@ public class AbstractTest {
 
 			// Khai báo 1 biến command line để thực thi
 			String cmd = "";
-			
-			//kiểm tra xem browser đã đóng hay chưa
+
+			// kiểm tra xem browser đã đóng hay chưa
 			if (driver != null) {
 				driver.quit();
 			}
-			
+
 			// Quit driver executable file in Task Manager
 			if (driver.toString().toLowerCase().contains("chrome")) {
 				if (osName.toLowerCase().contains("mac")) {
@@ -282,5 +286,34 @@ public class AbstractTest {
 		} catch (Exception e) {
 			log.info(e.getMessage());
 		}
+	}
+//lay ngay thang nam hien tai
+	protected String getCurrentDay() {
+		DateTime nowUTC = new DateTime(DateTimeZone.UTC);
+		int day = nowUTC.getDayOfMonth();
+		if (day < 10) {
+			String dayValue = "0" + day;
+			return dayValue;
+		}
+		return day + "";
+	}
+
+	protected String getCurrentMonth() {
+		DateTime now = new DateTime(DateTimeZone.UTC);
+		int month = now.getMonthOfYear();
+		if (month < 10) {
+			String monthValue = "0" + month;
+			return monthValue;
+		}
+		return month + "";
+	}
+
+	protected String getCurrentYear() {
+		DateTime now = new DateTime(DateTimeZone.UTC);
+		return now.getYear() + "";
+	}
+
+	protected String getToday() {
+		return getCurrentYear() + "/" + getCurrentMonth() + "/" + getCurrentDay();
 	}
 }

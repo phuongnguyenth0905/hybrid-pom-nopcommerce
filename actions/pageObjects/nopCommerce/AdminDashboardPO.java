@@ -21,6 +21,6 @@ public class AdminDashboardPO extends AbstractPage{
 		//waitToJQueryAndJSLoadedSuccess(driver);
 		//cach 2:
 		waitAjaxLoadingInvisible(driver);
-		return PageGeneratorManager.getAdminProductPage(driver);
+		return PageGeneratorManagerNopCommerce.getAdminProductPage(driver);
 	}
 }

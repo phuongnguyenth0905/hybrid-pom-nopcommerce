@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Nop Commerce user" parallel="false">
+<suite name="LiveGuru user" parallel="false">
 	
 	<parameter name="url" value="http://live.demoguru99.com/"/>
 	<listeners>
@@ -7,8 +7,7 @@
 		<!-- <listener class-name="reportConfig.ExtentListenerV2"/> -->
 		<!-- <listener class-name="reportConfig.ExtentListenerV3"/> -->
 		<!-- <listener class-name="reportConfig.ExtentListenerV4"/> -->
-		<!-- <listener class-name="reportConfig.AllureTestListener"/>-->
-		<!--<listener class-name="reportConfig.ReportNGListener"/>-->
+		<listener class-name="reportConfig.AllureTestListener"/>
 		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 	</listeners>

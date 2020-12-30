@@ -17,13 +17,13 @@ public class UserHomePO extends AbstractPage {
 	public UserRegisterPO clickToRegisterLink() {
 		waitToElementClickAble(driver, UserHomePageUI.REGISTER_LINK);
 		clickToElement(driver, UserHomePageUI.REGISTER_LINK);
-		return PageGeneratorManager.getUserRegistePage(driver);
+		return PageGeneratorManagerNopCommerce.getUserRegistePage(driver);
 	}
 
 	public UserLoginPO clickToLoginLink() {
 		waitToElementClickAble(driver, UserHomePageUI.LOGIN_LINK);
 		clickToElement(driver, UserHomePageUI.LOGIN_LINK);
-		return PageGeneratorManager.getUserLoginPage(driver);
+		return PageGeneratorManagerNopCommerce.getUserLoginPage(driver);
 	}
 
 	public boolean isMyAccountLinkDisplayed() {
@@ -39,7 +39,7 @@ public class UserHomePO extends AbstractPage {
 	public UserCustomerInforPO clickToMyAccountLink() {
 		waitToElementClickAble(driver, UserHomePageUI.MY_ACCOUNT_LINK);
 		clickToElement(driver, UserHomePageUI.MY_ACCOUNT_LINK);
-		return PageGeneratorManager.getUserCustomerInforPage(driver);
+		return PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 	}
 	@Step("Verify Register Link is displayed")
 	public boolean isRegisterLinkDisplayed() {

@@ -16,7 +16,7 @@ import io.qameta.allure.Feature;
 
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
-import pageObjects.nopCommerce.PageGeneratorManager;
+import pageObjects.nopCommerce.PageGeneratorManagerNopCommerce;
 import pageObjects.nopCommerce.UserAddressesPO;
 import pageObjects.nopCommerce.UserCustomerInforPO;
 import pageObjects.nopCommerce.UserHomePO;
@@ -56,7 +56,7 @@ public class Level_14_Register_Login_Allure_Report extends AbstractTest {
 	@Test
 	public void TC_01_Register() {
 		log.info("Register - Step 01 : Open Home Page");
-		homePage = PageGeneratorManager.getUserHomePage(driver);
+		homePage = PageGeneratorManagerNopCommerce.getUserHomePage(driver);
 
 		// verify register link displaed-> failed
 		log.info("Register - Step 02 : Verify Register Link Displayed");
@@ -183,13 +183,13 @@ public class Level_14_Register_Login_Allure_Report extends AbstractTest {
 	// @Test
 	public void TC_05_Rest_Parameter_02() {
 		customerInforPage.openLinkWithPageName(driver, "Addresses");
-		adressesPage = PageGeneratorManager.getUserAddressesPage(driver);
+		adressesPage = PageGeneratorManagerNopCommerce.getUserAddressesPage(driver);
 
 		adressesPage.openLinkWithPageName(driver, "Customer info");
-		customerInforPage = PageGeneratorManager.getUserCustomerInforPage(driver);
+		customerInforPage = PageGeneratorManagerNopCommerce.getUserCustomerInforPage(driver);
 
 		customerInforPage.openLinkWithPageName(driver, "My product reviews");
-		myProductPage = PageGeneratorManager.getUserMyproductReviewsPage(driver);
+		myProductPage = PageGeneratorManagerNopCommerce.getUserMyproductReviewsPage(driver);
 	}
 
 	public int getRandomNumber() {
