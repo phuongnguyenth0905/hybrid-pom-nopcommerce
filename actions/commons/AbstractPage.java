@@ -1,9 +1,15 @@
 package commons;
 
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -21,11 +27,12 @@ import pageObjects.nopCommerce.UserCustomerInforPO;
 import pageObjects.nopCommerce.UserMyproductReviewsPO;
 import pageObjects.nopCommerce.UserOrdersPO;
 import pageUI.nopCommerce.NopCommerceAbstractPageUI;
-import pageObjects.liveGuru.UserAdvancedSearchPO;
+
 import pageObjects.liveGuru.UserCheckoutPO;
 import pageObjects.liveGuru.UserMobilePO;
 import pageObjects.liveGuru.UserTVPO;
 import pageObjects.liveGuru.PageGeneratorManagerliveGuru;
+import pageObjects.liveGuru.UserAdvancedSearchPO;
 import pageUI.liveGuru.LiveGuruAbstractPageUI;
 
 public class AbstractPage {
@@ -35,6 +42,11 @@ public class AbstractPage {
 	private List<WebElement> elements;
 	private Actions action;
 	private WebElement element;
+	protected final Log log;
+
+	protected AbstractPage() {
+		log = LogFactory.getLog(getClass());
+	}
 
 	public void openPageUrl(WebDriver driver, String url) {
 		driver.get(url);
@@ -136,19 +148,37 @@ public class AbstractPage {
 	}
 
 	public void clickToElement(WebDriver driver, String locator) {
-		if (driver.toString().toLowerCase().contains("edge")) {
-			sleepInMilisecond(500);
+		try {
+			if (driver.toString().toLowerCase().contains("edge")) {
+				sleepInMilisecond(500);
+			} else if (driver.toString().contains("internet explorer")) {
+				clickToElementByJS(driver, locator);
+				sleepInSecond(3);
+			} else {
+				element = getElement(driver, locator);
+				element.click();
+			}
+		} catch (Exception e) {
+			log.debug("Element is not clickable " + e.getMessage());
 		}
-		element = getElement(driver, locator);
-		element.click();
+
 	}
 
 	public void clickToElement(WebDriver driver, String locator, String... values) {
-		if (driver.toString().toLowerCase().contains("edge")) {
-			sleepInMilisecond(500);
+		try {
+			if (driver.toString().toLowerCase().contains("edge")) {
+				sleepInMilisecond(500);
+			} else if (driver.toString().contains("internet explorer")) {
+				clickToElementByJS(driver, getDynamicLocator(locator, values));
+				sleepInSecond(3);
+			} else {
+				element = getElement(driver, getDynamicLocator(locator, values));
+				element.click();
+			}
+		} catch (Exception e) {
+			log.debug("Element is not clickable " + e.getMessage());
 		}
-		element = getElement(driver, getDynamicLocator(locator, values));
-		element.click();
+
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locator, String value) {
@@ -429,13 +459,35 @@ public class AbstractPage {
 	}
 
 	public void waitToElementVisible(WebDriver driver, String locator) {
-		explicitWait = new WebDriverWait(driver, GlobalConstans.LONG_TIMEOUT);
-		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByXpath(locator)));
+		try {
+			explicitWait = new WebDriverWait(driver, GlobalConstans.LONG_TIMEOUT);
+			explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByXpath(locator)));
+		} catch (Exception e) {
+			log.debug("Wait for element visible with error: " + e.getMessage());
+		}
 	}
 
 	public void waitToElementVisible(WebDriver driver, String locator, String... values) {
 		explicitWait = new WebDriverWait(driver, GlobalConstans.LONG_TIMEOUT);
 		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByXpath(getDynamicLocator(locator, values))));
+	}
+
+	public void waitAllElementVisible(WebDriver driver, String locator) {
+		try {
+			explicitWait = new WebDriverWait(driver, GlobalConstans.LONG_TIMEOUT);
+			explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByXpath(locator)));
+		} catch (Exception e) {
+			log.debug("Wait for elements visible with error: " + e.getMessage());
+		}
+	}
+
+	public void waitAllElementVisible(WebDriver driver, String locator, String... values) {
+		try {
+			explicitWait = new WebDriverWait(driver, GlobalConstans.LONG_TIMEOUT);
+			explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByXpath(getDynamicLocator(locator, values))));
+		} catch (Exception e) {
+			log.debug("Wait for elements visible with error: " + e.getMessage());
+		}
 	}
 
 	public void waitToElementInvisible(WebDriver driver, String locator) {
@@ -581,6 +633,7 @@ public class AbstractPage {
 		return getElementText(driver, NopCommerceAbstractPageUI.DYNAMIC_ERROR_MESSAGE_BY_ID, fieldID);
 	}
 
+//liveGuru
 	public void checkToRadioOrCheckboxLabel(WebDriver driver, String radioOrCheckboxLabel) {
 		waitToElementClickAble(driver, LiveGuruAbstractPageUI.DYNAMIC_RADIO_OR_CHECKBOX_BY_LABEL, radioOrCheckboxLabel);
 		checkToCheckbox(driver, LiveGuruAbstractPageUI.DYNAMIC_RADIO_OR_CHECKBOX_BY_LABEL, radioOrCheckboxLabel);
@@ -612,11 +665,18 @@ public class AbstractPage {
 		return PageGeneratorManagerliveGuru.getCheckoutPage(driver);
 	}
 
+	public UserMobilePO clickAddToCompareName(WebDriver driver, String productName) {
+		waitToElementClickAble(driver, LiveGuruAbstractPageUI.ADD_TO_COMPARE_LINK_BY_PRODUCT_NAME, productName);
+		clickToElement(driver, LiveGuruAbstractPageUI.ADD_TO_COMPARE_LINK_BY_PRODUCT_NAME, productName);
+		return PageGeneratorManagerliveGuru.getMobilePage(driver);
+	}
+
 	public String getSuccessMessage(WebDriver driver) {
 		waitToElementVisible(driver, LiveGuruAbstractPageUI.SUCCESS_MESSAGE);
 		return getElementText(driver, LiveGuruAbstractPageUI.SUCCESS_MESSAGE);
-		
+
 	}
+
 	public String getErrorMessage(WebDriver driver) {
 		waitToElementVisible(driver, LiveGuruAbstractPageUI.ERROR_MESSAGE);
 		return getElementText(driver, LiveGuruAbstractPageUI.ERROR_MESSAGE);
@@ -628,4 +688,206 @@ public class AbstractPage {
 		return getElementText(driver, LiveGuruAbstractPageUI.PRICE_VALUE_SHOPPING_CART_TABLE, title);
 	}
 
+//ap dung cho page it or nhieu deu dc
+	public void openFooterByName(WebDriver driver, String pageName) {
+		waitToElementClickAble(driver, LiveGuruAbstractPageUI.DYNAMIC_FOOTER_PAGE, pageName);
+		clickToElement(driver, LiveGuruAbstractPageUI.DYNAMIC_FOOTER_PAGE, pageName);
+	}
+
+//Sort theo string (alpha)
+	public boolean isDataStringSortedAscending(WebDriver driver, String locator) {
+		// Khai báo 1 Array List
+		ArrayList<String> arrayList = new ArrayList<String>();
+		// Tìm tất cả các element matching với điều kiện (Name,Price,...)
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		// Lấy text của từng element add vào Array List
+		for (WebElement element : elementList) {
+			arrayList.add(element.getText());
+		}
+		System.out.println("----------- Dữ Liệu Trên UI -----------");
+		for (String name : arrayList) {
+			System.out.println(name);
+		}
+		// Copy qua 1 Array List mới để SORT trong code
+		ArrayList<String> sortedList = new ArrayList<String>();
+		for (String child : arrayList) {
+			sortedList.add(child);
+		}
+		// Thực hiện SORT ASC
+		Collections.sort(sortedList);
+		System.out.println("----------- Dữ Liệu Đã SORT ASC Trong Code -----------");
+		for (String name : sortedList) {
+			System.out.println(name);
+		}
+		// Verify 2 Array bằng nhau- nếu DL sort trên UI không chính xác thì KQ trả về sai
+		return sortedList.equals(arrayList);
+	}
+
+	public boolean isDataStringSortedDescending(WebDriver driver, String locator) {
+		// Khai báo 1 Array List
+		ArrayList<String> arrayList = new ArrayList<String>();
+		// Tìm tất cả các element matching với điều kiện (Name,Price,...)
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		// Lấy text của từng element add vào Array List
+		for (WebElement element : elementList) {
+			arrayList.add(element.getText());
+		}
+		System.out.println("----------- Dữ Liệu Trên UI -----------");
+		for (String name : arrayList) {
+			System.out.println(name);
+		}
+		// Copy qua 1 Array List mới để SORT trong code
+		ArrayList<String> sortedList = new ArrayList<String>();
+		for (String child : arrayList) {
+			sortedList.add(child);
+		}
+		// Thực hiện SORT ASC
+		Collections.sort(sortedList);
+		System.out.println("----------- Dữ Liệu Đã SORT DESC Trong Code -----------");
+		for (String name : sortedList) {
+			System.out.println(name);
+		}
+		// Reverse data để sort DESC(1 trong 2 cách)
+		Collections.reverse(sortedList);
+		// Collections.sort(arrayList,Collections.reverseOrder());
+		// Verify 2 Array bằng nhau- nếu DL sort trên UI không chính xác thì KQ trả về sai
+		return sortedList.equals(arrayList);
+	}
+
+//Sort theo số(price)
+	public boolean isDataFloatSortedAscending(WebDriver driver, String locator) {
+		// Khai báo 1 Array List
+		ArrayList<Float> arrayList = new ArrayList<Float>();
+		// Tìm tất cả các element matching với điều kiện (Name,Price,...)
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		// Lấy text của từng element add vào Array List
+		for (WebElement element : elementList) {
+			arrayList.add(Float.parseFloat(element.getText().replace("$", "").trim()));
+		}
+		System.out.println("----------- Dữ Liệu Trên UI -----------");
+		for (Float name : arrayList) {
+			System.out.println(name);
+		}
+		// Copy qua 1 Array List mới để SORT trong code
+		ArrayList<Float> sortedList = new ArrayList<Float>();
+		for (Float child : arrayList) {
+			sortedList.add(child);
+		}
+		// Thực hiện SORT ASC
+		Collections.sort(sortedList);
+		System.out.println("----------- Dữ Liệu Đã SORT ASC Trong Code -----------");
+		for (Float name : sortedList) {
+			System.out.println(name);
+		}
+
+		// Verify 2 Array bằng nhau- nếu DL sort trên UI không chính xác thì KQ trả về sai
+		return sortedList.equals(arrayList);
+
+	}
+
+	public boolean isDataFloatSortedDescending(WebDriver driver, String locator) {
+		// Khai báo 1 Array List
+		ArrayList<Float> arrayList = new ArrayList<Float>();
+		// Tìm tất cả các element matching với điều kiện (Name,Price,...)
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		// Lấy text của từng element add vào Array List
+		for (WebElement element : elementList) {
+			arrayList.add(Float.parseFloat(element.getText().replace("$", "").trim()));
+		}
+		System.out.println("----------- Dữ Liệu Trên UI -----------");
+		for (Float name : arrayList) {
+			System.out.println(name);
+		}
+		// Copy qua 1 Array List mới để SORT trong code
+		ArrayList<Float> sortedList = new ArrayList<Float>();
+		for (Float child : arrayList) {
+			sortedList.add(child);
+		}
+		// Thực hiện SORT ASC
+		Collections.sort(sortedList);
+		System.out.println("----------- Dữ Liệu Đã SORT DESC Trong Code -----------");
+		for (Float name : sortedList) {
+			System.out.println(name);
+		}
+		// Reverse data để sort DESC(1 trong 2 cách)
+		Collections.reverse(sortedList);
+		// Collections.sort(arrayList,Collections.reverseOrder());
+		// Verify 2 Array bằng nhau- nếu DL sort trên UI không chính xác thì KQ trả về sai
+		return sortedList.equals(arrayList);
+
+	}
+
+//sort date
+	public boolean isDataDateSortedAscending(WebDriver driver, String locator) {
+		// Khai báo 1 Array List
+		ArrayList<Date> arrayList = new ArrayList<Date>();
+		// Tìm tất cả các element matching với điều kiện (Name,Price,...)
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		// Lấy text của từng element add vào Array List
+		for (WebElement element : elementList) {
+			arrayList.add(convertStringToDate(element.getText()));
+		}
+		System.out.println("----------- Dữ Liệu Trên UI -----------");
+		for (Date name : arrayList) {
+			System.out.println(name);
+		}
+		// Copy qua 1 Array List mới để SORT trong code
+		ArrayList<Date> sortedList = new ArrayList<Date>();
+		for (Date child : arrayList) {
+			sortedList.add(child);
+		}
+		// Thực hiện SORT ASC
+		Collections.sort(sortedList);
+		System.out.println("----------- Dữ Liệu Đã SORT ASC Trong Code -----------");
+		for (Date name : sortedList) {
+			System.out.println(name);
+		}
+		// Verify 2 Array bằng nhau- nếu DL sort trên UI không chính xác thì KQ trả về sai
+		return sortedList.equals(arrayList);
+
+	}
+
+	public boolean isDataDateSortedDescending(WebDriver driver, String locator) {
+		// Khai báo 1 Array List
+		ArrayList<Date> arrayList = new ArrayList<Date>();
+		// Tìm tất cả các element matching với điều kiện (Name,Price,...)
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		// Lấy text của từng element add vào Array List
+		for (WebElement element : elementList) {
+			arrayList.add(convertStringToDate(element.getText()));
+		}
+		System.out.println("----------- Dữ Liệu Trên UI -----------");
+		for (Date name : arrayList) {
+			System.out.println(name);
+		}
+		// Copy qua 1 Array List mới để SORT trong code
+		ArrayList<Date> sortedList = new ArrayList<Date>();
+		for (Date child : arrayList) {
+			sortedList.add(child);
+		}
+		// Thực hiện SORT ASC
+		Collections.sort(sortedList);
+		System.out.println("----------- Dữ Liệu Đã SORT DESC Trong Code -----------");
+		for (Date name : sortedList) {
+			System.out.println(name);
+		}
+		// Reverse data để sort DESC(1 trong 2 cách)
+		Collections.reverse(sortedList);
+		// Collections.sort(arrayList,Collections.reverseOrder());
+		// Verify 2 Array bằng nhau- nếu DL sort trên UI không chính xác thì KQ trả về sai
+		return sortedList.equals(arrayList);
+
+	}
+
+	public Date convertStringToDate(String dateInString) {
+		dateInString = dateInString.replace(",", "");
+		SimpleDateFormat formatDate = new SimpleDateFormat("MMM dd yyyy");
+		Date date = null;
+		try {
+			date = formatDate.parse(dateInString);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return date;
+	}
 }

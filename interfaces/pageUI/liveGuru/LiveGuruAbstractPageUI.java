@@ -1,7 +1,7 @@
 package pageUI.liveGuru;
 
 public class LiveGuruAbstractPageUI {
-	public static final String ABOUT_US_LINK_LINK="//a[contains(text(),'About Us')]";
+	public static final String ABOUT_US_LINK="//a[contains(text(),'About Us')]";
 	public static final String ADVANCED_SEARCH_LINK = "//a[contains(text(),'Advanced Search')]";
 	public static final String SEARCH_TEARM_LINK = "//a[contains(text(),'Search Terms')]";
 	public static final String CUSTOMER_SERVICE_LINK="//a[contains(text(),'Customer Service')]";
@@ -23,4 +23,5 @@ public class LiveGuruAbstractPageUI {
 	public static final String ERROR_MESSAGE = "//li[@class='error-msg']//span";
 	public static final String PRICE_VALUE_SHOPPING_CART_TABLE = "//td[contains(string(),'%s')]/following-sibling::td//span[@class='price']";
 	
+	public static final String ADD_TO_COMPARE_LINK_BY_PRODUCT_NAME = "//a[text()='%s']/parent::h2/following-sibling::div[@class='actions']/descendant::a[text()='Add to Compare']";
 }

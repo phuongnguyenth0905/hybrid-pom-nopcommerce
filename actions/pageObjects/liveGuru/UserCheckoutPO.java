@@ -85,46 +85,42 @@ public class UserCheckoutPO extends AbstractPage {
 	}
 
 	public void inputToAddressTextboxAtBillingForm(String address) {
-		waitToElementVisible(driver, UserCheckoutPageUI.ADDRESS_TEXTBOX_AT_BILLING_FORM,address);
+		waitToElementVisible(driver, UserCheckoutPageUI.ADDRESS_TEXTBOX_AT_BILLING_FORM, address);
 		sendkeyToElement(driver, UserCheckoutPageUI.ADDRESS_TEXTBOX_AT_BILLING_FORM, address);
 	}
+
 /// chu y dang error
 	public void inputToCityTextboxAtBillingForm(String city) {
-		waitToElementVisible(driver, UserCheckoutPageUI.CITY_TEXTBOX_AT_BILLING_FORM,city);
-		sendkeyToElement(driver, UserCheckoutPageUI.CITY_TEXTBOX_AT_BILLING_FORM,city);
+		waitToElementVisible(driver, UserCheckoutPageUI.CITY_TEXTBOX_AT_BILLING_FORM, city);
+		sendkeyToElement(driver, UserCheckoutPageUI.CITY_TEXTBOX_AT_BILLING_FORM, city);
 
 	}
 
 	public void selectValueInCountryDropdownAtBillingForm(String countryName) {
-		// TODO Auto-generated method stub
-
+		waitToElementClickAble(driver, UserCheckoutPageUI.COUNTRY_DROPDOWN_AT_BILLING_FORM, countryName);
+		selectItemInDropdown(driver, UserCheckoutPageUI.COUNTRY_DROPDOWN_AT_BILLING_FORM, countryName);
 	}
 
+//textbox
 	public void selectValueInStateDropdownAtBillingForm(String stateName) {
-		waitToElementClickAble(driver, UserCheckoutPageUI.STATE_DROPDOWN_AT_BILLING_FORM,stateName);
+		waitToElementClickAble(driver, UserCheckoutPageUI.STATE_DROPDOWN_AT_BILLING_FORM, stateName);
 		selectItemInDropdown(driver, UserCheckoutPageUI.STATE_DROPDOWN_AT_BILLING_FORM, stateName);
 	}
 
 	public void inputToZipCodeTextboxAtBillingForm(String zipCode) {
-		waitToElementVisible(driver, UserCheckoutPageUI.ZIP_CODE_TEXTBOX_AT_BILLING_FORM,zipCode);
-		sendkeyToElement(driver, UserCheckoutPageUI.ZIP_CODE_TEXTBOX_AT_BILLING_FORM,zipCode);
+		waitToElementVisible(driver, UserCheckoutPageUI.ZIP_CODE_TEXTBOX_AT_BILLING_FORM, zipCode);
+		sendkeyToElement(driver, UserCheckoutPageUI.ZIP_CODE_TEXTBOX_AT_BILLING_FORM, zipCode);
 	}
 
 	public void inputToPhoneTextbox(String phoneNumber) {
-		waitToElementVisible(driver, UserCheckoutPageUI.PHONE_TEXTBOX_AT_BILLING_FORM,phoneNumber);
-		sendkeyToElement(driver, UserCheckoutPageUI.PHONE_TEXTBOX_AT_BILLING_FORM,phoneNumber);
-
-	}
-
-////////
-	public void clickToContinueButtontitleName(String titleName) {
-		// TODO Auto-generated method stub
+		waitToElementVisible(driver, UserCheckoutPageUI.PHONE_TEXTBOX_AT_BILLING_FORM, phoneNumber);
+		sendkeyToElement(driver, UserCheckoutPageUI.PHONE_TEXTBOX_AT_BILLING_FORM, phoneNumber);
 
 	}
 
 	public void clickToContinueButtonByTitleName(String titleName) {
-		waitToElementClickAble(driver, UserCheckoutPageUI.tit);
-		clickToElement(driver, UserCheckoutPageUI.PROCEED_CHECKOUT_BUTTON);
+		waitToElementClickAble(driver, UserCheckoutPageUI.CONTIUNE_BUTTON_BY_TITLE_NAME,titleName);
+		clickToElement(driver, UserCheckoutPageUI.CONTIUNE_BUTTON_BY_TITLE_NAME, titleName);
 
 	}
 
@@ -135,26 +131,26 @@ public class UserCheckoutPO extends AbstractPage {
 	}
 
 	public void inputToCardNameTextbox(String cardName) {
-		waitToElementVisible(driver, UserCheckoutPageUI.CARD_NAME_TEXTBOX,cardName);
-		sendkeyToElement(driver, UserCheckoutPageUI.CARD_NAME_TEXTBOX,cardName);
+		waitToElementVisible(driver, UserCheckoutPageUI.CARD_NAME_TEXTBOX, cardName);
+		sendkeyToElement(driver, UserCheckoutPageUI.CARD_NAME_TEXTBOX, cardName);
 
 	}
 
 	public void selectToCartTypeDropdown(String cardType) {
-		waitToElementClickAble(driver, UserCheckoutPageUI.card, cardType);
-		selectItemInDropdown(driver, UserCheckoutPageUI.COUNTRY_DROPDOWN_AT_SHOPPING_CART, cardType);
+		waitToElementClickAble(driver, UserCheckoutPageUI.CARD_TYPE_TEXTBOX, cardType);
+		selectItemInDropdown(driver, UserCheckoutPageUI.CARD_TYPE_TEXTBOX, cardType);
 
 	}
 
 	public void inputToCardNumberTextbox(String cardNumber) {
-		// TODO Auto-generated method stub
+		waitToElementVisible(driver, UserCheckoutPageUI.CARD_NUMBER_TEXTBOX, cardNumber);
+		sendkeyToElement(driver, UserCheckoutPageUI.CARD_NUMBER_TEXTBOX, cardNumber);
 
 	}
 
 	public void selectToMonthExpiretionDropdown(String cardMonthExpire) {
 		waitToElementClickAble(driver, UserCheckoutPageUI.MONTH_EXPIRATION_DROPDOWN, cardMonthExpire);
 		selectItemInDropdown(driver, UserCheckoutPageUI.MONTH_EXPIRATION_DROPDOWN, cardMonthExpire);
-
 
 	}
 
@@ -164,15 +160,15 @@ public class UserCheckoutPO extends AbstractPage {
 	}
 
 	public void inputToCardVerificationNumberTextbox(String cardVerificationNumber) {
-		waitToElementVisible(driver, UserCheckoutPageUI.CARD_VERIFICATION_NUMBER_TEXTBOX,cardVerificationNumber);
-		sendkeyToElement(driver, UserCheckoutPageUI.CARD_VERIFICATION_NUMBER_TEXTBOX,cardVerificationNumber);
+		waitToElementVisible(driver, UserCheckoutPageUI.CARD_VERIFICATION_NUMBER_TEXTBOX, cardVerificationNumber);
+		sendkeyToElement(driver, UserCheckoutPageUI.CARD_VERIFICATION_NUMBER_TEXTBOX, cardVerificationNumber);
 
 	}
 
 //
 	public boolean isProductInformationDisplayed(String productName, String productPrice, String productQTY, String subTotalPrice) {
-		// TODO Auto-generated method stub
-		return false;
+		waitToElementVisible(driver, UserCheckoutPageUI.PRODUCT_DETAIL_BY_NAME_PRICE_QTY_SUBTOTAL, productName, productPrice, productQTY, subTotalPrice);
+		return isElementDisplayed(driver, UserCheckoutPageUI.PRODUCT_DETAIL_BY_NAME_PRICE_QTY_SUBTOTAL, productName, productPrice, productQTY, subTotalPrice);
 	}
 
 	public void clickToPlaceOrderButton() {
@@ -181,13 +177,13 @@ public class UserCheckoutPO extends AbstractPage {
 	}
 
 	public boolean isProductOrderSuccessMessageDisplayed(String succesMessage) {
-		// TODO Auto-generated method stub
-		return false;
+		waitToElementVisible(driver, UserCheckoutPageUI.PRODUCT_ORDER_SUCCESS_BY_MESSAGE_NAME,succesMessage);
+		return isElementDisplayed(driver, UserCheckoutPageUI.PRODUCT_ORDER_SUCCESS_BY_MESSAGE_NAME, succesMessage);
 	}
 
 	public String getOrderID() {
-		// TODO Auto-generated method stub
-		return null;
+		waitToElementVisible(driver, UserCheckoutPageUI.ORDER_ID);
+		return getElementText(driver, UserCheckoutPageUI.ORDER_ID);
 	}
 
 }

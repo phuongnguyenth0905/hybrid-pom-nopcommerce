@@ -16,15 +16,7 @@ public class PageGeneratorManagerliveGuru {
 	public static UserCustomerServicePO getUserCustomerInforPage(WebDriver driver) {
 		return new UserCustomerServicePO(driver);
 	}
-	public static UserAddressesPO getUserAddressesPage(WebDriver driver) {
-		return new UserAddressesPO(driver);
-	}
-	public static UserSearchTermPO getSearchTermPage(WebDriver driver) {
-		return new UserSearchTermPO(driver);
-	}
-	public static UserAboutUsPO getAboutUsPage(WebDriver driver) {
-		return new UserAboutUsPO(driver);
-	}
+	
 	public static AdminLoginPO getAdminLoginPage(WebDriver driver) {
 		return new AdminLoginPO(driver);
 	}
@@ -43,9 +35,7 @@ public class PageGeneratorManagerliveGuru {
 	public static UserMyDashboardPO getMyDasboardPage(WebDriver driver) {
 		return new UserMyDashboardPO(driver);
 	}
-	public static UserAdvancedSearchPO getAdvancedSearchPage(WebDriver driver) {
-		return new UserAdvancedSearchPO(driver);
-	}
+	
 	public static UserMyAddressBookPO getMyAddressBookPage(WebDriver driver) {
 		return new UserMyAddressBookPO(driver);
 	}
@@ -60,6 +50,12 @@ public class PageGeneratorManagerliveGuru {
 	}
 	public static UserTVPO getTVPage(WebDriver driver) {
 		return new UserTVPO(driver);
+	}
+	public static UserCompareProductPO getCompareProductPage(WebDriver driver) {
+		return new UserCompareProductPO(driver);
+	}
+	public static UserAdvancedSearchPO getAdvancedSearchPage(WebDriver driver) {
+		return new UserAdvancedSearchPO(driver);
 	}
 	
 	

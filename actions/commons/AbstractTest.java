@@ -2,13 +2,17 @@ package commons;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -74,7 +78,7 @@ public class AbstractTest {
 		} else {
 			throw new RuntimeException("Please input valid browser name value ! ");
 		}
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(GlobalConstans.LONG_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://demo.nopcommerce.com");
 
@@ -114,13 +118,17 @@ public class AbstractTest {
 		} else if (browser == Browser.SAFARI) {
 
 			driver = new SafariDriver();
+		} else if (browser == Browser.EDGE_LEGACY) {
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+
 		} else if (browser == Browser.IE) {
 			WebDriverManager.iedriver().arch32().setup();
 			driver = new InternetExplorerDriver();
 		} else {
 			throw new RuntimeException("Please input valid browser name value ! ");
 		}
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(GlobalConstans.LONG_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get(url);
 		return driver;
@@ -251,6 +259,8 @@ public class AbstractTest {
 
 			// kiểm tra xem browser đã đóng hay chưa
 			if (driver != null) {
+				//clean cookies(áp dụng với IE)
+				driver.manage().deleteAllCookies();
 				driver.quit();
 			}
 
@@ -287,6 +297,7 @@ public class AbstractTest {
 			log.info(e.getMessage());
 		}
 	}
+
 //lay ngay thang nam hien tai
 	protected String getCurrentDay() {
 		DateTime nowUTC = new DateTime(DateTimeZone.UTC);
@@ -316,4 +327,68 @@ public class AbstractTest {
 	protected String getToday() {
 		return getCurrentYear() + "/" + getCurrentMonth() + "/" + getCurrentDay();
 	}
+
+	public boolean isDataStringSortedAscending(WebDriver driver, String locator) {
+		// khai bao 1 array list
+		ArrayList<String> arrayList = new ArrayList<String>();
+		// tim tat ca cac element matching voi dieu kien(name/price,..)
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		// lay text cua tung element add vao arraylist
+		for (WebElement element : elementList) {
+			arrayList.add(element.getText());
+		}
+		System.out.println("----------- Dữ Liệu Trên UI : -----------");
+		for (String name : arrayList) {
+			System.out.println(name);
+		}
+		// Copy qua 1 array list moiws de sort trong code
+		ArrayList<String> sortedList = new ArrayList<>();
+		for (String child : arrayList) {
+			sortedList.add(child);
+		}
+		// thuc hien SORT ASC
+		Collections.sort(sortedList);
+		System.out.println("----------- Dữ Liệu Đã SORT ASC Trong Code : -----------");
+		for (String name : arrayList) {
+			System.out.println(name);
+		}
+		// Verify 2 array bằng nhau- nếu DL sort trên UI không chính xác thì kết quả trả về sai
+		return sortedList.equals(arrayList);
+	}
+
+	public boolean isDataStringSortedDescending(WebDriver driver, String locator) {
+		// khai bao 1 array list
+		ArrayList<String> arrayList = new ArrayList<String>();
+		// tim tat ca cac element matching voi dieu kien(name/price,..)
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		// lay text cua tung element add vao arraylist
+		for (WebElement element : elementList) {
+			arrayList.add(element.getText());
+		}
+		System.out.println("----------- Dữ Liệu Trên UI : -----------");
+		for (String name : arrayList) {
+			System.out.println(name);
+		}
+		// Copy qua 1 array list moiws de sort trong code
+		ArrayList<String> sortedList = new ArrayList<>();
+		for (String child : arrayList) {
+			sortedList.add(child);
+		}
+		// thuc hien SORT ASC
+		Collections.sort(sortedList);
+		System.out.println("----------- Dữ Liệu Đã SORT ASC Trong Code : -----------");
+		for (String name : sortedList) {
+			System.out.println(name);
+		}
+		// Reverse data để sort DESC(1 trong 2 cách sau)
+		Collections.reverse(sortedList);
+		// Collections.sort(arrayList,Collections.reverseOrder());
+		System.out.println("----------- Dữ Liệu Đã SORT ASC Trong Code : -----------");
+		for (String name : sortedList) {
+			System.out.println(name);
+		}
+		// Verify 2 array bằng nhau- nếu DL sort trên UI không chính xác thì kết quả trả về sai
+		return sortedList.equals(arrayList);
+	}
+
 }

@@ -1,43 +1,8 @@
-[INFO ] [2020-12-28 00:54:39,687] Register - Step 01 : Open Home Page
-[INFO ] [2020-12-28 00:54:39,689] Login - Step 01 : Click To My Account Link
-[INFO ] [2020-12-28 00:54:42,986] Login - Step 02 : Input To Email textbox with value: minhanh123@gmail.com
-[INFO ] [2020-12-28 00:54:43,675] Login - Step 03 : Input To Password textbox with value: 123456
-[INFO ] [2020-12-28 00:54:44,383] Login - Step 04 : Click To Login Button
-[INFO ] [2020-12-28 00:54:47,675] Login - Step 05 : Verify Login Link
-[INFO ] [2020-12-28 00:54:47,752]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:54:47,806] Account_Infor - Step 01: Open My Account Information Page
-[INFO ] [2020-12-28 00:54:50,382] Account_Infor - Step 02: Vefify Firstname value is correct
-[INFO ] [2020-12-28 00:54:50,463]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:54:50,463] Account_Infor - Step 03: Vefify Lastname value is correct
-[INFO ] [2020-12-28 00:54:50,540]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:54:50,540] Account_Infor - Step 04: Vefify Email value is correct
-[INFO ] [2020-12-28 00:54:50,602]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:54:50,606] TC_04_Product_Price - Step 01: Open Mobile Page
-[INFO ] [2020-12-28 00:54:58,916] TC_04_Product_Price - Step 02: Store Product Price at list page
-[INFO ] [2020-12-28 00:54:58,982] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
-[INFO ] [2020-12-28 00:55:01,652] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
-[INFO ] [2020-12-28 00:55:01,749]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:55:01,752] TC_05_Discount_Code - Step 01: Open Mobile Page
-[INFO ] [2020-12-28 00:55:04,363] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
-[INFO ] [2020-12-28 00:55:08,005] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
-[INFO ] [2020-12-28 00:55:08,103]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:55:08,103] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
-[INFO ] [2020-12-28 00:55:08,165]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:55:08,165] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
-[INFO ] [2020-12-28 00:55:08,830] TC_05_Discount_Code - Step 06:Click Apply button 
-[INFO ] [2020-12-28 00:55:12,156] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
-[INFO ] [2020-12-28 00:55:12,212]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:55:12,212] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
-[INFO ] [2020-12-28 00:55:12,274]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:55:12,274] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
-[INFO ] [2020-12-28 00:55:12,337]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:55:12,337] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
-[INFO ] [2020-12-28 00:55:12,399]  -------------------------- FAILED -------------------------- 
-[INFO ] [2020-12-28 00:55:12,698] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
-[INFO ] [2020-12-28 00:55:13,396] TC_06_Add_Quantity - Step 02: Click Update button at Sony Xperia
-[INFO ] [2020-12-28 00:55:16,686] TC_06_Add_Quantity - Step 03: Verify error message 'Some of the products cannot be ordered in requested quantity.'
-[INFO ] [2020-12-28 00:55:16,754]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:55:16,754] TC_06_Add_Quantity - Step 04: Verify error message '* The maximum quantity allowed for purchase is 500.'
-[INFO ] [2020-12-28 00:55:16,815]  -------------------------- PASSED -------------------------- 
-[INFO ] [2020-12-28 00:55:16,815] TC_06_Add_Quantity - Step 05: Input value to QTY textbox at Sony Xperia
-[INFO ] [2020-12-28 00:55:17,474] TC_06_Add_Quantity - Step 06: Click Update button at Sony Xperia
+[INFO ] [2021-01-13 09:47:35,157] TC_01_Sort_Product_Name: Name (A to Z)
+[INFO ] [2021-01-13 09:47:40,516]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-13 09:47:40,518] TC_01_Sort_Product_Name: Name (Z to A)
+[INFO ] [2021-01-13 09:47:45,833]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-13 09:47:45,911] TC_02_Sort_Product_Price: Price (low to high)
+[INFO ] [2021-01-13 09:47:51,243]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-13 09:47:51,243] TC_02_Sort_Product_Price: Price (high to low)
+[INFO ] [2021-01-13 09:47:56,559]  -------------------------- PASSED -------------------------- 

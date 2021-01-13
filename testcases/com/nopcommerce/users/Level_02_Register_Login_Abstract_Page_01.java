@@ -29,7 +29,7 @@ public class Level_02_Register_Login_Abstract_Page_01 {
 		// System.setProperty("webdriver.chrome.driver", projectFolder + "\\browserDriver\\chromedriver.exe");
 		driver = new FirefoxDriver();
 		// driver=new ChromeDriver();
-		abstractPage = new AbstractPage();
+		//abstractPage = new AbstractPage();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		abstractPage.openPageUrl(driver, "https://demo.nopcommerce.com/");

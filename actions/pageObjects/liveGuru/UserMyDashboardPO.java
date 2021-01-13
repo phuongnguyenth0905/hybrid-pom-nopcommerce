@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import commons.AbstractPage;
 import io.qameta.allure.Step;
+
 import pageUI.liveGuru.UserMyDashboardPageUI;
 
 public class UserMyDashboardPO extends AbstractPage {
@@ -24,6 +25,7 @@ public class UserMyDashboardPO extends AbstractPage {
 		clickToElement(driver, UserMyDashboardPageUI.MANAGE_ADDRESS_LINK);
 		return PageGeneratorManagerliveGuru.getMyAddressBookPage(driver);
 	}
+
 	@Step("Click to Logout Link and navigate to home Page")
 	public UserHomePO clickToLogoutLink() {
 		waitToElementClickAble(driver, UserMyDashboardPageUI.HEAD_ACCOUNT_LINK);
@@ -32,6 +34,7 @@ public class UserMyDashboardPO extends AbstractPage {
 		clickToElement(driver, UserMyDashboardPageUI.LOGOUT_LINK);
 		return PageGeneratorManagerliveGuru.getUserHomePage(driver);
 	}
+
 	@Step("My Dashboard page is Displayed")
 	public boolean isMyDashboardPageHeaderDisplayed() {
 		waitToElementVisible(driver, UserMyDashboardPageUI.MY_DASHBOARD_HEADER);
@@ -44,8 +47,8 @@ public class UserMyDashboardPO extends AbstractPage {
 		return PageGeneratorManagerliveGuru.getMyAccountInfomationPO(driver);
 	}
 
-	public boolean isOrderInformationDisplayed(String orderID, String today, String string, String string2, String string3) {
-		// TODO Auto-generated method stub
-		return false;
+	public boolean isOrderInformationDisplayed(String orderID, String today, String fullName, String price, String status) {
+		waitToElementVisible(driver, UserMyDashboardPageUI.ORDER_DETAIL_BY_ID_DATE_NAME_PRICE_STATUS, orderID, today, fullName, price, status);
+		return isElementDisplayed(driver, UserMyDashboardPageUI.ORDER_DETAIL_BY_ID_DATE_NAME_PRICE_STATUS, orderID, today, fullName, price, status);
 	}
 }
