@@ -44,14 +44,18 @@
 	<classpathentry kind="lib" path="libAllure/byte-buddy-1.8.15.jar"/>
 	<classpathentry kind="lib" path="libAllure/commons-exec-1.3.jar"/>
 	<classpathentry kind="lib" path="libAllure/guava-25.0-jre.jar"/>
-	<classpathentry kind="lib" path="libAllure/jackson-annotations-2.9.0.jar"/>
-	<classpathentry kind="lib" path="libAllure/jackson-core-2.9.8.jar"/>
-	<classpathentry kind="lib" path="libAllure/jackson-databind-2.9.8.jar"/>
 	<classpathentry kind="lib" path="libAllure/jcommander-1.72.jar"/>
 	<classpathentry kind="lib" path="libAllure/joor-java-8-0.9.10.jar"/>
 	<classpathentry kind="lib" path="libAllure/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="libAllure/okio-1.14.1.jar"/>
 	<classpathentry kind="lib" path="libAllure/tika-core-1.20.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/joda-time-2.0.jar"/>
+	<classpathentry kind="lib" path="javaFaker/generex-1.0.2.jar"/>
+	<classpathentry kind="lib" path="javaFaker/javafaker-1.0.1.jar"/>
+	<classpathentry kind="lib" path="javaFaker/snakeyaml-1.23.jar"/>
+	<classpathentry kind="lib" path="fakeData/jfairy-1.0.4.jar"/>
+	<classpathentry kind="lib" path="Jackson/jackson-annotations-2.10.0.jar"/>
+	<classpathentry kind="lib" path="Jackson/jackson-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="Jackson/jackson-databind-2.10.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

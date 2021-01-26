@@ -1,7 +1,5 @@
 package automationTesting;
 
-import com.sun.org.apache.regexp.internal.recompile;
-
 public class SeleniumA {
 	// thuộc tính
 	private String name = "Selenium Webdriver";

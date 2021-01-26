@@ -1,0 +1,10 @@
+ {
+    "firstname":"Darrel",
+    "lastname":"Epgrave",
+    "email":"darrel",
+    "password":"123123",
+    "payment":{
+    "cardType":"Visa",
+    "cardNumber":"4674449087015869"
+    }
+}

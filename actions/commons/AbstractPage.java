@@ -131,6 +131,7 @@ public class AbstractPage {
 	}
 
 	public WebElement getElement(WebDriver driver, String locator) {
+		
 		return driver.findElement(getByXpath(locator));
 	}
 
@@ -148,6 +149,7 @@ public class AbstractPage {
 	}
 
 	public void clickToElement(WebDriver driver, String locator) {
+		highlightElement(driver, locator);
 		try {
 			if (driver.toString().toLowerCase().contains("edge")) {
 				sleepInMilisecond(500);
@@ -165,6 +167,7 @@ public class AbstractPage {
 	}
 
 	public void clickToElement(WebDriver driver, String locator, String... values) {
+		highlightElement(driver, getDynamicLocator(locator, values));
 		try {
 			if (driver.toString().toLowerCase().contains("edge")) {
 				sleepInMilisecond(500);
@@ -182,6 +185,7 @@ public class AbstractPage {
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locator, String value) {
+		highlightElement(driver, locator);
 		element = getElement(driver, locator);
 		element.clear();
 		if (driver.toString().toLowerCase().contains("chrome") || driver.toString().toLowerCase().contains("edge")) {
@@ -191,6 +195,7 @@ public class AbstractPage {
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locator, String value, String... values) {
+		highlightElement(driver, getDynamicLocator(locator, values));
 		element = getElement(driver, getDynamicLocator(locator, values));
 		element.clear();
 		if (driver.toString().toLowerCase().contains("chrome") || driver.toString().toLowerCase().contains("edge")) {
@@ -200,12 +205,14 @@ public class AbstractPage {
 	}
 
 	public void selectItemInDropdown(WebDriver driver, String locator, String itemValue) {
+		highlightElement(driver, locator);
 		element = getElement(driver, locator);
 		Select select = new Select(element);
 		select.selectByVisibleText(itemValue);
 	}
 
 	public void selectItemInDropdown(WebDriver driver, String locator, String itemValue, String... values) {
+		highlightElement(driver, getDynamicLocator(locator, values));
 		element = getElement(driver, getDynamicLocator(locator, values));
 		Select select = new Select(element);
 		select.selectByVisibleText(itemValue);
@@ -218,6 +225,7 @@ public class AbstractPage {
 	}
 
 	public boolean isDropdownMultiple(WebDriver driver, String locator) {
+		
 		element = getElement(driver, locator);
 		Select select = new Select(element);
 		return select.isMultiple();
@@ -276,11 +284,13 @@ public class AbstractPage {
 	}
 
 	public String getElementText(WebDriver driver, String locator) {
+		
 		element = getElement(driver, locator);
 		return element.getText().trim();
 	}
 
 	public String getElementText(WebDriver driver, String locator, String... values) {
+		
 		element = getElement(driver, getDynamicLocator(locator, values));
 		return element.getText().trim();
 	}
@@ -294,6 +304,7 @@ public class AbstractPage {
 	}
 
 	public void checkToCheckbox(WebDriver driver, String locator) {
+		highlightElement(driver, locator);
 		element = getElement(driver, locator);
 		if (!element.isSelected()) {
 			element.click();
@@ -301,6 +312,7 @@ public class AbstractPage {
 	}
 
 	public void checkToCheckbox(WebDriver driver, String locator, String... values) {
+		highlightElement(driver, getDynamicLocator(locator, values));
 		element = getElement(driver, getDynamicLocator(locator, values));
 		if (!element.isSelected()) {
 			element.click();
@@ -404,7 +416,7 @@ public class AbstractPage {
 		element = getElement(driver, locator);
 		String originalStyle = element.getAttribute("style");
 		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", "border: 2px solid red; border-style: dashed;");
-		sleepInSecond(1);
+		sleepInMilisecond(300);
 		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", originalStyle);
 	}
 
