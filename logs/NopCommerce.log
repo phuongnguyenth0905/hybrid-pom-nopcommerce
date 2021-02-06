@@ -6965,3 +6965,381 @@
 [INFO ] [2021-01-26 12:55:59,093] TC_08_Share_Wishlist - Step 07: click 'Share Wishlist' button
 [INFO ] [2021-01-26 12:55:59,093] TC_08_Share_Wishlist - Step 08: verify page 'My Wishlist' have 1 item 'LG LCD'
 [INFO ] [2021-01-26 12:55:59,101] TC_10_Order_Product - Step 01: Select value in Country dropdown
+[INFO ] [2021-01-26 13:06:36,738] Register - Step 01 : Open Home Page
+[INFO ] [2021-01-26 13:06:36,740] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2021-01-26 13:06:38,180] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2021-01-26 13:06:41,940] Register - Step 04 : Input To First Name textbox with value: Darrel
+[INFO ] [2021-01-26 13:06:42,992] Register - Step 05 : Input To Last Name textbox with value: Epgrave
+[INFO ] [2021-01-26 13:06:44,084] Register - Step 06 : Input To Email textbox with value: darrel6063@live.com
+[INFO ] [2021-01-26 13:06:45,156] Register - Step 07 : Input To Password textbox with value: 123123
+[INFO ] [2021-01-26 13:06:47,301] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2021-01-26 13:06:50,973] Register - Step 09 : Verify success message displayed
+[INFO ] [2021-01-26 13:06:51,075]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:06:51,075] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2021-01-26 13:06:54,745] Register - Step 01 : Open Home Page
+[INFO ] [2021-01-26 13:06:54,746] Login - Step 01 : Click To My Account Link
+[INFO ] [2021-01-26 13:06:57,074] Login - Step 02 : Input To Email textbox with value: darrel6063@live.com
+[INFO ] [2021-01-26 13:06:58,152] Login - Step 03 : Input To Password textbox with value: 123123
+[INFO ] [2021-01-26 13:06:59,193] Login - Step 04 : Click To Login Button
+[INFO ] [2021-01-26 13:07:00,560] Login - Step 05 : Verify Login Link
+[INFO ] [2021-01-26 13:07:00,634]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:00,638] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2021-01-26 13:07:01,771] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2021-01-26 13:07:01,853]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:01,853] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2021-01-26 13:07:01,913]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:01,914] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2021-01-26 13:07:01,977]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:01,980] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2021-01-26 13:07:04,454] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2021-01-26 13:07:04,551] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2021-01-26 13:07:08,916] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2021-01-26 13:07:08,969]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:08,973] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2021-01-26 13:07:10,205] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2021-01-26 13:07:14,096] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2021-01-26 13:07:14,192]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:14,192] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2021-01-26 13:07:14,269]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:14,269] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2021-01-26 13:07:15,391] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2021-01-26 13:07:17,391] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2021-01-26 13:07:17,461]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:17,461] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2021-01-26 13:07:17,541]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:17,541] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2021-01-26 13:07:17,601]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:17,601] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2021-01-26 13:07:17,664]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-26 13:07:17,940] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
+[INFO ] [2021-01-26 13:07:19,001] TC_06_Add_Quantity - Step 02: Click Update button at Sony Xperia
+[INFO ] [2021-01-26 13:07:22,491] TC_06_Add_Quantity - Step 03: Verify error message 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2021-01-26 13:07:22,552]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:22,552] TC_06_Add_Quantity - Step 04: Verify error message '* The maximum quantity allowed for purchase is 500.'
+[INFO ] [2021-01-26 13:07:22,647]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:22,648] TC_06_Add_Quantity - Step 05: Input value to QTY textbox at Sony Xperia
+[INFO ] [2021-01-26 13:07:23,685] TC_06_Add_Quantity - Step 06: Click Update button at Sony Xperia
+[INFO ] [2021-01-26 13:07:25,557] TC_07_Compare_Product - Step 01: Open Mobile Page
+[INFO ] [2021-01-26 13:07:26,720] TC_07_Compare_Product - Step 02: Click 'Add to Compare' link Sony Xperia
+[INFO ] [2021-01-26 13:07:29,595] TC_07_Compare_Product - Step 03: Verify displayed 'The product Sony Xperia has been added to comparison list.'
+[INFO ] [2021-01-26 13:07:29,672]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:29,672] TC_07_Compare_Product - Step 04: Click 'Add to Compare' link IPhone
+[INFO ] [2021-01-26 13:07:31,923] TC_07_Compare_Product - Step 05: Verify displayed 'The product IPhone has been added to comparison list.'
+[INFO ] [2021-01-26 13:07:32,032]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:32,032] TC_07_Compare_Product - Step 06: Click on 'Compare' button
+[INFO ] [2021-01-26 13:07:34,673] TC_07_Compare_Product - Step 07: Verify Sony Xperia product are reflected in it heading 'COMPARE PRODUCTS'
+[INFO ] [2021-01-26 13:07:34,782]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:34,782] TC_07_Compare_Product - Step 08: Verify IPhone product are reflected in it heading 'COMPARE PRODUCTS' 
+[INFO ] [2021-01-26 13:07:34,846]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:07:34,846] TC_07_Compare_Product - Step 09: Close the Popup Windowns
+[INFO ] [2021-01-26 13:07:35,371] TC_08_Share_Wishlist - Step 01: Go to TV menu page
+[INFO ] [2021-01-26 13:07:36,670] TC_08_Share_Wishlist - Step 02: Add 'LG LCD' product in wishlist
+[INFO ] [2021-01-26 13:07:36,670] TC_08_Share_Wishlist - Step 03: Click button 'Share Wishlist'
+[INFO ] [2021-01-26 13:07:36,670] TC_08_Share_Wishlist - Step 04: Verify Message 'LG LCD has been added to your wishlist. Click here to continue shopping.'displayed
+[INFO ] [2021-01-26 13:07:36,670] TC_08_Share_Wishlist - Step 05: enter email and a message
+[INFO ] [2021-01-26 13:07:36,670] TC_08_Share_Wishlist - Step 06: Verify massege 'Your Wishlist has been shared.' displayed
+[INFO ] [2021-01-26 13:07:36,670] TC_08_Share_Wishlist - Step 07: click 'Share Wishlist' button
+[INFO ] [2021-01-26 13:07:36,670] TC_08_Share_Wishlist - Step 08: verify page 'My Wishlist' have 1 item 'LG LCD'
+[INFO ] [2021-01-26 13:07:36,676] TC_10_Order_Product - Step 01: Select value in Country dropdown
+[INFO ] [2021-01-26 13:15:02,631] Register - Step 01 : Open Home Page
+[INFO ] [2021-01-26 13:15:02,633] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2021-01-26 13:15:05,353] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2021-01-26 13:15:06,421] Register - Step 04 : Input To First Name textbox with value: Darrel
+[INFO ] [2021-01-26 13:15:07,471] Register - Step 05 : Input To Last Name textbox with value: Epgrave
+[INFO ] [2021-01-26 13:15:08,559] Register - Step 06 : Input To Email textbox with value: darrel1560@live.com
+[INFO ] [2021-01-26 13:15:09,614] Register - Step 07 : Input To Password textbox with value: 123123
+[INFO ] [2021-01-26 13:15:11,773] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2021-01-26 13:15:15,234] Register - Step 09 : Verify success message displayed
+[INFO ] [2021-01-26 13:15:15,331]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:15,331] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2021-01-26 13:15:17,414] Register - Step 01 : Open Home Page
+[INFO ] [2021-01-26 13:15:17,415] Login - Step 01 : Click To My Account Link
+[INFO ] [2021-01-26 13:15:18,787] Login - Step 02 : Input To Email textbox with value: darrel1560@live.com
+[INFO ] [2021-01-26 13:15:19,880] Login - Step 03 : Input To Password textbox with value: 123123
+[INFO ] [2021-01-26 13:15:20,899] Login - Step 04 : Click To Login Button
+[INFO ] [2021-01-26 13:15:22,420] Login - Step 05 : Verify Login Link
+[INFO ] [2021-01-26 13:15:22,476]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:22,481] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2021-01-26 13:15:23,588] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2021-01-26 13:15:23,652]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:23,652] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2021-01-26 13:15:23,736]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:23,736] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2021-01-26 13:15:23,799]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:23,802] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2021-01-26 13:15:28,334] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2021-01-26 13:15:28,394] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2021-01-26 13:15:31,700] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2021-01-26 13:15:31,758]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:31,761] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2021-01-26 13:15:33,035] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2021-01-26 13:15:34,692] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2021-01-26 13:15:34,739]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:34,739] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2021-01-26 13:15:34,819]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:34,819] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2021-01-26 13:15:35,880] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2021-01-26 13:15:37,513] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2021-01-26 13:15:37,564]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:37,564] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2021-01-26 13:15:37,629]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:37,629] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2021-01-26 13:15:37,704]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:37,704] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2021-01-26 13:15:37,767]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-26 13:15:38,092] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
+[INFO ] [2021-01-26 13:15:39,110] TC_06_Add_Quantity - Step 02: Click Update button at Sony Xperia
+[INFO ] [2021-01-26 13:15:40,991] TC_06_Add_Quantity - Step 03: Verify error message 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2021-01-26 13:15:41,040]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:41,040] TC_06_Add_Quantity - Step 04: Verify error message '* The maximum quantity allowed for purchase is 500.'
+[INFO ] [2021-01-26 13:15:41,119]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:41,119] TC_06_Add_Quantity - Step 05: Input value to QTY textbox at Sony Xperia
+[INFO ] [2021-01-26 13:15:42,168] TC_06_Add_Quantity - Step 06: Click Update button at Sony Xperia
+[INFO ] [2021-01-26 13:15:43,959] TC_07_Compare_Product - Step 01: Open Mobile Page
+[INFO ] [2021-01-26 13:15:45,050] TC_07_Compare_Product - Step 02: Click 'Add to Compare' link Sony Xperia
+[INFO ] [2021-01-26 13:15:47,335] TC_07_Compare_Product - Step 03: Verify displayed 'The product Sony Xperia has been added to comparison list.'
+[INFO ] [2021-01-26 13:15:47,392]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:47,393] TC_07_Compare_Product - Step 04: Click 'Add to Compare' link IPhone
+[INFO ] [2021-01-26 13:15:48,913] TC_07_Compare_Product - Step 05: Verify displayed 'The product IPhone has been added to comparison list.'
+[INFO ] [2021-01-26 13:15:48,981]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:15:48,982] TC_07_Compare_Product - Step 06: Click on 'Compare' button
+[INFO ] [2021-01-26 13:16:25,108] TC_07_Compare_Product - Step 07: Verify Sony Xperia product are reflected in it heading 'COMPARE PRODUCTS'
+[INFO ] [2021-01-26 13:16:25,180]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:16:25,180] TC_07_Compare_Product - Step 08: Verify IPhone product are reflected in it heading 'COMPARE PRODUCTS' 
+[INFO ] [2021-01-26 13:16:25,238]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:16:25,238] TC_07_Compare_Product - Step 09: Close the Popup Windowns
+[INFO ] [2021-01-26 13:16:25,741] TC_08_Share_Wishlist - Step 01: Go to TV menu page
+[INFO ] [2021-01-26 13:16:32,109] TC_08_Share_Wishlist - Step 02: Add 'LG LCD' product in wishlist
+[INFO ] [2021-01-26 13:16:32,109] TC_08_Share_Wishlist - Step 03: Click button 'Share Wishlist'
+[INFO ] [2021-01-26 13:16:32,109] TC_08_Share_Wishlist - Step 04: Verify Message 'LG LCD has been added to your wishlist. Click here to continue shopping.'displayed
+[INFO ] [2021-01-26 13:16:32,109] TC_08_Share_Wishlist - Step 05: enter email and a message
+[INFO ] [2021-01-26 13:16:32,109] TC_08_Share_Wishlist - Step 06: Verify massege 'Your Wishlist has been shared.' displayed
+[INFO ] [2021-01-26 13:16:32,109] TC_08_Share_Wishlist - Step 07: click 'Share Wishlist' button
+[INFO ] [2021-01-26 13:16:32,109] TC_08_Share_Wishlist - Step 08: verify page 'My Wishlist' have 1 item 'LG LCD'
+[INFO ] [2021-01-26 13:16:32,116] TC_10_Order_Product - Step 01: Select value in Country dropdown
+[INFO ] [2021-01-26 13:22:42,710] Register - Step 01 : Open Home Page
+[INFO ] [2021-01-26 13:22:42,712] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2021-01-26 13:22:44,135] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2021-01-26 13:22:45,161] Register - Step 04 : Input To First Name textbox with value: Darrel
+[INFO ] [2021-01-26 13:22:46,196] Register - Step 05 : Input To Last Name textbox with value: Epgrave
+[INFO ] [2021-01-26 13:22:47,236] Register - Step 06 : Input To Email textbox with value: darrel6663@live.com
+[INFO ] [2021-01-26 13:22:48,258] Register - Step 07 : Input To Password textbox with value: 123123
+[INFO ] [2021-01-26 13:22:50,344] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2021-01-26 13:22:52,148] Register - Step 09 : Verify success message displayed
+[INFO ] [2021-01-26 13:22:52,243]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:22:52,243] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2021-01-26 13:22:54,171] Register - Step 01 : Open Home Page
+[INFO ] [2021-01-26 13:22:54,171] Login - Step 01 : Click To My Account Link
+[INFO ] [2021-01-26 13:22:55,560] Login - Step 02 : Input To Email textbox with value: darrel6663@live.com
+[INFO ] [2021-01-26 13:22:56,648] Login - Step 03 : Input To Password textbox with value: 123123
+[INFO ] [2021-01-26 13:22:57,686] Login - Step 04 : Click To Login Button
+[INFO ] [2021-01-26 13:22:59,157] Login - Step 05 : Verify Login Link
+[INFO ] [2021-01-26 13:22:59,270]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:22:59,274] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2021-01-26 13:23:00,407] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2021-01-26 13:23:00,473]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:00,473] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2021-01-26 13:23:00,558]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:00,558] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2021-01-26 13:23:00,620]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:00,623] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2021-01-26 13:23:03,026] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2021-01-26 13:23:03,089] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2021-01-26 13:23:08,390] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2021-01-26 13:23:08,450]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:08,454] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2021-01-26 13:23:09,731] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2021-01-26 13:23:11,359] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2021-01-26 13:23:11,423]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:11,423] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2021-01-26 13:23:11,497]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:11,497] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2021-01-26 13:23:12,544] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2021-01-26 13:23:14,023] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2021-01-26 13:23:14,080]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:14,080] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2021-01-26 13:23:14,172]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:14,172] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2021-01-26 13:23:14,236]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:14,236] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2021-01-26 13:23:14,296]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-26 13:23:14,591] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
+[INFO ] [2021-01-26 13:23:15,620] TC_06_Add_Quantity - Step 02: Click Update button at Sony Xperia
+[INFO ] [2021-01-26 13:23:18,371] TC_06_Add_Quantity - Step 03: Verify error message 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2021-01-26 13:23:18,433]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:18,433] TC_06_Add_Quantity - Step 04: Verify error message '* The maximum quantity allowed for purchase is 500.'
+[INFO ] [2021-01-26 13:23:18,530]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:18,530] TC_06_Add_Quantity - Step 05: Input value to QTY textbox at Sony Xperia
+[INFO ] [2021-01-26 13:23:19,556] TC_06_Add_Quantity - Step 06: Click Update button at Sony Xperia
+[INFO ] [2021-01-26 13:23:21,307] TC_07_Compare_Product - Step 01: Open Mobile Page
+[INFO ] [2021-01-26 13:23:22,433] TC_07_Compare_Product - Step 02: Click 'Add to Compare' link Sony Xperia
+[INFO ] [2021-01-26 13:23:23,922] TC_07_Compare_Product - Step 03: Verify displayed 'The product Sony Xperia has been added to comparison list.'
+[INFO ] [2021-01-26 13:23:24,021]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:24,021] TC_07_Compare_Product - Step 04: Click 'Add to Compare' link IPhone
+[INFO ] [2021-01-26 13:23:25,484] TC_07_Compare_Product - Step 05: Verify displayed 'The product IPhone has been added to comparison list.'
+[INFO ] [2021-01-26 13:23:25,553]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:25,553] TC_07_Compare_Product - Step 06: Click on 'Compare' button
+[INFO ] [2021-01-26 13:23:28,200] TC_07_Compare_Product - Step 07: Verify Sony Xperia product are reflected in it heading 'COMPARE PRODUCTS'
+[INFO ] [2021-01-26 13:23:28,260]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:28,260] TC_07_Compare_Product - Step 08: Verify IPhone product are reflected in it heading 'COMPARE PRODUCTS' 
+[INFO ] [2021-01-26 13:23:28,323]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:23:28,323] TC_07_Compare_Product - Step 09: Close the Popup Windowns
+[INFO ] [2021-01-26 13:23:28,829] TC_08_Share_Wishlist - Step 01: Go to TV menu page
+[INFO ] [2021-01-26 13:23:30,091] TC_08_Share_Wishlist - Step 02: Add 'LG LCD' product in wishlist
+[INFO ] [2021-01-26 13:23:30,091] TC_08_Share_Wishlist - Step 03: Click button 'Share Wishlist'
+[INFO ] [2021-01-26 13:23:30,091] TC_08_Share_Wishlist - Step 04: Verify Message 'LG LCD has been added to your wishlist. Click here to continue shopping.'displayed
+[INFO ] [2021-01-26 13:23:30,091] TC_08_Share_Wishlist - Step 05: enter email and a message
+[INFO ] [2021-01-26 13:23:30,091] TC_08_Share_Wishlist - Step 06: Verify massege 'Your Wishlist has been shared.' displayed
+[INFO ] [2021-01-26 13:23:30,091] TC_08_Share_Wishlist - Step 07: click 'Share Wishlist' button
+[INFO ] [2021-01-26 13:23:30,091] TC_08_Share_Wishlist - Step 08: verify page 'My Wishlist' have 1 item 'LG LCD'
+[INFO ] [2021-01-26 13:23:30,097] TC_10_Order_Product - Step 01: Select value in Country dropdown
+[INFO ] [2021-01-26 13:57:12,506] TC_01_Sort_Product_Name: Name (A to Z)
+[INFO ] [2021-01-26 13:57:18,221]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:57:18,222] TC_01_Sort_Product_Name: Name (Z to A)
+[INFO ] [2021-01-26 13:57:23,925]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:57:23,983] TC_02_Sort_Product_Price: Price (low to high)
+[INFO ] [2021-01-26 13:57:29,707]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-26 13:57:29,707] TC_02_Sort_Product_Price: Price (high to low)
+[INFO ] [2021-01-26 13:57:35,395]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:19:21,132] Register - Step 01 : Open Home Page
+[INFO ] [2021-01-27 16:19:21,158] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2021-01-27 16:19:22,557] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2021-01-27 16:19:23,620] Register - Step 04 : Input To First Name textbox with value: Darrel
+[INFO ] [2021-01-27 16:19:24,670] Register - Step 05 : Input To Last Name textbox with value: Epgrave
+[INFO ] [2021-01-27 16:19:25,734] Register - Step 06 : Input To Email textbox with value: darrel9263@live.com
+[INFO ] [2021-01-27 16:19:26,819] Register - Step 07 : Input To Password textbox with value: 123123
+[INFO ] [2021-01-27 16:19:28,933] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2021-01-27 16:19:30,657] Register - Step 09 : Verify success message displayed
+[INFO ] [2021-01-27 16:19:30,774]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:19:30,774] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2021-01-27 16:19:35,877] Register - Step 01 : Open Home Page
+[INFO ] [2021-01-27 16:19:35,877] Login - Step 01 : Click To My Account Link
+[INFO ] [2021-01-27 16:19:40,304] Login - Step 02 : Input To Email textbox with value: darrel9263@live.com
+[INFO ] [2021-01-27 16:20:40,765] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2021-01-27 16:20:41,041] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2021-01-27 16:20:41,318] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2021-01-27 16:20:41,588] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
+[INFO ] [2021-01-27 16:20:41,861] TC_07_Compare_Product - Step 01: Open Mobile Page
+[INFO ] [2021-01-27 16:20:42,130] TC_08_Share_Wishlist - Step 01: Go to TV menu page
+[INFO ] [2021-01-27 16:20:42,425] TC_10_Order_Product - Step 01: Select value in Country dropdown
+[INFO ] [2021-01-27 16:21:17,896] Register - Step 01 : Open Home Page
+[INFO ] [2021-01-27 16:21:17,899] Register - Step 02 : Click To My Account Link at Home Page
+[INFO ] [2021-01-27 16:21:19,301] Register - Step 03 : Click To Create An Account Button
+[INFO ] [2021-01-27 16:21:20,367] Register - Step 04 : Input To First Name textbox with value: Darrel
+[INFO ] [2021-01-27 16:21:21,477] Register - Step 05 : Input To Last Name textbox with value: Epgrave
+[INFO ] [2021-01-27 16:21:22,569] Register - Step 06 : Input To Email textbox with value: darrel3374@live.com
+[INFO ] [2021-01-27 16:21:23,605] Register - Step 07 : Input To Password textbox with value: 123123
+[INFO ] [2021-01-27 16:21:25,694] Register - Step 08 : Click to Register Button at Register Page
+[INFO ] [2021-01-27 16:21:27,371] Register - Step 09 : Verify success message displayed
+[INFO ] [2021-01-27 16:21:27,439]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:27,439] Register - Step 10 : Click To Logout Link and navigate to home page
+[INFO ] [2021-01-27 16:21:29,329] Register - Step 01 : Open Home Page
+[INFO ] [2021-01-27 16:21:29,330] Login - Step 01 : Click To My Account Link
+[INFO ] [2021-01-27 16:21:30,663] Login - Step 02 : Input To Email textbox with value: darrel3374@live.com
+[INFO ] [2021-01-27 16:21:31,745] Login - Step 03 : Input To Password textbox with value: 123123
+[INFO ] [2021-01-27 16:21:32,784] Login - Step 04 : Click To Login Button
+[INFO ] [2021-01-27 16:21:34,133] Login - Step 05 : Verify Login Link
+[INFO ] [2021-01-27 16:21:34,219]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:34,223] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2021-01-27 16:21:35,270] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2021-01-27 16:21:35,351]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:35,351] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2021-01-27 16:21:35,405]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:35,405] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2021-01-27 16:21:35,472]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:35,478] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2021-01-27 16:21:37,799] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2021-01-27 16:21:37,865] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2021-01-27 16:21:40,072] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2021-01-27 16:21:40,130]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:40,133] TC_05_Discount_Code - Step 01: Open Mobile Page
+[INFO ] [2021-01-27 16:21:41,318] TC_05_Discount_Code - Step 02: Add 'Sony Xperia' to Cart
+[INFO ] [2021-01-27 16:21:42,842] TC_05_Discount_Code - Step 03: Verify Sony Xperia' was added to your shopping cart.' Mesage Displayed
+[INFO ] [2021-01-27 16:21:42,904]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:42,904] TC_05_Discount_Code - Step 04: Verify Grand Total before apply discount code
+[INFO ] [2021-01-27 16:21:42,980]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:42,980] TC_05_Discount_Code - Step 05: Input 'GURU50' to Discount code textbox
+[INFO ] [2021-01-27 16:21:44,037] TC_05_Discount_Code - Step 06:Click Apply button 
+[INFO ] [2021-01-27 16:21:45,466] TC_05_Discount_Code - Step 07:Verify Counpon Code 'GURU50' applied success 
+[INFO ] [2021-01-27 16:21:45,561]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:45,561] TC_05_Discount_Code - Step 08: Verify Subtotal displayed in Total price
+[INFO ] [2021-01-27 16:21:45,623]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:45,623] TC_05_Discount_Code - Step 09: Verify Discount text displayed in Total price
+[INFO ] [2021-01-27 16:21:45,685]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:45,685] TC_05_Discount_Code - Step 10: Verify Grand Total after apply discount code
+[INFO ] [2021-01-27 16:21:45,748]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-27 16:21:46,053] TC_06_Add_Quantity - Step 01: Input value to QTY textbox at Sony Xperia
+[INFO ] [2021-01-27 16:21:47,067] TC_06_Add_Quantity - Step 02: Click Update button at Sony Xperia
+[INFO ] [2021-01-27 16:21:48,750] TC_06_Add_Quantity - Step 03: Verify error message 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2021-01-27 16:21:48,843]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:48,843] TC_06_Add_Quantity - Step 04: Verify error message '* The maximum quantity allowed for purchase is 500.'
+[INFO ] [2021-01-27 16:21:48,897]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:48,897] TC_06_Add_Quantity - Step 05: Input value to QTY textbox at Sony Xperia
+[INFO ] [2021-01-27 16:21:49,936] TC_06_Add_Quantity - Step 06: Click Update button at Sony Xperia
+[INFO ] [2021-01-27 16:21:51,529] TC_07_Compare_Product - Step 01: Open Mobile Page
+[INFO ] [2021-01-27 16:21:52,606] TC_07_Compare_Product - Step 02: Click 'Add to Compare' link Sony Xperia
+[INFO ] [2021-01-27 16:21:54,079] TC_07_Compare_Product - Step 03: Verify displayed 'The product Sony Xperia has been added to comparison list.'
+[INFO ] [2021-01-27 16:21:54,179]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:54,179] TC_07_Compare_Product - Step 04: Click 'Add to Compare' link IPhone
+[INFO ] [2021-01-27 16:21:55,626] TC_07_Compare_Product - Step 05: Verify displayed 'The product IPhone has been added to comparison list.'
+[INFO ] [2021-01-27 16:21:55,674]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:55,674] TC_07_Compare_Product - Step 06: Click on 'Compare' button
+[INFO ] [2021-01-27 16:21:58,331] TC_07_Compare_Product - Step 07: Verify Sony Xperia product are reflected in it heading 'COMPARE PRODUCTS'
+[INFO ] [2021-01-27 16:21:58,422]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:58,422] TC_07_Compare_Product - Step 08: Verify IPhone product are reflected in it heading 'COMPARE PRODUCTS' 
+[INFO ] [2021-01-27 16:21:58,497]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 16:21:58,497] TC_07_Compare_Product - Step 09: Close the Popup Windowns
+[INFO ] [2021-01-27 16:21:58,994] TC_08_Share_Wishlist - Step 01: Go to TV menu page
+[INFO ] [2021-01-27 16:22:00,511] TC_08_Share_Wishlist - Step 02: Add 'LG LCD' product in wishlist
+[INFO ] [2021-01-27 16:22:00,511] TC_08_Share_Wishlist - Step 03: Click button 'Share Wishlist'
+[INFO ] [2021-01-27 16:22:00,511] TC_08_Share_Wishlist - Step 04: Verify Message 'LG LCD has been added to your wishlist. Click here to continue shopping.'displayed
+[INFO ] [2021-01-27 16:22:00,511] TC_08_Share_Wishlist - Step 05: enter email and a message
+[INFO ] [2021-01-27 16:22:00,511] TC_08_Share_Wishlist - Step 06: Verify massege 'Your Wishlist has been shared.' displayed
+[INFO ] [2021-01-27 16:22:00,511] TC_08_Share_Wishlist - Step 07: click 'Share Wishlist' button
+[INFO ] [2021-01-27 16:22:00,511] TC_08_Share_Wishlist - Step 08: verify page 'My Wishlist' have 1 item 'LG LCD'
+[INFO ] [2021-01-27 16:22:00,519] TC_10_Order_Product - Step 01: Select value in Country dropdown
+[INFO ] [2021-01-28 16:37:59,692] Register - Step 01 : Open Home Page
+[INFO ] [2021-01-28 16:37:59,701] Register - Step 02 : Verify Register Link Displayed
+[INFO ] [2021-01-28 16:37:59,750]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 16:37:59,751] Register - Step 03 : Verify Login Link Displayed
+[INFO ] [2021-01-28 16:37:59,811]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 16:37:59,812] Register - Step 04 : Click To Register Link at Home Page
+[INFO ] [2021-01-28 16:38:03,603] Register - Step 05 : Click To Gender Male Radio Button
+[INFO ] [2021-01-28 16:38:04,111] Register - Step 06 : Input To First Name textbox with value: Hoang Anh
+[INFO ] [2021-01-28 16:38:05,171] Register - Step 07 : Input To Last Name textbox with value: Nguyen
+[INFO ] [2021-01-28 16:38:06,251] Register - Step 08 : Select Day Dropdown
+[INFO ] [2021-01-28 16:38:06,785] Register - Step 09 : Select Month Dropdown
+[INFO ] [2021-01-28 16:38:07,309] Register - Step 10 : Select Year Dropdown
+[INFO ] [2021-01-28 16:38:07,837] Register - Step 11 : Input To Email textbox with value: hoanganh865@gmail.com
+[INFO ] [2021-01-28 16:38:08,907] Register - Step 12 : Input To Company Name textbox 
+[INFO ] [2021-01-28 16:38:09,963] Register - Step 13 : Input To Password textbox with value: 123456
+[INFO ] [2021-01-28 16:38:12,103] Register - Step 14 : Click to Register Button at Register Page
+[INFO ] [2021-01-28 16:38:15,455] Register - Step 15 : Verify success message displayed
+[INFO ] [2021-01-28 16:38:15,516]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 16:38:15,516] Register - Step 16 : Click To Logout Link and navigate to home page
+[INFO ] [2021-01-28 16:38:17,871] Login - Step 01 : Open Login Page
+[INFO ] [2021-01-28 16:38:19,575] Login - Step 02 : Input to Email textbox with value : hoanganh865@gmail.com
+[INFO ] [2021-01-28 16:38:20,665] Login - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2021-01-28 16:38:21,790] Login - Step 04 : Click to Login button at Login Page
+[INFO ] [2021-01-28 16:38:23,298] Login - Step 05 : Verigy My account link displayed
+[INFO ] [2021-01-28 16:38:23,359]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 16:38:23,359] Login - Step 06 : Verify Shopping cart item undisplayed
+[INFO ] [2021-01-28 16:38:23,500]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 16:38:23,500] Login - Step 07 : Verify Logout Link Displayed
+[INFO ] [2021-01-28 16:38:23,564]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 16:38:23,564] Login - Step 08 : Verify Register Link Undisplayed
+[INFO ] [2021-01-28 16:38:33,773]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 16:38:33,773] Login - Step 09 : Verify Login Link Undisplayed
+[INFO ] [2021-01-28 16:38:43,912]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-28 16:47:00,079] Precondition - Step 01 : Open Login Page
+[INFO ] [2021-01-28 16:47:02,467] Precondition - Step 02 : Input to Email textbox with value : hoanganh3866@gmail.com
+[INFO ] [2021-01-28 16:47:03,552] Precondition - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2021-01-28 16:47:04,679] Precondition - Step 04 : Click to Login button at Login Page
+[INFO ] [2021-01-28 16:47:06,818] Precondition - Step 05 : Verigy My account link displayed
+[INFO ] [2021-01-28 16:47:06,903]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 16:47:18,820] Precondition - Step 01 : Open Login Page
+[INFO ] [2021-01-28 16:47:19,894] Precondition - Step 02 : Input to Email textbox with value : hoanganh3866@gmail.com
+[INFO ] [2021-01-28 16:47:20,998] Precondition - Step 03 : Input to Password textbox with value : 123456
+[INFO ] [2021-01-28 16:47:22,073] Precondition - Step 04 : Click to Login button at Login Page
+[INFO ] [2021-01-28 16:47:25,121] Precondition - Step 05 : Verigy My account link displayed
+[INFO ] [2021-01-28 16:47:25,196]  -------------------------- PASSED -------------------------- 

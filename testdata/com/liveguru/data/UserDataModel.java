@@ -46,7 +46,7 @@ public class UserDataModel {
 	public String getCardNumber() {
 		return payment.cardNumber;
 	}
-	
+
 	public String getFirstname() {
 		return firstname;
 	}
