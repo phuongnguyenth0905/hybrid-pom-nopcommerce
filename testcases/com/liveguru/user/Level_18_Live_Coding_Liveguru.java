@@ -274,7 +274,7 @@ public class Level_18_Live_Coding_Liveguru extends AbstractTest {
 
 	}
 
-	// @Test
+	//@Test
 	public void TC_10_Order_Product() {
 		log.info("TC_10_Order_Product - Step 01: Select value in Country dropdown");
 		checkoutPage.selectValueInCountryDropdownAtShoppingCart(country);
