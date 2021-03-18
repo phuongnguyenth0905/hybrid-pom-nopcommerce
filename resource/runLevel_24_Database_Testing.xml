@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LiveGuru user" parallel="false">
+	
+	<parameter name="url" value="http://live.demoguru99.com/"/>
+	<listeners>
+		<listener class-name="commons.MethodListener"/>
+		<!-- <listener class-name="reportConfig.ExtentListenerV2"/> -->
+		<!-- <listener class-name="reportConfig.ExtentListenerV3"/> -->
+		<!-- <listener class-name="reportConfig.ExtentListenerV4"/> -->
+		<listener class-name="reportConfig.AllureTestListener"/>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	<test name="Run on chrome_ui">
+		<parameter name="browser" value="chrome_ui" />
+
+		<classes>
+			
+			<class name="com.liveguru.user.Level_24_Database_Testing" />
+		</classes>
+	</test>
+
+	<!-- <test name="Run on chrome"> <parameter name="browser" value="chrome" /> <classes> <class name="com.nopcommerce.users.Level_08_Register_Login_Rest_Parameter" 
+		/> </classes> </test> -->
+	<!--admin@yourstore.com -->
+	<!--admin -->
+
+</suite>

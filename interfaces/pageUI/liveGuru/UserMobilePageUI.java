@@ -8,5 +8,6 @@ public class UserMobilePageUI {
 	public static final String COMPARE_TO_BUTTON = "//button[@title='Compare']";
 	public static final String TITLE_COMPARE_PRODUCTS = "//title[contains(text(),'Products Comparison List - Magento Commerce')]";
 	
+	public static final String PRODUCT_NAME_NUMBER = "//a[@class='product-image']";
 	
 }
